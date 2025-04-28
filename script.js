@@ -21,12 +21,15 @@ function addMessage(sender, message) {
     chatBox.appendChild(messageElement);
 }
 
-// Fungsi mencari jawaban
+// Fungsi mencari jawaban dengan pencocokan kata kunci
 function cariJawaban(pertanyaan) {
     console.log("Pertanyaan pengguna:", pertanyaan); // Debugging input pengguna
-    const hasil = dataJSON.find(item =>
-        pertanyaan.toLowerCase().includes(item.Pertanyaan.toLowerCase())
-    );
+    let hasil = dataJSON.find(item => {
+        // Pecah setiap pertanyaan dari JSON menjadi kata-kata
+        const kataKunci = item.Pertanyaan.toLowerCase().split(" ");
+        // Cek apakah salah satu kata kunci muncul di pertanyaan pengguna
+        return kataKunci.some(kata => pertanyaan.toLowerCase().includes(kata));
+    });
     console.log("Hasil pencarian:", hasil); // Debugging hasil pencarian
     return hasil ? hasil.Jawaban : "Maaf, saya tidak menemukan jawaban.";
 }
