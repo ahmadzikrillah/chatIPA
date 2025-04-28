@@ -19,15 +19,16 @@ function addMessage(sender, message) {
     messageElement.className = sender;
     messageElement.textContent = message;
     chatBox.appendChild(messageElement);
+    chatBox.scrollTop = chatBox.scrollHeight; // Scroll otomatis ke pesan terbaru
 }
 
-// Fungsi mencari jawaban dengan pencocokan kata kunci
+// Fungsi mencari jawaban
 function cariJawaban(pertanyaan) {
     console.log("Pertanyaan pengguna:", pertanyaan); // Debugging input pengguna
     let hasil = dataJSON.find(item => {
-        // Pecah setiap pertanyaan dari JSON menjadi kata-kata
+        // Pecah setiap pertanyaan di JSON menjadi kata-kata
         const kataKunci = item.Pertanyaan.toLowerCase().split(" ");
-        // Cek apakah salah satu kata kunci muncul di pertanyaan pengguna
+        // Cek apakah salah satu kata kunci ada dalam pertanyaan pengguna
         return kataKunci.some(kata => pertanyaan.toLowerCase().includes(kata));
     });
     console.log("Hasil pencarian:", hasil); // Debugging hasil pencarian
@@ -42,5 +43,12 @@ sendButton.addEventListener("click", () => {
         const botAnswer = cariJawaban(userQuestion);
         addMessage("bot", botAnswer); // Tambahkan jawaban chatbot ke chat
         userInput.value = ""; // Kosongkan input
+    }
+});
+
+// Menambahkan event listener untuk menekan "Enter"
+userInput.addEventListener("keydown", (event) => {
+    if (event.key === "Enter") {
+        sendButton.click(); // Simulasikan klik tombol "Kirim"
     }
 });
