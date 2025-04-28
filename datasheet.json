@@ -1,0 +1,58 @@
+[
+  {
+    "Topik": "Biologi",
+    "Subtopik": "Fotosintesis",
+    "Pertanyaan": "Apa yang dihasilkan dalam proses fotosintesis?",
+    "Jawaban": "Fotosintesis menghasilkan glukosa dan oksigen.",
+    "Level Kesulitan": "Mudah",
+    "Catatan Tambahan": "Buku IPA Kelas 7"
+  },
+  {
+    "Topik": "Biologi",
+    "Subtopik": "Sistem Pencernaan",
+    "Pertanyaan": "Apa fungsi enzim dalam pencernaan makanan?",
+    "Jawaban": "Enzim membantu memecah makanan menjadi nutrisi.",
+    "Level Kesulitan": "Sedang",
+    "Catatan Tambahan": "Buku IPA Kelas 8"
+  },
+  {
+    "Topik": "Biologi",
+    "Subtopik": "Klasifikasi Makhluk Hidup",
+    "Pertanyaan": "Apa perbedaan antara genus dan spesies?",
+    "Jawaban": "Genus mencakup beberapa spesies yang serupa.",
+    "Level Kesulitan": "Sedang",
+    "Catatan Tambahan": "Buku IPA Kelas 7"
+  },
+  {
+    "Topik": "Fisika",
+    "Subtopik": "Hukum Newton",
+    "Pertanyaan": "Jelaskan Hukum Newton ke-2!",
+    "Jawaban": "F = m × a: Gaya sama dengan massa dikali percepatan.",
+    "Level Kesulitan": "Sedang",
+    "Catatan Tambahan": "Buku IPA Kelas 8"
+  },
+  {
+    "Topik": "Fisika",
+    "Subtopik": "Energi dan Usaha",
+    "Pertanyaan": "Apa rumus energi kinetik?",
+    "Jawaban": "Energi kinetik = 0.5 × massa × kecepatan².",
+    "Level Kesulitan": "Mudah",
+    "Catatan Tambahan": "Modul latihan siswa"
+  },
+  {
+    "Topik": "Kimia",
+    "Subtopik": "Reaksi Kimia",
+    "Pertanyaan": "Apa itu reaksi eksoterm?",
+    "Jawaban": "Reaksi eksoterm melepaskan energi dalam bentuk panas.",
+    "Level Kesulitan": "Sedang",
+    "Catatan Tambahan": "Buku IPA Kelas 9"
+  },
+  {
+    "Topik": "Kimia",
+    "Subtopik": "Tabel Periodik",
+    "Pertanyaan": "Apa simbol kimia untuk unsur emas?",
+    "Jawaban": "Simbol kimia emas adalah Au.",
+    "Level Kesulitan": "Mudah",
+    "Catatan Tambahan": "-"
+  }
+]
