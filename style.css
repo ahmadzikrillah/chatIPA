@@ -1,22 +1,24 @@
 /* Gaya untuk elemen dasar */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f5; /* Warna latar belakang yang lembut */
+    background-color: #1e1e2f; /* Latar belakang gelap */
     margin: 0;
     padding: 0;
     display: flex;
+    flex-direction: column; /* Susunan vertikal */
     justify-content: center;
     align-items: center;
     height: 100vh;
+    color: #ffffff; /* Warna teks terang */
 }
 
 /* Kontainer utama chat */
 .chat-container {
-    width: 400px; /* Lebar keseluruhan kontainer */
+    width: 400px;
     height: 600px;
-    background-color: #ffffff;
+    background-color: #2a2a40; /* Latar belakang kotak chat gelap */
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Bayangan halus */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Bayangan lebih gelap */
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -30,7 +32,7 @@ body {
     }
     to {
         opacity: 1;
-        transform: translateY(0); /* Posisi normal */
+        transform: translateY(0);
     }
 }
 
@@ -39,92 +41,95 @@ body {
     flex: 1;
     padding: 10px;
     overflow-y: auto;
-    background-color: #f9f9f9; /* Warna latar belakang kotak chat */
-    border-bottom: 2px solid #ddd;
-    display: flex; /* Aktifkan flexbox */
-    flex-direction: column; /* Posisi pesan vertikal */
-    align-items: center; /* Rata tengah secara horizontal */
+    background-color: #1e1e30; /* Latar belakang area chat */
+    border-bottom: 2px solid #444; /* Garis pemisah gelap */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* Pesan pengguna */
 #chat-box div.user {
-    background-color: #007bff; /* Warna pesan pengguna */
-    color: white;
+    background-color: #3a7bd5; /* Warna biru pesan pengguna */
+    color: #ffffff; /* Teks putih */
     padding: 8px;
     border-radius: 5px;
-    margin: 10px 0; /* Spasi antar pesan */
+    margin: 10px 0;
     max-width: 70%;
-    text-align: center; /* Posisi teks dalam pesan */
-    align-self: center; /* Rata tengah di dalam kotak */
+    text-align: center;
+    align-self: center;
 }
 
 /* Pesan bot */
 #chat-box div.bot {
-    background-color: #e1e1e1; /* Warna pesan bot */
-    color: black;
+    background-color: #4d4d6a; /* Warna abu gelap pesan bot */
+    color: #ffffff; /* Teks putih */
     padding: 8px;
     border-radius: 5px;
-    margin: 10px 0; /* Spasi antar pesan */
+    margin: 10px 0;
     max-width: 70%;
-    text-align: center; /* Teks dalam pesan rata tengah */
-    align-self: center; /* Rata tengah dalam kotak */
+    text-align: center;
+    align-self: center;
 }
 
 /* Pesan pembuka khusus */
 #chat-box div.bot:first-child {
-    background-color: #ffe5b4; /* Warna latar belakang khusus */
-    color: #333; /* Warna teks gelap */
+    background-color: #6a6a8a; /* Warna khusus pesan pembuka */
+    color: #ffffff;
     font-size: 14px;
     line-height: 1.6;
     padding: 10px;
     border-radius: 8px;
-    text-align: center; /* Rata tengah teks */
-    animation: fadeInScale 1s ease-in-out; /* Animasi untuk teks pembuka */
+    text-align: center;
+    animation: fadeInScale 1s ease-in-out;
 }
 
 @keyframes fadeInScale {
     from {
         opacity: 0;
-        transform: scale(0.8); /* Teks lebih kecil */
+        transform: scale(0.8);
     }
     to {
         opacity: 1;
-        transform: scale(1); /* Teks kembali normal */
+        transform: scale(1);
     }
 }
 
 /* Daftar dalam pesan bot */
 #chat-box ul {
-    margin: 10px 0 0 20px; /* Memberi spasi pada daftar */
+    margin: 10px 0 0 20px;
     padding: 0;
+    list-style-type: disc;
+    text-align: left;
+    color: #cccccc; /* Teks terang untuk daftar */
 }
 
 #chat-box ul li {
-    margin: 5px 0; /* Spasi antar elemen daftar */
-    list-style-type: disc; /* Tanda bullet */
-    text-align: left; /* Daftar tetap rata kiri */
+    margin: 5px 0;
 }
 
 /* Elemen input dan tombol */
 .input-container {
     display: flex;
-    background-color: #f9f9f9; /* Warna latar belakang input */
+    background-color: #2a2a40; /* Latar belakang input gelap */
     padding: 10px;
-    border-top: 2px solid #ddd;
-    width: 100%; /* Sinkronisasi lebar dengan kontainer */
+    border-top: 2px solid #444; /* Garis pemisah gelap */
+    width: 100%;
 }
 
 input[type="text"] {
-    flex: 1; /* Input menyesuaikan lebar */
-    border: 2px solid #ddd;
+    flex: 1;
+    border: 2px solid #444;
     border-radius: 5px;
     padding: 8px;
+    background-color: #1e1e30; /* Latar belakang input */
+    color: #ffffff; /* Teks putih */
 }
 
 button {
-    width: 100px; /* Lebar tombol tetap */
-    background-color: #007bff;
-    color: white;
+    width: 100px;
+    background-color: #3a7bd5; /* Tombol biru */
+    color: #ffffff; /* Teks putih */
     border: none;
     border-radius: 5px;
     margin-left: 10px;
@@ -132,22 +137,39 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #3061a5; /* Warna hover lebih gelap */
+}
+
+/* Footer */
+footer {
+    background-color: #2a2a40; /* Latar belakang footer gelap */
+    text-align: center;
+    padding: 10px;
+    border-top: 2px solid #444; /* Garis pemisah gelap */
+    font-size: 12px;
+    color: #cccccc; /* Warna teks terang */
+    width: 100%;
+    position: relative;
+}
+
+footer .heart {
+    color: red; /* Warna hati merah */
+    font-size: 16px;
 }
 
 /* Responsivitas untuk perangkat kecil */
 @media (max-width: 500px) {
     .chat-container {
-        width: 90%; /* Lebar fleksibel di perangkat kecil */
-        height: 80%; /* Tinggi lebih proporsional */
+        width: 90%;
+        height: 80%;
     }
 
     input[type="text"], button {
-        font-size: 12px; /* Ukuran teks lebih kecil */
+        font-size: 12px;
     }
 
     button {
-        width: auto; /* Tombol menyesuaikan lebar konten */
-        padding: 8px; /* Padding lebih kecil */
+        width: auto;
+        padding: 8px;
     }
 }
