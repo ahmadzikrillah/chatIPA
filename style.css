@@ -140,3 +140,8 @@ button {
 button:hover {
     background-color: #0056b3;
 }
+#chat-box div.bot:first-child {
+    background-color: #ffe5b4; /* Warna latar belakang berbeda untuk pesan pertama */
+    color: #000; /* Warna teks yang lebih gelap */
+    font-weight: bold;
+}
