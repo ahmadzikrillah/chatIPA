@@ -145,3 +145,22 @@ button:hover {
     color: #000; /* Warna teks yang lebih gelap */
     font-weight: bold;
 }
+#chat-box div.bot:first-child {
+    background-color: #ffe5b4; /* Warna latar belakang khusus */
+    color: #333; /* Warna teks gelap */
+    font-size: 14px;
+    line-height: 1.6;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#chat-box ul {
+    margin: 10px 0 0 20px; /* Memberi spasi pada daftar */
+    padding: 0;
+}
+
+#chat-box ul li {
+    margin: 5px 0; /* Spasi antar elemen daftar */
+    list-style-type: disc; /* Tanda bullet */
+}
+
