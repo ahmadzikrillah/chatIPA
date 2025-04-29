@@ -1,3 +1,4 @@
+/* Gaya untuk elemen dasar */
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f5; /* Warna latar belakang yang lembut */
@@ -8,8 +9,10 @@ body {
     align-items: center;
     height: 100vh;
 }
+
+/* Kontainer utama chat */
 .chat-container {
-    width: 400px;
+    width: 400px; /* Lebar keseluruhan kontainer */
     height: 600px;
     background-color: #ffffff;
     border-radius: 10px;
@@ -17,60 +20,57 @@ body {
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    animation: slideInFromBottom 1s ease-out; /* Animasi masuk dari bawah */
 }
 
+@keyframes slideInFromBottom {
+    from {
+        opacity: 0;
+        transform: translateY(100px); /* Gerakan dari bawah */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0); /* Posisi normal */
+    }
+}
+
+/* Kotak chat */
 #chat-box {
     flex: 1;
     padding: 10px;
     overflow-y: auto;
     background-color: #f9f9f9; /* Warna latar belakang kotak chat */
     border-bottom: 2px solid #ddd;
+    display: flex; /* Aktifkan flexbox */
+    flex-direction: column; /* Posisi pesan vertikal */
+    align-items: center; /* Rata tengah secara horizontal */
 }
 
+/* Pesan pengguna */
 #chat-box div.user {
     background-color: #007bff; /* Warna pesan pengguna */
     color: white;
     padding: 8px;
     border-radius: 5px;
-    margin: 5px 0;
-    align-self: flex-end;
+    margin: 10px 0; /* Spasi antar pesan */
     max-width: 70%;
+    text-align: center; /* Posisi teks dalam pesan */
+    align-self: center; /* Rata tengah di dalam kotak */
 }
 
+/* Pesan bot */
 #chat-box div.bot {
     background-color: #e1e1e1; /* Warna pesan bot */
     color: black;
     padding: 8px;
     border-radius: 5px;
-    margin: 5px 0;
-    align-self: flex-start;
+    margin: 10px 0; /* Spasi antar pesan */
     max-width: 70%;
+    text-align: center; /* Teks dalam pesan rata tengah */
+    align-self: center; /* Rata tengah dalam kotak */
 }
 
-
-input[type="text"], button {
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    margin: 10px;
-}
-
-
-input[type="text"] {
-    flex: 1;
-    border: 2px solid #ddd;
-}
-
-button {
-    background-color: #007bff;
-    color: white;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #0056b3;
-}
-
+/* Pesan pembuka khusus */
 #chat-box div.bot:first-child {
     background-color: #ffe5b4; /* Warna latar belakang khusus */
     color: #333; /* Warna teks gelap */
@@ -78,17 +78,10 @@ button:hover {
     line-height: 1.6;
     padding: 10px;
     border-radius: 8px;
+    text-align: center; /* Rata tengah teks */
+    animation: fadeInScale 1s ease-in-out; /* Animasi untuk teks pembuka */
 }
 
-#chat-box ul {
-    margin: 10px 0 0 20px; /* Memberi spasi pada daftar */
-    padding: 0;
-}
-
-#chat-box ul li {
-    margin: 5px 0; /* Spasi antar elemen daftar */
-    list-style-type: disc; /* Tanda bullet */
-}
 @keyframes fadeInScale {
     from {
         opacity: 0;
@@ -100,3 +93,61 @@ button:hover {
     }
 }
 
+/* Daftar dalam pesan bot */
+#chat-box ul {
+    margin: 10px 0 0 20px; /* Memberi spasi pada daftar */
+    padding: 0;
+}
+
+#chat-box ul li {
+    margin: 5px 0; /* Spasi antar elemen daftar */
+    list-style-type: disc; /* Tanda bullet */
+    text-align: left; /* Daftar tetap rata kiri */
+}
+
+/* Elemen input dan tombol */
+.input-container {
+    display: flex;
+    background-color: #f9f9f9; /* Warna latar belakang input */
+    padding: 10px;
+    border-top: 2px solid #ddd;
+    width: 100%; /* Sinkronisasi lebar dengan kontainer */
+}
+
+input[type="text"] {
+    flex: 1; /* Input menyesuaikan lebar */
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+button {
+    width: 100px; /* Lebar tombol tetap */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsivitas untuk perangkat kecil */
+@media (max-width: 500px) {
+    .chat-container {
+        width: 90%; /* Lebar fleksibel di perangkat kecil */
+        height: 80%; /* Tinggi lebih proporsional */
+    }
+
+    input[type="text"], button {
+        font-size: 12px; /* Ukuran teks lebih kecil */
+    }
+
+    button {
+        width: auto; /* Tombol menyesuaikan lebar konten */
+        padding: 8px; /* Padding lebih kecil */
+    }
+}
