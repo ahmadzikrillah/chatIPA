@@ -17,7 +17,7 @@ fetch('datasheet.json')
 function addMessage(sender, message) {
     const messageElement = document.createElement("div");
     messageElement.className = sender;
-    messageElement.textContent = message;
+    messageElement.innerHTML = message; // Gunakan innerHTML agar tag HTML dirender
     chatBox.appendChild(messageElement);
     chatBox.scrollTop = chatBox.scrollHeight; // Scroll otomatis ke pesan terbaru
 }
