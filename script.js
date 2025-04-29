@@ -22,6 +22,7 @@ function addMessage(sender, message) {
     chatBox.scrollTop = chatBox.scrollHeight; // Scroll otomatis ke pesan terbaru
 }
 
+
 // Fungsi mencari jawaban
 function cariJawaban(pertanyaan) {
     console.log("Pertanyaan pengguna:", pertanyaan); // Debugging input pengguna
@@ -55,7 +56,18 @@ userInput.addEventListener("keydown", (event) => {
 
 // Tambahkan pesan pembuka saat halaman chat pertama kali dimuat
 window.addEventListener("load", () => {
-    const welcomeMessage = "Selamat datang di Tanya Jawab IPA Kelas 9! Pak Zikri siap membantu menjawab pertanyaan Anda tentang topik Biologi, Fisika, atau Kimia. Silakan ketik pertanyaan Anda untuk memulai!";
+    const welcomeMessage = `
+        <p>Selamat datang di <strong>Chatbot IPA SMP</strong>!</p>
+        <p>Saya siap membantu menjawab pertanyaan Anda tentang topik:</p>
+        <ul>
+            <li><strong>Biologi</strong></li>
+            <li><strong>Fisika</strong></li>
+            <li><strong>Kimia</strong></li>
+        </ul>
+        <p>Silakan ketik pertanyaan Anda untuk memulai!</p>
+    `;
     addMessage("bot", welcomeMessage); // Tambahkan pesan pembuka sebagai bot
 });
+
+
 
