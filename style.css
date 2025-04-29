@@ -173,3 +173,9 @@ footer .heart {
         padding: 8px;
     }
 }
+.footer-image {
+    width: 20px; /* Ukuran lebar gambar */
+    height: 20px; /* Ukuran tinggi gambar */
+    vertical-align: middle; /* Posisikan gambar sejajar dengan teks */
+    margin: 0 5px; /* Spasi kiri dan kanan gambar */
+}
