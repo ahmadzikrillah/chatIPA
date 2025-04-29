@@ -76,7 +76,7 @@ window.addEventListener("load", () => {
     addMessage("bot", welcomeMessage); // Tambahkan pesan pembuka sebagai bot
 });
 // Ambil elemen DOM
-let chatBox = document.getElementById("chat-box");
+
 const userInput = document.getElementById("user-input");
 const sendButton = document.getElementById("send-button");
 
