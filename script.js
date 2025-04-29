@@ -58,13 +58,13 @@ userInput.addEventListener("keydown", (event) => {
 window.addEventListener("load", () => {
     const welcomeMessage = `
         <p>Selamat datang di <strong>Chatbot IPA SMP</strong>!</p>
-        <p>Saya siap membantu menjawab pertanyaan Anda tentang topik:</p>
+        <p>Pak Zikri siap membantu menjawab pertanyaan Anda tentang topik:</p>
         <ul>
             <li><strong>Biologi</strong></li>
             <li><strong>Fisika</strong></li>
             <li><strong>Kimia</strong></li>
         </ul>
-        <p>Silakan ketik pertanyaan Anda untuk memulai!</p>
+        <p>Silakan ketik pertanyaan Kamu untuk memulai!</p>
     `;
     addMessage("bot", welcomeMessage); // Tambahkan pesan pembuka sebagai bot
 });
