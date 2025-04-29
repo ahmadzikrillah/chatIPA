@@ -69,3 +69,74 @@ button {
 button:hover {
     background-color: #0056b3;
 }
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f5; /* Warna latar belakang yang lembut */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.chat-container {
+    width: 400px;
+    height: 600px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Bayangan halus */
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+#chat-box {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    background-color: #f9f9f9; /* Warna latar belakang kotak chat */
+    border-bottom: 2px solid #ddd;
+}
+
+#chat-box div.user {
+    background-color: #007bff; /* Warna pesan pengguna */
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    margin: 5px 0;
+    align-self: flex-end;
+    max-width: 70%;
+}
+
+#chat-box div.bot {
+    background-color: #e1e1e1; /* Warna pesan bot */
+    color: black;
+    padding: 8px;
+    border-radius: 5px;
+    margin: 5px 0;
+    align-self: flex-start;
+    max-width: 70%;
+}
+
+input[type="text"], button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+input[type="text"] {
+    flex: 1;
+    border: 2px solid #ddd;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
