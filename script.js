@@ -52,3 +52,10 @@ userInput.addEventListener("keydown", (event) => {
         sendButton.click(); // Simulasikan klik tombol "Kirim"
     }
 });
+
+// Tambahkan pesan pembuka saat halaman chat pertama kali dimuat
+window.addEventListener("load", () => {
+    const welcomeMessage = "Selamat datang di Chatbot IPA SMP! Saya siap membantu menjawab pertanyaan Anda tentang topik Biologi, Fisika, atau Kimia. Silakan ketik pertanyaan Anda untuk memulai!";
+    addMessage("bot", welcomeMessage); // Tambahkan pesan pembuka sebagai bot
+});
+
