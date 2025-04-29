@@ -5,13 +5,20 @@ const sendButton = document.getElementById("send-button");
 
 // Muat data dari JSON
 let dataJSON = [];
-fetch('datasheet.json')
-  .then(response => response.json())
-  .then(data => {
-    dataJSON = data;
-    console.log("Data JSON berhasil dimuat:", data); // Debugging
+fetch('https://ahmadzikrillah.github.io/chatIPA/datasheet.json')
+  .then(response => {
+    console.log("Status respons:", response.status); // Debugging respons status
+    if (!response.ok) {
+      throw new Error(`HTTP error! Status: ${response.status}`);
+    }
+    return response.json();
   })
-  .catch(error => console.error("Gagal memuat JSON:", error));
+  .then(data => {
+    console.log("Data JSON berhasil dimuat:", data); // Debugging
+    dataJSON = data; // Simpan data ke variabel global
+  })
+  .catch(error => console.error("Gagal memuat JSON:", error)); // Debugging error
+
 
 // Fungsi untuk menambahkan pesan ke chat
 function addMessage(sender, message) {
