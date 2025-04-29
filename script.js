@@ -33,15 +33,16 @@ function addMessage(sender, message) {
 // Fungsi mencari jawaban
 function cariJawaban(pertanyaan) {
     console.log("Pertanyaan pengguna:", pertanyaan); // Debugging input pengguna
-    let hasil = dataJSON.find(item => {
-        // Pecah setiap pertanyaan di JSON menjadi kata-kata
-        const kataKunci = item.Pertanyaan.toLowerCase().split(" ");
-        // Cek apakah salah satu kata kunci ada dalam pertanyaan pengguna
-        return kataKunci.some(kata => pertanyaan.toLowerCase().includes(kata));
-    });
+    
+    // Cari jawaban berdasarkan kecocokan sebagian (fuzzy matching)
+    let hasil = dataJSON.find(item => 
+        pertanyaan.toLowerCase().includes(item.Pertanyaan.toLowerCase())
+    );
+
     console.log("Hasil pencarian:", hasil); // Debugging hasil pencarian
     return hasil ? hasil.Jawaban : "Maaf, saya tidak menemukan jawaban.";
 }
+
 
 // Event saat tombol 'Kirim' ditekan
 sendButton.addEventListener("click", () => {
