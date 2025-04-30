@@ -156,6 +156,12 @@ footer .heart {
     color: red; /* Warna hati merah */
     font-size: 16px;
 }
+.footer-image {
+    width: 20px; /* Ukuran lebar gambar */
+    height: 20px; /* Ukuran tinggi gambar */
+    vertical-align: middle; /* Posisikan gambar sejajar dengan teks */
+    margin: 0 5px; /* Spasi kiri dan kanan gambar */
+}
 
 /* Responsivitas untuk perangkat kecil */
 @media (max-width: 500px) {
@@ -173,9 +179,4 @@ footer .heart {
         padding: 8px;
     }
 }
-.footer-image {
-    width: 20px; /* Ukuran lebar gambar */
-    height: 20px; /* Ukuran tinggi gambar */
-    vertical-align: middle; /* Posisikan gambar sejajar dengan teks */
-    margin: 0 5px; /* Spasi kiri dan kanan gambar */
-}
+
