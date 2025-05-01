@@ -71,44 +71,32 @@ function normalisasiPertanyaan(pertanyaan) {
         .toLowerCase(); // Ubah menjadi huruf kecil
 }
 
-// Fungsi untuk mencari jawaban berdasarkan pencocokan pertanyaan (dengan sinonim)
+// Fungsi pencarian fuzzy di datasheet.json
 function cariJawabanFuzzy(pertanyaan) {
-    const input = pertanyaan.toLowerCase().trim();
-
-    // Periksa jika pertanyaan cocok dengan jawaban formal di datasheet.json
-    for (let soal of datasheet) {
-        // Pencocokan pertanyaan utama
-        if (soal.Pertanyaan.toLowerCase().includes(input)) {
-            return soal.Jawaban; // Jawaban ditemukan
-        }
-
-        // Cek sinonim jika pertanyaan tidak langsung cocok
-        if (soal.Sinonim && soal.Sinonim.some(sinonim => input.split(" ").includes(sinonim.toLowerCase()))) {
-            return soal.Jawaban; // Jawaban ditemukan dari sinonim
-        }
+    if (!fuse) {
+        console.error("Fuse.js untuk datasheet belum siap.");
+        return "Data belum siap. Silakan coba lagi nanti.";
     }
-
-    return null; // Tidak ditemukan jawaban
+    const hasil = fuse.search(pertanyaan);
+    if (hasil.length > 0) {
+        console.log("Hasil fuzzy matching (datasheet):", hasil);
+        return hasil[0].item.Jawaban; // Ambil jawaban terbaik
+    }
+    return null; // Tidak ditemukan
 }
 
-// Fungsi untuk mencari jawaban berdasarkan pencocokan kreatif
+// Fungsi pencarian fuzzy di responKreatif.json
 function cariJawabanKreatifFuzzy(pertanyaan) {
-    const input = pertanyaan.toLowerCase().trim();
-
-    // Periksa jika pertanyaan cocok dengan jawaban kreatif di responKreatif.json
-    for (let soal of responKreatif) {
-        // Pencocokan pertanyaan utama
-        if (soal.Pertanyaan.toLowerCase().includes(input)) {
-            return soal.Jawaban; // Jawaban ditemukan
-        }
-
-        // Cek sinonim jika pertanyaan tidak langsung cocok
-        if (soal.Sinonim && soal.Sinonim.some(sinonim => input.split(" ").includes(sinonim.toLowerCase()))) {
-            return soal.Jawaban; // Jawaban ditemukan dari sinonim
-        }
+    if (!fuseKreatif) {
+        console.error("Fuse.js untuk respon kreatif belum siap.");
+        return null;
     }
-
-    return null; // Tidak ditemukan jawaban
+    const hasil = fuseKreatif.search(pertanyaan);
+    if (hasil.length > 0) {
+        console.log("Hasil fuzzy matching (respon kreatif):", hasil);
+        return hasil[0].item.Jawaban; // Ambil jawaban terbaik
+    }
+    return null; // Tidak ditemukan
 }
 
 // Fungsi gabungan untuk mencari jawaban
@@ -132,8 +120,6 @@ sendButton.addEventListener("click", () => {
         userInput.value = ""; // Kosongkan input
     }
 });
-
-
 
 // Menambahkan event listener untuk tombol "Enter"
 userInput.addEventListener("keydown", (event) => {
