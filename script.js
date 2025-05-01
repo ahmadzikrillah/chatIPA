@@ -86,24 +86,20 @@ function cariJawabanFuzzy(pertanyaan) {
         console.error("Fuse.js untuk datasheet belum siap.");
         return "Data belum siap. Silakan coba lagi nanti.";
     }
-    const hasil = fuse.search(pertanyaan);
+
+    // Normalisasi input pengguna
+    const inputNormalized = normalisasiPertanyaan(pertanyaan);
+
+    // Cari dengan Fuse
+    const hasil = fuse.search(inputNormalized);
     if (hasil.length > 0 && hasil[0].score <= 0.4) {
+        console.log("Hasil fuzzy matching (datasheet):", hasil);
         return hasil[0].item.Jawaban;
     }
-    return null;
-}
 
-
-    // Normalisasi input
-    const inputNormalized = normalisasiPertanyaan(pertanyaan);
-    
-    const hasil = fuse.search(inputNormalized);
-    if (hasil.length > 0) {
-        console.log("Hasil fuzzy matching (datasheet):", hasil);
-        return hasil[0].item.Jawaban; // Ambil jawaban terbaik
-    }
     return null; // Tidak ditemukan
 }
+
 
 // Fungsi pencarian fuzzy di responKreatif.json
 function cariJawabanKreatifFuzzy(pertanyaan) {
