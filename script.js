@@ -10,29 +10,29 @@ let dataResponKreatif = [];
 // Muat data dari datasheet.json
 fetch('https://ahmadzikrillah.github.io/chatIPA/datasheet.json')
   .then(response => {
-    console.log("Status respons datasheet:", response.status); // Debugging respons status
+    console.log("Status respons datasheet:", response.status);
     if (!response.ok) {
       throw new Error(`HTTP error! Status: ${response.status}`);
     }
     return response.json();
   })
   .then(data => {
-    console.log("Data datasheet berhasil dimuat:", data); // Debugging
+    console.log("Data datasheet berhasil dimuat:", data);
     dataJSON = data; // Simpan data ke variabel global
   })
-  .catch(error => console.error("Gagal memuat datasheet.json:", error)); // Debugging error
+  .catch(error => console.error("Gagal memuat datasheet.json:", error));
 
 // Muat respon kreatif dari responKreatif.json
 fetch('https://ahmadzikrillah.github.io/chatIPA/responKreatif.json')
   .then(response => {
-    console.log("Status respons responKreatif:", response.status); // Debugging respons status
+    console.log("Status respons responKreatif:", response.status);
     if (!response.ok) {
       throw new Error(`HTTP error! Status: ${response.status}`);
     }
     return response.json();
   })
   .then(data => {
-    console.log("Data respon kreatif berhasil dimuat:", data); // Debugging
+    console.log("Data respon kreatif berhasil dimuat:", data);
     dataResponKreatif = data; // Simpan ke variabel global
   })
   .catch(error => console.error("Gagal memuat responKreatif.json:", error));
@@ -41,60 +41,66 @@ fetch('https://ahmadzikrillah.github.io/chatIPA/responKreatif.json')
 function addMessage(sender, message) {
     const messageElement = document.createElement("div");
     messageElement.className = sender;
-    messageElement.innerHTML = message; // Gunakan innerHTML agar tag HTML dirender
+    messageElement.innerHTML = message; // Render tag HTML
     chatBox.appendChild(messageElement);
-    chatBox.scrollTop = chatBox.scrollHeight; // Scroll otomatis ke pesan terbaru
+    chatBox.scrollTop = chatBox.scrollHeight; // Scroll otomatis ke bawah
+}
+
+// Fungsi untuk normalisasi pertanyaan
+function normalisasiPertanyaan(pertanyaan) {
+    return pertanyaan.replace("?", "").trim().toLowerCase(); // Hapus tanda tanya dan normalisasi teks
 }
 
 // Fungsi mencari jawaban di datasheet.json
 function cariJawaban(pertanyaan) {
-    console.log("Pertanyaan pengguna (datasheet):", pertanyaan); // Debugging input pengguna
+    const normalized = normalisasiPertanyaan(pertanyaan);
+    console.log("Pertanyaan pengguna (datasheet):", normalized);
 
-    // Cari jawaban berdasarkan kecocokan sebagian
-    const hasil = dataJSON.find(item => 
-        item.Pertanyaan && pertanyaan.toLowerCase().includes(item.Pertanyaan.toLowerCase())
+    const hasil = dataJSON.find(item =>
+        item.Pertanyaan && normalized.includes(item.Pertanyaan.toLowerCase())
     );
 
-    console.log("Hasil pencarian (datasheet):", hasil); // Debugging hasil pencarian
+    console.log("Hasil pencarian (datasheet):", hasil);
     return hasil ? hasil.Jawaban : null;
 }
 
 // Fungsi mencari jawaban kreatif di responKreatif.json
 function cariJawabanKreatif(input) {
-    const inputLower = input.toLowerCase(); // Normalize input pengguna
+    const normalized = normalisasiPertanyaan(input);
+    console.log("Pertanyaan pengguna (respon kreatif):", normalized);
 
-    // Pencarian langsung berdasarkan Pertanyaan
     let hasil = dataResponKreatif.find(item =>
-        item.Pertanyaan && item.Pertanyaan.toLowerCase() === inputLower
+        item.Pertanyaan && normalized.includes(item.Pertanyaan.toLowerCase())
     );
 
-    // Jika tidak ditemukan, coba pencarian berdasarkan Sinonim
     if (!hasil) {
         hasil = dataResponKreatif.find(item =>
-            item.Sinonim && item.Sinonim.some(sinonim => sinonim.toLowerCase().includes(inputLower))
+            item.Sinonim && item.Sinonim.some(sinonim => normalized.includes(sinonim.toLowerCase()))
         );
     }
 
-    console.log("Hasil pencarian (respon kreatif):", hasil); // Debugging hasil pencarian
+    console.log("Hasil pencarian (respon kreatif):", hasil);
     return hasil ? hasil.Jawaban : null;
 }
 
 // Fungsi gabungan untuk mencari jawaban
 function cariJawabanGabungan(pertanyaan) {
-    let jawaban = cariJawabanKreatif(pertanyaan); // Cari di responKreatif.json
-    if (!jawaban) {
-        jawaban = cariJawaban(pertanyaan); // Cari di datasheet.json
-    }
-    return jawaban || "Maaf, saya tidak menemukan jawaban untuk pertanyaan Anda.";
+    const jawabanKreatif = cariJawabanKreatif(pertanyaan);
+    if (jawabanKreatif) return jawabanKreatif;
+
+    const jawabanFormal = cariJawaban(pertanyaan);
+    if (jawabanFormal) return jawabanFormal;
+
+    return "Maaf, saya tidak menemukan jawaban untuk pertanyaan Anda.";
 }
 
 // Event saat tombol 'Kirim' ditekan
 sendButton.addEventListener("click", () => {
     const userQuestion = userInput.value.trim();
     if (userQuestion !== "") {
-        addMessage("user", userQuestion); // Tambahkan pertanyaan pengguna ke chat
-        const botAnswer = cariJawabanGabungan(userQuestion); // Gabungkan pencarian
-        addMessage("bot", botAnswer); // Tambahkan jawaban chatbot ke chat
+        addMessage("user", userQuestion);
+        const botAnswer = cariJawabanGabungan(userQuestion);
+        addMessage("bot", botAnswer);
         userInput.value = ""; // Kosongkan input
     }
 });
@@ -102,7 +108,7 @@ sendButton.addEventListener("click", () => {
 // Menambahkan event listener untuk menekan "Enter"
 userInput.addEventListener("keydown", (event) => {
     if (event.key === "Enter") {
-        sendButton.click(); // Simulasikan klik tombol "Kirim"
+        sendButton.click();
     }
 });
 
@@ -118,7 +124,7 @@ window.addEventListener("load", () => {
         </ul>
         <p>Silakan ketik pertanyaan Anda untuk memulai!</p>
     `;
-    addMessage("bot", welcomeMessage); // Tambahkan pesan pembuka sebagai bot
+    addMessage("bot", welcomeMessage);
 });
 
 // Fungsi untuk filter jawaban berdasarkan tema
