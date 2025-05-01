@@ -85,22 +85,60 @@ fetch('responKreatif.json')
     })
     .then(data => {
         console.log("Data respon kreatif berhasil dimuat:", data);
-        dataResponKreatif = data;
+        dataResponKreatif = data; // Simpan ke variabel global
     })
     .catch(error => console.error("Gagal memuat respon kreatif:", error));
 
 // Fungsi mencari jawaban kreatif
 function cariJawabanKreatif(input) {
-    const hasil = dataResponKreatif.find(item =>
-        input.toLowerCase().includes(item.Pertanyaan.toLowerCase())
+    const inputLower = input.toLowerCase(); // Normalize input pengguna
+
+    // Pencarian langsung berdasarkan Pertanyaan
+    let hasil = dataResponKreatif.find(item =>
+        item.Pertanyaan.toLowerCase() === inputLower
     );
+
+    // Jika tidak ditemukan, coba pencarian berdasarkan Sinonim
+    if (!hasil) {
+        hasil = dataResponKreatif.find(item =>
+            item.Sinonim && item.Sinonim.some(sinonim => sinonim.toLowerCase().includes(inputLower))
+        );
+    }
+
+    // Kembalikan jawaban atau pesan fallback
     return hasil ? hasil.Jawaban : "Maaf, saya tidak memiliki respon kreatif untuk pertanyaan ini.";
 }
-function filterJawabanBerdasarkanTema(tema) {
-    return dataResponKreatif.filter(item => item.Tema.toLowerCase() === tema.toLowerCase());
+
+// Debugging jumlah data dan detail
+console.log("Total item respon kreatif:", dataResponKreatif?.length || 0);
+if (dataResponKreatif?.length) {
+    dataResponKreatif.forEach((item, index) => {
+        console.log(`Item ${index}:`, item);
+        if (!item.Pertanyaan || !item.Jawaban) {
+            console.warn(`Item pada indeks ${index} tidak lengkap:`, item);
+        }
+    });
 }
 
-// Contoh penggunaan:
+// Fungsi untuk filter jawaban berdasarkan tema
+function filterJawabanBerdasarkanTema(tema) {
+    const hasilFilter = dataResponKreatif.filter(item =>
+        item.Tema && item.Tema.toLowerCase() === tema.toLowerCase()
+    );
+
+    // Tampilkan peringatan jika tidak ada hasil
+    if (hasilFilter.length === 0) {
+        console.warn(`Tidak ditemukan jawaban dengan tema: ${tema}`);
+    }
+    return hasilFilter;
+}
+
+// Contoh penggunaan untuk tema Biologi
 const jawabanBiologi = filterJawabanBerdasarkanTema("Biologi");
 console.log("Jawaban dengan tema Biologi:", jawabanBiologi);
 
+// Contoh penggunaan untuk pencarian jawaban kreatif
+const pertanyaan = "siapa ahmad zikrillah";
+const jawaban = cariJawabanKreatif(pertanyaan);
+console.log(`Pertanyaan: ${pertanyaan}`);
+console.log(`Jawaban: ${jawaban}`);
