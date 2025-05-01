@@ -46,16 +46,23 @@ function addMessage(sender, message) {
 
 // Fungsi untuk normalisasi pertanyaan
 function normalisasiPertanyaan(pertanyaan) {
-    return pertanyaan.replace("?", "").trim().toLowerCase(); // Hapus tanda tanya, spasi ekstra, dan huruf besar
+    return pertanyaan
+        .replace(/[?.,!]/g, "") // Hapus tanda baca
+        .replace(/\s+/g, " ") // Hapus spasi berlebihan
+        .trim() // Hapus spasi di awal/akhir
+        .toLowerCase(); // Ubah menjadi huruf kecil
 }
 
 // Fungsi mencari jawaban di datasheet.json
 function cariJawaban(pertanyaan) {
     const normalized = normalisasiPertanyaan(pertanyaan);
-    const hasil = dataJSON.find(item =>
+
+    // Coba mencocokkan dengan pertanyaan di JSON
+    let hasil = dataJSON.find(item =>
         item.Pertanyaan && normalized.includes(normalisasiPertanyaan(item.Pertanyaan))
     );
 
+    console.log("Hasil pencarian (datasheet):", hasil);
     return hasil ? hasil.Jawaban : null;
 }
 
@@ -69,10 +76,11 @@ function cariJawabanKreatif(input) {
 
     if (!hasil) {
         hasil = dataResponKreatif.find(item =>
-            item.Sinonim && item.Sinonim.some(sinonim => normalized.includes(sinonim.toLowerCase()))
+            item.Sinonim && item.Sinonim.some(sinonim => normalized.includes(normalisasiPertanyaan(sinonim)))
         );
     }
 
+    console.log("Hasil pencarian (respon kreatif):", hasil);
     return hasil ? hasil.Jawaban : null;
 }
 
@@ -123,11 +131,13 @@ window.addEventListener("load", () => {
 // Fungsi untuk filter jawaban berdasarkan tema
 function filterJawabanBerdasarkanTema(tema) {
     const hasilFilter = dataResponKreatif.filter(item =>
-        item.Tema && item.Tema.toLowerCase() === tema.toLowerCase()
+        item.Tema && normalisasiPertanyaan(item.Tema) === normalisasiPertanyaan(tema)
     );
 
     if (hasilFilter.length === 0) {
         console.warn(`Tidak ditemukan jawaban dengan tema: ${tema}`);
     }
+
+    console.log("Hasil filter berdasarkan tema:", hasilFilter);
     return hasilFilter;
 }
