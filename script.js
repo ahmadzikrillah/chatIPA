@@ -71,32 +71,44 @@ function normalisasiPertanyaan(pertanyaan) {
         .toLowerCase(); // Ubah menjadi huruf kecil
 }
 
-// Fungsi pencarian fuzzy di datasheet.json
+// Fungsi untuk mencari jawaban berdasarkan pencocokan pertanyaan (dengan sinonim)
 function cariJawabanFuzzy(pertanyaan) {
-    if (!fuse) {
-        console.error("Fuse.js untuk datasheet belum siap.");
-        return "Data belum siap. Silakan coba lagi nanti.";
+    const input = pertanyaan.toLowerCase().trim();
+
+    // Periksa jika pertanyaan cocok dengan jawaban formal di database
+    for (let soal of database) {
+        // Pencocokan pertanyaan utama
+        if (soal.Pertanyaan.toLowerCase().includes(input)) {
+            return soal.Jawaban; // Jawaban ditemukan
+        }
+
+        // Cek sinonim jika pertanyaan tidak langsung cocok
+        if (soal.Sinonim && soal.Sinonim.some(sinonim => input.includes(sinonim.toLowerCase()))) {
+            return soal.Jawaban; // Jawaban ditemukan dari sinonim
+        }
     }
-    const hasil = fuse.search(pertanyaan);
-    if (hasil.length > 0) {
-        console.log("Hasil fuzzy matching (datasheet):", hasil);
-        return hasil[0].item.Jawaban; // Ambil jawaban terbaik
-    }
-    return null; // Tidak ditemukan
+
+    return null; // Tidak ditemukan jawaban
 }
 
-// Fungsi pencarian fuzzy di responKreatif.json
+// Fungsi untuk mencari jawaban berdasarkan pencocokan kreatif
 function cariJawabanKreatifFuzzy(pertanyaan) {
-    if (!fuseKreatif) {
-        console.error("Fuse.js untuk respon kreatif belum siap.");
-        return null;
+    const input = pertanyaan.toLowerCase().trim();
+
+    // Periksa jika pertanyaan cocok dengan jawaban kreatif di database
+    for (let soal of databaseKreatif) {
+        // Pencocokan pertanyaan utama
+        if (soal.Pertanyaan.toLowerCase().includes(input)) {
+            return soal.Jawaban; // Jawaban ditemukan
+        }
+
+        // Cek sinonim jika pertanyaan tidak langsung cocok
+        if (soal.Sinonim && soal.Sinonim.some(sinonim => input.includes(sinonim.toLowerCase()))) {
+            return soal.Jawaban; // Jawaban ditemukan dari sinonim
+        }
     }
-    const hasil = fuseKreatif.search(pertanyaan);
-    if (hasil.length > 0) {
-        console.log("Hasil fuzzy matching (respon kreatif):", hasil);
-        return hasil[0].item.Jawaban; // Ambil jawaban terbaik
-    }
-    return null; // Tidak ditemukan
+
+    return null; // Tidak ditemukan jawaban
 }
 
 // Fungsi gabungan untuk mencari jawaban
@@ -120,6 +132,7 @@ sendButton.addEventListener("click", () => {
         userInput.value = ""; // Kosongkan input
     }
 });
+
 
 // Menambahkan event listener untuk tombol "Enter"
 userInput.addEventListener("keydown", (event) => {
