@@ -75,15 +75,15 @@ function normalisasiPertanyaan(pertanyaan) {
 function cariJawabanFuzzy(pertanyaan) {
     const input = pertanyaan.toLowerCase().trim();
 
-    // Periksa jika pertanyaan cocok dengan jawaban formal di database
-    for (let soal of database) {
+    // Periksa jika pertanyaan cocok dengan jawaban formal di datasheet.json
+    for (let soal of datasheet) {
         // Pencocokan pertanyaan utama
         if (soal.Pertanyaan.toLowerCase().includes(input)) {
             return soal.Jawaban; // Jawaban ditemukan
         }
 
         // Cek sinonim jika pertanyaan tidak langsung cocok
-        if (soal.Sinonim && soal.Sinonim.some(sinonim => input.includes(sinonim.toLowerCase()))) {
+        if (soal.Sinonim && soal.Sinonim.some(sinonim => input.split(" ").includes(sinonim.toLowerCase()))) {
             return soal.Jawaban; // Jawaban ditemukan dari sinonim
         }
     }
@@ -95,15 +95,15 @@ function cariJawabanFuzzy(pertanyaan) {
 function cariJawabanKreatifFuzzy(pertanyaan) {
     const input = pertanyaan.toLowerCase().trim();
 
-    // Periksa jika pertanyaan cocok dengan jawaban kreatif di database
-    for (let soal of databaseKreatif) {
+    // Periksa jika pertanyaan cocok dengan jawaban kreatif di responKreatif.json
+    for (let soal of responKreatif) {
         // Pencocokan pertanyaan utama
         if (soal.Pertanyaan.toLowerCase().includes(input)) {
             return soal.Jawaban; // Jawaban ditemukan
         }
 
         // Cek sinonim jika pertanyaan tidak langsung cocok
-        if (soal.Sinonim && soal.Sinonim.some(sinonim => input.includes(sinonim.toLowerCase()))) {
+        if (soal.Sinonim && soal.Sinonim.some(sinonim => input.split(" ").includes(sinonim.toLowerCase()))) {
             return soal.Jawaban; // Jawaban ditemukan dari sinonim
         }
     }
@@ -132,6 +132,7 @@ sendButton.addEventListener("click", () => {
         userInput.value = ""; // Kosongkan input
     }
 });
+
 
 
 // Menambahkan event listener untuk tombol "Enter"
