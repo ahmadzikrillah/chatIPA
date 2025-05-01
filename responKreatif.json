@@ -5,10 +5,70 @@
     },
     {
         "Pertanyaan": "apa itu fotosintesis",
-        "Jawaban": "Fotosintesis adalah sihir alami di mana tumbuhan mengubah sinar matahari menjadi makanan!"
+        "Jawaban": "Fotosintesis adalah sihir alami di mana tumbuhan mengubah sinar matahari menjadi makanan! Tanpa sihir ini, rantai makanan bisa kacau balau."
     },
     {
         "Pertanyaan": "apa itu energi kinetik",
         "Jawaban": "Bayangkan bola yang meluncur dengan kecepatan tinggi—itulah energi kinetik, sebuah kekuatan dalam gerakan!"
+    },
+    {
+        "Pertanyaan": "apa itu gravitasi",
+        "Jawaban": "Gravitasi adalah 'lem super' raksasa yang menahan kita agar tidak melayang ke luar angkasa! Semua benda dengan massa memilikinya, termasuk kamu."
+    },
+    {
+        "Pertanyaan": "kenapa langit berwarna biru",
+        "Jawaban": "Langit biru karena partikel di atmosfer menyebarkan cahaya biru dari matahari lebih banyak dibanding warna lainnya. Jadi, biru menang kompetisi!"
+    },
+    {
+        "Pertanyaan": "apa itu atom",
+        "Jawaban": "Atom adalah unit kecil pembangun segalanya—ibaratnya seperti LEGO untuk alam semesta. Dengan cukup atom, Anda bisa membuat apapun, termasuk bintang dan manusia!"
+    },
+    {
+        "Pertanyaan": "mengapa air mendidih pada suhu 100 derajat",
+        "Jawaban": "Pada tekanan udara normal, molekul air memiliki cukup energi untuk berubah menjadi uap pada suhu 100°C. Kalau di pegunungan, suhunya bisa lebih rendah!"
+    },
+    {
+        "Pertanyaan": "kenapa suara kita bergema",
+        "Jawaban": "Suara bergema karena gelombang suara memantul dari permukaan keras, lalu kembali ke telinga kita. Ibaratnya, suara sedang main bumerang!"
+    },
+    {
+        "Pertanyaan": "apa itu reaksi eksoterm",
+        "Jawaban": "Reaksi eksoterm adalah saat reaksi kimia melepaskan energi, biasanya dalam bentuk panas. Contoh: api unggun—cara alam menghangatkan suasana!"
+    },
+    {
+        "Pertanyaan": "apa itu rumus energi potensial",
+        "Jawaban": "Rumusnya: Ep = m × g × h, di mana 'm' adalah massa, 'g' gravitasi, dan 'h' tinggi. Semakin tinggi objek, semakin besar energi potensialnya!"
+    },
+    {
+        "Pertanyaan": "apa itu listrik statis",
+        "Jawaban": "Listrik statis terjadi saat muatan listrik menumpuk di permukaan benda. Contohnya, saat kamu menyetrum teman setelah menggosokkan balon ke rambut!"
+    },
+    {
+        "Pertanyaan": "apa yang dimaksud dengan unsur kimia",
+        "Jawaban": "Unsur kimia adalah bahan dasar kehidupan. Mereka seperti huruf-huruf dalam alfabet yang membentuk segala benda di alam semesta!"
+    },
+    {
+        "Pertanyaan": "apa itu tabel periodik",
+        "Jawaban": "Tabel periodik adalah seperti buku kontak alam semesta, di mana setiap unsur punya nama, simbol, dan tempat yang teratur."
+    },
+    {
+        "Pertanyaan": "apa itu reaksi endoterm",
+        "Jawaban": "Reaksi endoterm membutuhkan energi untuk berlangsung, biasanya dalam bentuk panas. Misalnya, es mencair—es menyerap panas dari lingkungan!"
+    },
+    {
+        "Pertanyaan": "mengapa air membeku pada suhu 0 derajat",
+        "Jawaban": "Karena pada suhu 0°C, molekul air bergerak cukup lambat hingga saling berpegangan dan membentuk es. Ibaratnya, mereka sedang membuat 'pesta' kristal!"
+    },
+    {
+        "Pertanyaan": "siapa ahmad zikrillah",
+        "Jawaban": "Bapak Guru Ahmad Zikrillah,S.Pd , adalah seorang guru mata pelajaran IPA Terpadu di madrasah MTs Attaqwa 10 Terpadu rawasilam,mengajar Ipa sejak tahun 2008 hingga sekarang.apakah anda ingin tahu lebih banyak guru lain?silahkan sebut nama lain ,saya akan menjawab jika saya kenal beliau "
+    },
+    {
+        "Pertanyaan": "siapa Ahmad hanif",
+        "Jawaban": "Bapak Guru (Ustadz) Ahmad Hanif,S.Hi, adalah seorang guru beberapa mata pelajaran mulok seperti Imla,Nahwu dan lain lain.Beiau juga menjadi Kepala Tata Usaha yang merupakan 'jantung' seluruh kegiatan dan operasional madrasah di MTs Attaqwa 10 Terpadu Rawasilam.  !"
+    },
+    {
+        "Pertanyaan": "siapa kepala madrasah mts attaqwa 10 rawasilam",
+        "Jawaban": "Kepala Madrasah MTs.Attaqwa 10 Rawasilam adalah KH.Ahmad Syarwani Hm,S.Pd.I yang menjabat sebagai kepala madrasah sejak tahun 2008 hingga sekarang, apakah ada figur lain yang kamu ingi tanyakan? silahkan ketik siapa saja!"
     }
 ]
