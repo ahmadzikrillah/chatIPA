@@ -1,84 +1,94 @@
 [
-    {
-        "Topik": "Biologi",
-        "Subtopik": "Sistem Pernapasan",
-        "Pertanyaan": "Apa nama organ utama dalam sistem pernapasan manusia?",
-        "Jawaban": "Organ utama dalam sistem pernapasan manusia adalah paru-paru.",
-        "Level Kesulitan": "Mudah",
-        "Catatan Tambahan": "Buku IPA Kelas 8"
-    },
-    {
-        "Topik": "Biologi",
-        "Subtopik": "Sel",
-        "Pertanyaan": "Apa perbedaan utama antara sel hewan dan sel tumbuhan?",
-        "Jawaban": "Sel tumbuhan memiliki dinding sel dan kloroplas, sedangkan sel hewan tidak.",
-        "Level Kesulitan": "Sedang",
-        "Catatan Tambahan": "Materi kelas 7"
-    },
-    {
-        "Topik": "Biologi",
-        "Subtopik": "Fotosintesis",
-        "Pertanyaan": "Apa zat yang dibutuhkan tumbuhan untuk fotosintesis?",
-        "Jawaban": "Karbon dioksida, air, dan cahaya matahari.",
-        "Level Kesulitan": "Mudah",
-        "Catatan Tambahan": "Buku IPA Kelas 7"
-    },
-    {
-        "Topik": "Biologi",
-        "Subtopik": "Reproduksi",
-        "Pertanyaan": "Apa yang dimaksud dengan reproduksi aseksual?",
-        "Jawaban": "Reproduksi aseksual adalah reproduksi tanpa peleburan sel kelamin, contohnya pembelahan biner.",
-        "Level Kesulitan": "Sedang",
-        "Catatan Tambahan": "Bab Reproduksi Makhluk Hidup"
-    },
-    {
-        "Topik": "Biologi",
-        "Subtopik": "Ekosistem",
-        "Pertanyaan": "Apa yang dimaksud dengan produsen dalam ekosistem?",
-        "Jawaban": "Produsen adalah organisme yang dapat membuat makanannya sendiri, seperti tumbuhan hijau.",
-        "Level Kesulitan": "Mudah",
-        "Catatan Tambahan": "Buku IPA SMP"
-    },
-    {
-        "Topik": "Biologi",
-        "Subtopik": "Sistem Pencernaan",
-        "Pertanyaan": "Apa fungsi utama enzim amilase dalam pencernaan?",
-        "Jawaban": "Mengubah zat pati menjadi gula sederhana.",
-        "Level Kesulitan": "Sedang",
-        "Catatan Tambahan": "Materi sistem pencernaan manusia"
-    },
-    {
-        "Topik": "Biologi",
-        "Subtopik": "Sistem Ekskresi",
-        "Pertanyaan": "Apa fungsi utama ginjal dalam tubuh manusia?",
-        "Jawaban": "Menyaring darah dan membentuk urin.",
-        "Level Kesulitan": "Mudah",
-        "Catatan Tambahan": "Buku IPA Kelas 8"
-    },
-    {
-        "Topik": "Biologi",
-        "Subtopik": "Adaptasi Makhluk Hidup",
-        "Pertanyaan": "Mengapa unta memiliki punuk?",
-        "Jawaban": "Punuk unta menyimpan cadangan lemak sebagai sumber energi.",
-        "Level Kesulitan": "Mudah",
-        "Catatan Tambahan": "Bab Adaptasi"
-    },
-    {
-        "Topik": "Biologi",
-        "Subtopik": "Peredaran Darah",
-        "Pertanyaan": "Apa fungsi hemoglobin dalam darah?",
-        "Jawaban": "Mengikat dan mengangkut oksigen dari paru-paru ke seluruh tubuh.",
-        "Level Kesulitan": "Sedang",
-        "Catatan Tambahan": "Materi sistem peredaran darah"
-    },
-    {
-        "Topik": "Biologi",
-        "Subtopik": "Pertumbuhan dan Perkembangan",
-        "Pertanyaan": "Apa perbedaan antara pertumbuhan dan perkembangan pada makhluk hidup?",
-        "Jawaban": "Pertumbuhan adalah perubahan fisik (ukuran), sedangkan perkembangan mencakup perubahan fungsi dan struktur.",
-        "Level Kesulitan": "Sedang",
-        "Catatan Tambahan": "Buku pelajaran kelas 9"
-    },
+  {
+    "Topik": "Biologi",
+    "Subtopik": "Sistem Pernapasan",
+    "Pertanyaan": "Apa nama organ utama dalam sistem pernapasan manusia?",
+    "Jawaban": "Organ utama dalam sistem pernapasan manusia adalah paru-paru.",
+    "Level Kesulitan": "Mudah",
+    "Catatan Tambahan": "Buku IPA Kelas 8",
+    "Sinonim": ["paru-paru", "organ pernapasan", "sistem pernapasan", "alat pernapasan"]
+  },
+  {
+    "Topik": "Biologi",
+    "Subtopik": "Sel",
+    "Pertanyaan": "Apa perbedaan utama antara sel hewan dan sel tumbuhan?",
+    "Jawaban": "Sel tumbuhan memiliki dinding sel dan kloroplas, sedangkan sel hewan tidak.",
+    "Level Kesulitan": "Sedang",
+    "Catatan Tambahan": "Materi kelas 7",
+    "Sinonim": ["perbedaan sel", "struktur sel", "sel hewan", "sel tumbuhan"]
+  },
+  {
+    "Topik": "Biologi",
+    "Subtopik": "Fotosintesis",
+    "Pertanyaan": "Apa zat yang dibutuhkan tumbuhan untuk fotosintesis?",
+    "Jawaban": "Karbon dioksida, air, dan cahaya matahari.",
+    "Level Kesulitan": "Mudah",
+    "Catatan Tambahan": "Buku IPA Kelas 7",
+    "Sinonim": ["fotosintesis", "reaktan fotosintesis", "zat yang diperlukan tumbuhan"]
+  },
+  {
+    "Topik": "Biologi",
+    "Subtopik": "Reproduksi",
+    "Pertanyaan": "Apa yang dimaksud dengan reproduksi aseksual?",
+    "Jawaban": "Reproduksi aseksual adalah reproduksi tanpa peleburan sel kelamin, contohnya pembelahan biner.",
+    "Level Kesulitan": "Sedang",
+    "Catatan Tambahan": "Bab Reproduksi Makhluk Hidup",
+    "Sinonim": ["reproduksi aseksual", "perkembangbiakan tanpa kawin", "pembelahan"]
+  },
+  {
+    "Topik": "Biologi",
+    "Subtopik": "Ekosistem",
+    "Pertanyaan": "Apa yang dimaksud dengan produsen dalam ekosistem?",
+    "Jawaban": "Produsen adalah organisme yang dapat membuat makanannya sendiri, seperti tumbuhan hijau.",
+    "Level Kesulitan": "Mudah",
+    "Catatan Tambahan": "Buku IPA SMP",
+    "Sinonim": ["produsen", "penghasil makanan", "tumbuhan hijau", "rantai makanan"]
+  },
+  {
+    "Topik": "Biologi",
+    "Subtopik": "Sistem Pencernaan",
+    "Pertanyaan": "Apa fungsi utama enzim amilase dalam pencernaan?",
+    "Jawaban": "Mengubah zat pati menjadi gula sederhana.",
+    "Level Kesulitan": "Sedang",
+    "Catatan Tambahan": "Materi sistem pencernaan manusia",
+    "Sinonim": ["amilase", "enzim pencernaan", "pati", "gula sederhana"]
+  },
+  {
+    "Topik": "Biologi",
+    "Subtopik": "Sistem Ekskresi",
+    "Pertanyaan": "Apa fungsi utama ginjal dalam tubuh manusia?",
+    "Jawaban": "Menyaring darah dan membentuk urin.",
+    "Level Kesulitan": "Mudah",
+    "Catatan Tambahan": "Buku IPA Kelas 8",
+    "Sinonim": ["ginjal", "ekskresi", "menyaring darah", "fungsi ginjal"]
+  },
+  {
+    "Topik": "Biologi",
+    "Subtopik": "Adaptasi Makhluk Hidup",
+    "Pertanyaan": "Mengapa unta memiliki punuk?",
+    "Jawaban": "Punuk unta menyimpan cadangan lemak sebagai sumber energi.",
+    "Level Kesulitan": "Mudah",
+    "Catatan Tambahan": "Bab Adaptasi",
+    "Sinonim": ["unta", "punuk", "adaptasi", "lemak"]
+  },
+  {
+    "Topik": "Biologi",
+    "Subtopik": "Peredaran Darah",
+    "Pertanyaan": "Apa fungsi hemoglobin dalam darah?",
+    "Jawaban": "Mengikat dan mengangkut oksigen dari paru-paru ke seluruh tubuh.",
+    "Level Kesulitan": "Sedang",
+    "Catatan Tambahan": "Materi sistem peredaran darah",
+    "Sinonim": ["hemoglobin", "fungsi darah", "pengangkut oksigen"]
+  },
+  {
+    "Topik": "Biologi",
+    "Subtopik": "Pertumbuhan dan Perkembangan",
+    "Pertanyaan": "Apa perbedaan antara pertumbuhan dan perkembangan pada makhluk hidup?",
+    "Jawaban": "Pertumbuhan adalah perubahan fisik (ukuran), sedangkan perkembangan mencakup perubahan fungsi dan struktur.",
+    "Level Kesulitan": "Sedang",
+    "Catatan Tambahan": "Buku pelajaran kelas 9",
+    "Sinonim": ["pertumbuhan", "perkembangan", "perubahan makhluk hidup"]
+  }
     {
         "Topik": "Biologi",
         "Subtopik": "Fotosintesis",
