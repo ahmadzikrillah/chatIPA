@@ -73,3 +73,26 @@ window.addEventListener("load", () => {
     `;
     addMessage("bot", welcomeMessage); // Tambahkan pesan pembuka sebagai bot
 });
+let dataResponKreatif = [];
+
+// Muat respon kreatif dari JSON
+fetch('responKreatif.json')
+    .then(response => {
+        if (!response.ok) {
+            throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+        return response.json();
+    })
+    .then(data => {
+        console.log("Data respon kreatif berhasil dimuat:", data);
+        dataResponKreatif = data;
+    })
+    .catch(error => console.error("Gagal memuat respon kreatif:", error));
+
+// Fungsi mencari jawaban kreatif
+function cariJawabanKreatif(input) {
+    const hasil = dataResponKreatif.find(item =>
+        input.toLowerCase().includes(item.Pertanyaan.toLowerCase())
+    );
+    return hasil ? hasil.Jawaban : "Maaf, saya tidak memiliki respon kreatif untuk pertanyaan ini.";
+}
