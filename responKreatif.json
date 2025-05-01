@@ -58,23 +58,23 @@
     {
         "Pertanyaan": "mengapa air membeku pada suhu 0 derajat",
         "Jawaban": "Karena pada suhu 0°C, molekul air bergerak cukup lambat hingga saling berpegangan dan membentuk es. Ibaratnya, mereka sedang membuat 'pesta' kristal!"
-    },    
-    {
-    "Pertanyaan": "siapa ahmad zikrillah",
-    "Jawaban": "Bapak Guru Ahmad Zikrillah adalah seorang guru mata pelajaran IPA Terpadu.",
-    "Tema": "Informasi Madrasah",
-    "Sinonim": ["guru ipa zikri", "pak zikri", "ahmad zikrillah"]
     },
     {
-    "Pertanyaan": "siapa ahmad hanif",
-    "Jawaban": "Bapak Guru (Ustadz) Ahmad Hanif,S.Hi adalah seorang guru mapel untuk pelajaran mulok seperti Imla dan Nahwu,Beliau juga menjabat sebagai wakil kepala sekolah bidang Tata usaha, Beliau menjadi figur penting dalam pengelolaan dan aktifitas KBM di madrasah untuk memajukan madrasah sesuai misi madrasah MTs Attaqwa 10 terpadu.",
-    "Tema": "Informasi Madrasah",
-    "Sinonim": ["Pak Hanif", "ahmad hanif", "guru hanif"]
+        "Pertanyaan": "siapa ahmad zikrillah",
+        "Jawaban": "Bapak Guru Ahmad Zikrillah adalah seorang guru mata pelajaran IPA Terpadu.",
+        "Tema": "Informasi Madrasah",
+        "Sinonim": ["guru ipa zikri", "pak zikri", "ahmad zikrillah"]
     },
     {
-    "Pertanyaan": "siapa kepala madrasah mts attaqwa 10 rawasilam",    
-    "Jawaban": "Kepala Madrasah MTs.Attaqwa 10 Rawasilam adalah KH.Ahmad Syarwani Hm,S.Pd.I yang menjabat sebagai kepala madrasah sejak tahun 2008 hingga sekarang, apakah ada figur lain yang kamu ingin tanyakan? Silakan ketik siapa saja!",
-    "Tema": "Informasi Madrasah",
-    "Sinonim": ["Kepala Mts", "guru syarwani", "Ha syarwani Hm"]
+        "Pertanyaan": "siapa ahmad hanif",
+        "Jawaban": "Bapak Guru (Ustadz) Ahmad Hanif,S.Hi adalah seorang guru mapel untuk pelajaran mulok seperti Imla dan Nahwu,Beliau juga menjabat sebagai wakil kepala sekolah bidang Tata usaha, Beliau menjadi figur penting dalam pengelolaan dan aktifitas KBM di madrasah untuk memajukan madrasah sesuai misi madrasah MTs Attaqwa 10 terpadu.",
+        "Tema": "Informasi Madrasah",
+        "Sinonim": ["Pak Hanif", "ahmad hanif", "guru hanif"]
+    },
+    {
+        "Pertanyaan": "siapa kepala madrasah mts attaqwa 10 rawasilam",
+        "Jawaban": "Kepala Madrasah MTs.Attaqwa 10 Rawasilam adalah KH.Ahmad Syarwani Hm,S.Pd.I yang menjabat sebagai kepala madrasah sejak tahun 2008 hingga sekarang, apakah ada figur lain yang kamu ingin tanyakan? Silakan ketik siapa saja!",
+        "Tema": "Informasi Madrasah",
+        "Sinonim": ["Kepala Mts", "guru syarwani", "Ha syarwani Hm"]
     }
 ]
