@@ -1799,7 +1799,7 @@
     {
         "Topik": "Biologi",
         "Subtopik": "Sistem Peredaran Darah",
-        "Pertanyaan": "Bagaimana cara kerja jantung dalam peredaran darah besar?",
+        "Pertanyaan": "apa dan jelaskan fungsi jantung manusia?",
         "Jawaban": "Jantung memompa darah ke seluruh tubuh melalui arteri, dimulai dari ventrikel kiri menuju seluruh tubuh.",
         "Level Kesulitan": "Sedang",
         "Catatan Tambahan": "Modul peredaran darah besar",
@@ -1807,7 +1807,21 @@
             "peredaran darah besar",
             "fungsi jantung",
             "jantung",
-            "sirkulasi tubuh"
+            "apa fungsi jantung"
+        ]
+    },
+   {
+        "Topik": "Biologi",
+        "Subtopik": "Fotosintesis",
+        "Pertanyaan": "Bagaimana proses fotosintesis dapat terjadi pada tumbuhan?",
+        "Jawaban": "Fotosintesis terjadi pada tumbuhan dengan bantuan cahaya matahari, air, dan karbon dioksida untuk menghasilkan glukosa dan oksigen.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Buku IPA Kelas 7",
+        "Sinonim": [
+            "proses fotosintesis",
+            "pembuatan makanan pada tumbuhan",
+            "klorofil",
+            "cahaya matahari"
         ]
     },
     {
