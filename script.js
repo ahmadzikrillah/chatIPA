@@ -23,10 +23,15 @@ fetch('https://ahmadzikrillah.github.io/chatIPA/datasheet.json')
 
     // Konfigurasikan Fuse.js untuk datasheet.json
     const options = {
-        keys: ['Pertanyaan', 'Subtopik', 'Tema'],
-        threshold: 0.4 // Sensitivitas pencarian
-    };
-    fuse = new Fuse(dataJSON, options);
+    keys: [
+        { name: 'Sinonim', weight: 0.8 },
+        { name: 'Pertanyaan', weight: 0.2 },
+        { name: 'Subtopik', weight: 0.1 }
+    ],
+    threshold: 0.4
+};
+fuse = new Fuse(dataJSON, options);
+
     console.log("Instance Fuse untuk datasheet dibuat:", fuse);
   })
   .catch(error => console.error("Gagal memuat datasheet.json:", error));
@@ -45,10 +50,14 @@ fetch('https://ahmadzikrillah.github.io/chatIPA/responKreatif.json')
 
     // Konfigurasikan Fuse.js untuk respon kreatif
     const optionsKreatif = {
-        keys: ['Pertanyaan', 'Sinonim'],
-        threshold: 0.4
-    };
-    fuseKreatif = new Fuse(dataResponKreatif, optionsKreatif);
+    keys: [
+        { name: 'Sinonim', weight: 0.8 },
+        { name: 'Pertanyaan', weight: 0.2 }
+    ],
+    threshold: 0.4
+};
+fuseKreatif = new Fuse(dataResponKreatif, optionsKreatif);
+
     console.log("Instance Fuse untuk respon kreatif dibuat:", fuseKreatif);
   })
   .catch(error => console.error("Gagal memuat responKreatif.json:", error));
@@ -77,6 +86,13 @@ function cariJawabanFuzzy(pertanyaan) {
         console.error("Fuse.js untuk datasheet belum siap.");
         return "Data belum siap. Silakan coba lagi nanti.";
     }
+    const hasil = fuse.search(pertanyaan);
+    if (hasil.length > 0 && hasil[0].score <= 0.4) {
+        return hasil[0].item.Jawaban;
+    }
+    return null;
+}
+
 
     // Normalisasi input
     const inputNormalized = normalisasiPertanyaan(pertanyaan);
