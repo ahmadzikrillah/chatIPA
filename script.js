@@ -142,14 +142,14 @@ userInput.addEventListener("keydown", (event) => {
 // Tambahkan pesan pembuka saat halaman pertama kali dimuat
 window.addEventListener("load", () => {
     const welcomeMessage = `
-        <p>Selamat datang di <strong>Chatbot IPA SMP</strong>!</p>
+        <p>Selamat datang di <strong>ChatMed IPA SMP</strong>!</p>
         <p>Pak Zikri siap membantu menjawab pertanyaan Anda tentang topik:</p>
         <ul>
             <li><strong>Biologi</strong></li>
             <li><strong>Fisika</strong></li>
             <li><strong>Kimia</strong></li>
         </ul>
-        <p>Silakan ketik pertanyaan Anda untuk memulai!</p>
+        <p>Silakan ketik soal yang ingin kamu tanyakan untuk memulai!</p>
     `;
     addMessage("bot", welcomeMessage);
 });
