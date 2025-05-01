@@ -2181,5 +2181,95 @@
             "senyawa karbon dan hidrogen",
             "senyawa organik"
         ]
-    }
+    },
+  {
+    "Topik": "Biologi",
+    "Subtopik": "Fungsi Organ Tubuh Manusia",
+    "Pertanyaan": "Apa fungsi utama jantung dalam sistem peredaran darah manusia?",
+    "Jawaban": "Memompa darah ke seluruh tubuh",
+    "Level": "Sedang",
+    "Catatan": "Jantung adalah organ yang berperan sebagai pompa utama dalam sistem sirkulasi darah.",
+    "Sinonim": ["fungsi jantung", "jantung untuk apa", "peran jantung"]
+  },
+  {
+    "Topik": "Biologi",
+    "Subtopik": "Fungsi Organ Tubuh Manusia",
+    "Pertanyaan": "Paru-paru berfungsi untuk?",
+    "Jawaban": "Menukar oksigen dan karbon dioksida",
+    "Level": "Mudah",
+    "Catatan": "Paru-paru adalah organ utama sistem pernapasan.",
+    "Sinonim": ["fungsi paru-paru", "peran paru", "paru-paru buat apa"]
+  },
+  {
+    "Topik": "Biologi",
+    "Subtopik": "Fungsi Organ Tubuh Manusia",
+    "Pertanyaan": "Apa fungsi utama ginjal dalam tubuh?",
+    "Jawaban": "Menyaring darah dan menghasilkan urin",
+    "Level": "Sedang",
+    "Catatan": "Ginjal menyaring zat sisa dan kelebihan air dari darah.",
+    "Sinonim": ["fungsi ginjal", "ginjal untuk apa", "peran ginjal"]
+  },
+  {
+    "Topik": "Biologi",
+    "Subtopik": "Fungsi Organ Tubuh Manusia",
+    "Pertanyaan": "Apa fungsi hati dalam proses pencernaan?",
+    "Jawaban": "Menghasilkan empedu untuk mencerna lemak",
+    "Level": "Sedang",
+    "Catatan": "Empedu disimpan di kantung empedu dan membantu pencernaan lemak.",
+    "Sinonim": ["fungsi hati", "hati untuk apa", "peran hati"]
+  },
+  {
+    "Topik": "Biologi",
+    "Subtopik": "Fungsi Organ Tubuh Manusia",
+    "Pertanyaan": "Usus halus berfungsi untuk?",
+    "Jawaban": "Menyerap nutrisi dari makanan",
+    "Level": "Mudah",
+    "Catatan": "Usus halus menyerap zat gizi yang dibutuhkan tubuh.",
+    "Sinonim": ["fungsi usus halus", "peran usus halus", "usus halus untuk apa"]
+  },
+  {
+    "Topik": "Biologi",
+    "Subtopik": "Fungsi Organ Tubuh Manusia",
+    "Pertanyaan": "Apa fungsi lambung dalam sistem pencernaan?",
+    "Jawaban": "Menghancurkan makanan dengan enzim dan asam",
+    "Level": "Sedang",
+    "Catatan": "Lambung menghasilkan enzim pepsin dan asam klorida.",
+    "Sinonim": ["fungsi lambung", "peran lambung", "lambung untuk apa"]
+  },
+  {
+    "Topik": "Biologi",
+    "Subtopik": "Fungsi Organ Tubuh Manusia",
+    "Pertanyaan": "Apa fungsi pankreas dalam tubuh manusia?",
+    "Jawaban": "Menghasilkan hormon insulin dan enzim pencernaan",
+    "Level": "Sulit",
+    "Catatan": "Pankreas berfungsi dalam sistem endokrin dan pencernaan.",
+    "Sinonim": ["fungsi pankreas", "pankreas untuk apa", "peran pankreas"]
+  },
+  {
+    "Topik": "Biologi",
+    "Subtopik": "Fungsi Organ Tubuh Manusia",
+    "Pertanyaan": "Apa fungsi kulit sebagai organ tubuh?",
+    "Jawaban": "Melindungi tubuh dan mengatur suhu",
+    "Level": "Mudah",
+    "Catatan": "Kulit adalah organ terluar yang melindungi tubuh dari lingkungan.",
+    "Sinonim": ["fungsi kulit", "kulit untuk apa", "peran kulit"]
+  },
+  {
+    "Topik": "Biologi",
+    "Subtopik": "Fungsi Organ Tubuh Manusia",
+    "Pertanyaan": "Apa fungsi otak dalam sistem saraf?",
+    "Jawaban": "Mengatur dan mengendalikan semua aktivitas tubuh",
+    "Level": "Sulit",
+    "Catatan": "Otak adalah pusat pengendali sistem saraf.",
+    "Sinonim": ["fungsi otak", "otak untuk apa", "peran otak"]
+  },
+  {
+    "Topik": "Biologi",
+    "Subtopik": "Fungsi Organ Tubuh Manusia",
+    "Pertanyaan": "Apa fungsi limpa dalam sistem kekebalan tubuh?",
+    "Jawaban": "Menyaring darah dan membantu melawan infeksi",
+    "Level": "Sulit",
+    "Catatan": "Limpa berperan dalam sistem imun dan menghancurkan sel darah merah tua.",
+    "Sinonim": ["fungsi limpa", "limpa untuk apa", "peran limpa"]
+  }
 ]
