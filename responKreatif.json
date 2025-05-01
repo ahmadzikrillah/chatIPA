@@ -63,7 +63,13 @@
         "Pertanyaan": "siapa ahmad zikrillah",
         "Jawaban": "Bapak Guru Ahmad Zikrillah adalah seorang guru mata pelajaran IPA Terpadu.",
         "Tema": "Informasi Madrasah",
-        "Sinonim": ["guru ipa zikri", "pak zikri", "ahmad zikrillah"]
+        "Sinonim": ["guru kiki", "pak zikri", "pak kiki", "ahmad zikrillah"]
+    },
+    {
+        "Pertanyaan": "siapa Husni Mubaroq",
+        "Jawaban": "Bapak Guru (Ustadz)Husni Mubaroq,MM. adalah seorang guru mata pelajaran bahasa arab ,beliau juga merupakan anak dari kepala madrasah MTs Attaqwa 10.",
+        "Tema": "Informasi Madrasah",
+        "Sinonim": ["guru Husni", "pak mumu", "mumu", "ustadz husni"]
     },
     {
         "Pertanyaan": "siapa ahmad hanif",
@@ -296,7 +302,53 @@
   "Pertanyaan": "makian",
   "Jawaban": "Sepertinya itu bukan bahasa yang baik untuk digunakan. Yuk, tetap sopan ya!",
   "Sinonim": ["kasar", "ngatain", "benci", "gak suka kamu", "sotoy", "au ah"]
-} 
+},
+  {
+    "Topik": "Biologi",
+    "Subtopik": "Fungsi Alat Reproduksi Manusia",
+    "Pertanyaan": "Apa fungsi testis pada pria?",
+    "Jawaban": "Testis berfungsi untuk memproduksi sperma dan hormon testosteron.",
+    "Level": "Mudah",
+    "Catatan": "Organ utama sistem reproduksi pria.",
+    "Sinonim": ["fungsi testis", "peran testis", "tugas testis"]
+  },
+  {
+    "Topik": "Biologi",
+    "Subtopik": "Fungsi Alat Reproduksi Manusia",
+    "Pertanyaan": "Apa fungsi ovarium pada wanita?",
+    "Jawaban": "Ovarium berfungsi menghasilkan sel telur (ovum) dan hormon estrogen serta progesteron.",
+    "Level": "Mudah",
+    "Catatan": "Ovarium disebut juga indung telur.",
+    "Sinonim": ["fungsi ovarium", "tugas ovarium", "peran ovarium"]
+  },
+  {
+    "Topik": "Biologi",
+    "Subtopik": "Fungsi Alat Reproduksi Manusia",
+    "Pertanyaan": "Apa fungsi uterus atau rahim?",
+    "Jawaban": "Uterus berfungsi sebagai tempat berkembangnya janin selama kehamilan.",
+    "Level": "Sedang",
+    "Catatan": "Rahim adalah tempat tumbuh janin.",
+    "Sinonim": ["fungsi rahim", "fungsi uterus", "peran rahim"]
+  },
+  {
+    "Topik": "Biologi",
+    "Subtopik": "Fungsi Alat Reproduksi Manusia",
+    "Pertanyaan": "Apa fungsi saluran sperma?",
+    "Jawaban": "Saluran sperma berfungsi mengalirkan sperma dari testis menuju uretra.",
+    "Level": "Sedang",
+    "Catatan": "Disebut juga vas deferens.",
+    "Sinonim": ["fungsi saluran sperma", "fungsi vas deferens", "tugas saluran sperma"]
+  },
+  {
+    "Topik": "Biologi",
+    "Subtopik": "Fungsi Alat Reproduksi Manusia",
+    "Pertanyaan": "Apa fungsi vagina pada sistem reproduksi wanita?",
+    "Jawaban": "Vagina berfungsi sebagai saluran keluarnya darah menstruasi dan tempat masuknya sperma.",
+    "Level": "Sedang",
+    "Catatan": "Vagina juga disebut jalan lahir.",
+    "Sinonim": ["fungsi vagina", "peran vagina", "tugas vagina"]
+  }
 ]
+
 
 
