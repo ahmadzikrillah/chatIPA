@@ -143,7 +143,7 @@ userInput.addEventListener("keydown", (event) => {
 window.addEventListener("load", () => {
     const welcomeMessage = `
         <p>Selamat datang di <strong>ChatMed IPA SMP</strong>!</p>
-        <p>Pak Zikri siap membantu menjawab pertanyaan Anda tentang topik:</p>
+        <p>Pak Kiki siap membantu menjawab pertanyaan Anda tentang topik:</p>
         <ul>
             <li><strong>Biologi</strong></li>
             <li><strong>Fisika</strong></li>
