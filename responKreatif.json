@@ -72,9 +72,9 @@
     "Sinonim": ["Pak Hanif", "ahmad hanif", "guru hanif"]
     },
     {
-        "Pertanyaan": "siapa kepala madrasah mts attaqwa 10 rawasilam",
-        "Tema": "Informasi Madrasah",
-        "Sinonim": ["Kepala Mts", "guru syarwani", "Ha syarwani Hm"]
-        "Jawaban": "Kepala Madrasah MTs.Attaqwa 10 Rawasilam adalah KH.Ahmad Syarwani Hm,S.Pd.I yang menjabat sebagai kepala madrasah sejak tahun 2008 hingga sekarang, apakah ada figur lain yang kamu ingin tanyakan? Silakan ketik siapa saja!"
+    "Pertanyaan": "siapa kepala madrasah mts attaqwa 10 rawasilam",    
+    "Jawaban": "Kepala Madrasah MTs.Attaqwa 10 Rawasilam adalah KH.Ahmad Syarwani Hm,S.Pd.I yang menjabat sebagai kepala madrasah sejak tahun 2008 hingga sekarang, apakah ada figur lain yang kamu ingin tanyakan? Silakan ketik siapa saja!",
+    "Tema": "Informasi Madrasah",
+    "Sinonim": ["Kepala Mts", "guru syarwani", "Ha syarwani Hm"]
     }
 ]
