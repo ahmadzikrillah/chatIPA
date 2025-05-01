@@ -60,9 +60,13 @@
         "Jawaban": "Karena pada suhu 0°C, molekul air bergerak cukup lambat hingga saling berpegangan dan membentuk es. Ibaratnya, mereka sedang membuat 'pesta' kristal!"
     },
     {
-        "Pertanyaan": "siapa ahmad zikrillah",
-        "Jawaban": "Bapak Guru Ahmad Zikrillah,S.Pd , adalah seorang guru mata pelajaran IPA Terpadu di madrasah MTs Attaqwa 10 Terpadu rawasilam,mengajar Ipa sejak tahun 2008 hingga sekarang.apakah anda ingin tahu lebih banyak guru lain?silahkan sebut nama lain ,saya akan menjawab jika saya kenal beliau "
+    "ResponKreatif": [
+        {
+    "Pertanyaan": "siapa ahmad zikrillah",
+    "Sinonim": ["ahmad zikrillah", "guru ipa zikri", "pak zikri"],
+    "Jawaban": "Bapak Guru Ahmad Zikrillah,S.Pd , adalah seorang guru mata pelajaran IPA Terpadu di madrasah MTs Attaqwa 10 Terpadu rawasilam..."
     },
+
     {
         "Pertanyaan": "siapa Ahmad hanif",
         "Jawaban": "Bapak Guru (Ustadz) Ahmad Hanif,S.Hi, adalah seorang guru beberapa mata pelajaran mulok seperti Imla,Nahwu dan lain lain.Beiau juga menjadi Kepala Tata Usaha yang merupakan 'jantung' seluruh kegiatan dan operasional madrasah di MTs Attaqwa 10 Terpadu Rawasilam.  !"
@@ -70,5 +74,11 @@
     {
         "Pertanyaan": "siapa kepala madrasah mts attaqwa 10 rawasilam",
         "Jawaban": "Kepala Madrasah MTs.Attaqwa 10 Rawasilam adalah KH.Ahmad Syarwani Hm,S.Pd.I yang menjabat sebagai kepala madrasah sejak tahun 2008 hingga sekarang, apakah ada figur lain yang kamu ingi tanyakan? silahkan ketik siapa saja!"
-    }
+          },
+    {
+    "Pertanyaan": "apa itu fotosintesis",
+    "Jawaban": "Fotosintesis adalah sihir alami di mana tumbuhan mengubah sinar matahari menjadi makanan!",
+        "Tanpa fotosintesis, kita tidak akan memiliki oksigen dan makanan. Hebat sekali, bukan?"
+    ]
+}
 ]
