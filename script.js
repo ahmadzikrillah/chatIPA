@@ -6,6 +6,8 @@ const sendButton = document.getElementById("send-button");
 // Variabel global untuk menyimpan data dari JSON
 let dataJSON = [];
 let dataResponKreatif = [];
+let fuse; // Instance Fuse.js untuk datasheet.json
+let fuseKreatif; // Instance Fuse.js untuk respon kreatif
 
 // Muat data dari datasheet.json
 fetch('https://ahmadzikrillah.github.io/chatIPA/datasheet.json')
@@ -16,8 +18,16 @@ fetch('https://ahmadzikrillah.github.io/chatIPA/datasheet.json')
     return response.json();
   })
   .then(data => {
-    console.log("Data datasheet berhasil dimuat:", data);
     dataJSON = data; // Simpan data ke variabel global
+    console.log("Data datasheet berhasil dimuat:", data);
+
+    // Konfigurasikan Fuse.js untuk datasheet.json
+    const options = {
+        keys: ['Pertanyaan', 'Subtopik', 'Tema'],
+        threshold: 0.4 // Sensitivitas pencarian
+    };
+    fuse = new Fuse(dataJSON, options);
+    console.log("Instance Fuse untuk datasheet dibuat:", fuse);
   })
   .catch(error => console.error("Gagal memuat datasheet.json:", error));
 
@@ -30,8 +40,16 @@ fetch('https://ahmadzikrillah.github.io/chatIPA/responKreatif.json')
     return response.json();
   })
   .then(data => {
-    console.log("Data respon kreatif berhasil dimuat:", data);
     dataResponKreatif = data; // Simpan data ke variabel global
+    console.log("Data respon kreatif berhasil dimuat:", data);
+
+    // Konfigurasikan Fuse.js untuk respon kreatif
+    const optionsKreatif = {
+        keys: ['Pertanyaan', 'Sinonim'],
+        threshold: 0.4
+    };
+    fuseKreatif = new Fuse(dataResponKreatif, optionsKreatif);
+    console.log("Instance Fuse untuk respon kreatif dibuat:", fuseKreatif);
   })
   .catch(error => console.error("Gagal memuat responKreatif.json:", error));
 
@@ -53,43 +71,40 @@ function normalisasiPertanyaan(pertanyaan) {
         .toLowerCase(); // Ubah menjadi huruf kecil
 }
 
-// Fungsi mencari jawaban di datasheet.json
-function cariJawaban(pertanyaan) {
-    const normalized = normalisasiPertanyaan(pertanyaan);
-
-    // Coba mencocokkan dengan pertanyaan di JSON
-    let hasil = dataJSON.find(item =>
-        item.Pertanyaan && normalized.includes(normalisasiPertanyaan(item.Pertanyaan))
-    );
-
-    console.log("Hasil pencarian (datasheet):", hasil);
-    return hasil ? hasil.Jawaban : null;
+// Fungsi pencarian fuzzy di datasheet.json
+function cariJawabanFuzzy(pertanyaan) {
+    if (!fuse) {
+        console.error("Fuse.js untuk datasheet belum siap.");
+        return "Data belum siap. Silakan coba lagi nanti.";
+    }
+    const hasil = fuse.search(pertanyaan);
+    if (hasil.length > 0) {
+        console.log("Hasil fuzzy matching (datasheet):", hasil);
+        return hasil[0].item.Jawaban; // Ambil jawaban terbaik
+    }
+    return null; // Tidak ditemukan
 }
 
-// Fungsi mencari jawaban kreatif di responKreatif.json
-function cariJawabanKreatif(input) {
-    const normalized = normalisasiPertanyaan(input);
-
-    let hasil = dataResponKreatif.find(item =>
-        item.Pertanyaan && normalized.includes(normalisasiPertanyaan(item.Pertanyaan))
-    );
-
-    if (!hasil) {
-        hasil = dataResponKreatif.find(item =>
-            item.Sinonim && item.Sinonim.some(sinonim => normalized.includes(normalisasiPertanyaan(sinonim)))
-        );
+// Fungsi pencarian fuzzy di responKreatif.json
+function cariJawabanKreatifFuzzy(pertanyaan) {
+    if (!fuseKreatif) {
+        console.error("Fuse.js untuk respon kreatif belum siap.");
+        return null;
     }
-
-    console.log("Hasil pencarian (respon kreatif):", hasil);
-    return hasil ? hasil.Jawaban : null;
+    const hasil = fuseKreatif.search(pertanyaan);
+    if (hasil.length > 0) {
+        console.log("Hasil fuzzy matching (respon kreatif):", hasil);
+        return hasil[0].item.Jawaban; // Ambil jawaban terbaik
+    }
+    return null; // Tidak ditemukan
 }
 
 // Fungsi gabungan untuk mencari jawaban
-function cariJawabanGabungan(pertanyaan) {
-    const jawabanKreatif = cariJawabanKreatif(pertanyaan);
+function cariJawabanGabunganFuzzy(pertanyaan) {
+    const jawabanKreatif = cariJawabanKreatifFuzzy(pertanyaan);
     if (jawabanKreatif) return jawabanKreatif;
 
-    const jawabanFormal = cariJawaban(pertanyaan);
+    const jawabanFormal = cariJawabanFuzzy(pertanyaan);
     if (jawabanFormal) return jawabanFormal;
 
     return "Maaf, saya tidak menemukan jawaban untuk pertanyaan Anda.";
@@ -100,7 +115,7 @@ sendButton.addEventListener("click", () => {
     const userQuestion = userInput.value.trim();
     if (userQuestion !== "") {
         addMessage("user", userQuestion); // Tampilkan pertanyaan pengguna di chat box
-        const botAnswer = cariJawabanGabungan(userQuestion); // Cari jawaban
+        const botAnswer = cariJawabanGabunganFuzzy(userQuestion); // Cari jawaban
         addMessage("bot", botAnswer); // Tampilkan jawaban di chat box
         userInput.value = ""; // Kosongkan input
     }
