@@ -5,7 +5,7 @@
     },
     {
         "Pertanyaan": "apa itu fotosintesis",
-        "Jawaban": "Fotosintesis adalah sihir alami di mana tumbuhan mengubah sinar matahari menjadi makanan! Tanpa sihir ini, rantai makanan bisa kacau balau."
+        "Jawaban": "Fotosintesis adalah proses alami di mana tumbuhan mengubah sinar matahari menjadi makanan! Tanpa proses ini, rantai makanan bisa kacau balau."
     },
     {
         "Pertanyaan": "apa itu energi kinetik",
@@ -75,6 +75,228 @@
         "Pertanyaan": "siapa kepala madrasah mts attaqwa 10 rawasilam",
         "Jawaban": "Kepala Madrasah MTs.Attaqwa 10 Rawasilam adalah KH.Ahmad Syarwani Hm,S.Pd.I yang menjabat sebagai kepala madrasah sejak tahun 2008 hingga sekarang, apakah ada figur lain yang kamu ingin tanyakan? Silakan ketik siapa saja!",
         "Tema": "Informasi Madrasah",
-        "Sinonim": ["Kepala Mts", "guru syarwani", "Ha syarwani Hm"]
-    }
+        "Sinonim": ["Kepala Mts 10", "guru syarwani", "Ha syarwani Hm", "kepala sekolah","kepala madrasah", "kepala sekolah mts 10"]
+    },
+  {
+    "Pertanyaan": "apa fungsi otak",
+    "Jawaban": "Otak itu pusat komando tubuh. Dia yang ngatur semua—dari mikir sampai ngedipin mata!",
+    "Sinonim": ["kerja otak", "fungsi otak", "otak buat apa", "gunanya otak"]
+  },
+  {
+    "Pertanyaan": "apa fungsi jantung",
+    "Jawaban": "Jantung itu kayak pompa air. Dia ngirimin darah ke seluruh tubuh biar kamu tetap hidup.",
+    "Sinonim": ["kerja jantung", "jantung buat apa", "fungsi jantung", "apa kerja jantung"]
+  },
+  {
+    "Pertanyaan": "apa fungsi paru-paru",
+    "Jawaban": "Paru-paru itu kayak AC tubuh—dia ambil oksigen dan buang karbon dioksida.",
+    "Sinonim": ["paru paru buat apa", "fungsi paru", "kerja paru-paru", "apa kerja paru"]
+  },
+  {
+    "Pertanyaan": "apa fungsi hati",
+    "Jawaban": "Hati itu kayak filter racun. Dia bersihin darah dan simpan energi cadangan.",
+    "Sinonim": ["kerja hati", "fungsi hati", "hati buat apa", "peran hati"]
+  },
+  {
+    "Pertanyaan": "apa fungsi ginjal",
+    "Jawaban": "Ginjal itu kayak tukang bersih-bersih. Dia buang limbah lewat urin dan jaga keseimbangan cairan.",
+    "Sinonim": ["fungsi ginjal", "kerja ginjal", "ginjal ngapain", "apa kerja ginjal"]
+  },
+  {
+    "Pertanyaan": "fungsi lambung apa",
+    "Jawaban": "Lambung itu dapur pencernaan. Dia ngolah makanan jadi bubur biar gampang diserap usus.",
+    "Sinonim": ["kerja lambung", "fungsi lambung", "lambung buat apa"]
+  },
+  {
+    "Pertanyaan": "fungsi usus halus",
+    "Jawaban": "Usus halus itu tempat penyerapan. Semua gizi makanan diserap di sini.",
+    "Sinonim": ["kerja usus halus", "apa kerja usus halus", "fungsi usus kecil"]
+  },
+  {
+    "Pertanyaan": "fungsi pankreas",
+    "Jawaban": "Pankreas itu ahli gula darah. Dia bikin insulin biar gula tetap normal.",
+    "Sinonim": ["kerja pankreas", "pankreas buat apa", "apa kerja pankreas"]
+  },
+  {
+    "Pertanyaan": "fungsi otot",
+    "Jawaban": "Otot itu mesin gerak. Mau jalan, senyum, atau angkat galon—semua pakai otot!",
+    "Sinonim": ["kerja otot", "apa fungsi otot", "otot buat apa"]
+  },
+  {
+    "Pertanyaan": "fungsi kulit",
+    "Jawaban": "Kulit itu pelindung utama. Dia jaga tubuh dari kuman, sinar matahari, dan bikin kamu tetap utuh.",
+    "Sinonim": ["kulit fungsinya apa", "fungsi kulit", "apa kerja kulit", "peran kulit"]
+  },
+  {
+    "Pertanyaan": "fungsi hidung dalam pernapasan",
+    "Jawaban": "Hidung itu bukan cuma buat nyium bau, tapi juga filter udara! Dia bersihin dan hangatkan udara sebelum masuk ke paru-paru.",
+    "Sinonim": ["hidung fungsinya apa", "kerja hidung", "fungsi hidung", "peran hidung"]
+  },
+  {
+    "Pertanyaan": "apa tugas usus besar",
+    "Jawaban": "Usus besar itu tukang peres air terakhir. Dia serap air dari sisa makanan sebelum dibuang jadi feses.",
+    "Sinonim": ["fungsi usus besar", "kerja usus besar", "apa fungsi usus akhir"]
+  },
+  {
+    "Pertanyaan": "apa itu reproduksi vegetatif",
+    "Jawaban": "Vegetatif itu cara tanaman berkembang biak tanpa kawin. Kayak tumbuh tunas atau akar tinggal aja!",
+    "Sinonim": ["perkembangbiakan vegetatif", "tanaman tanpa kawin", "contoh vegetatif"]
+  },
+  {
+    "Pertanyaan": "apa itu gaya gesek",
+    "Jawaban": "Gaya gesek itu kayak rem alami—dia muncul pas dua permukaan saling sentuh dan ngerem gerakan.",
+    "Sinonim": ["gaya gesek itu apa", "gesekan itu apa", "fungsi gaya gesek"]
+  },
+  {
+    "Pertanyaan": "contoh energi potensial",
+    "Jawaban": "Energi potensial itu energi yang 'disimpan'. Kayak batu di atas bukit—belum jatuh tapi udah siap!",
+    "Sinonim": ["energi diam", "energi tersimpan", "potensial energi"]
+  },
+  {
+    "Pertanyaan": "apa beda massa dan berat",
+    "Jawaban": "Massa itu banyaknya materi, berat itu gaya tarik gravitasi. Massa tetap, berat bisa berubah tergantung tempat!",
+    "Sinonim": ["beda massa dan berat", "berat vs massa", "apa itu berat", "apa itu massa"]
+  },
+  {
+    "Pertanyaan": "contoh perubahan fisika",
+    "Jawaban": "Perubahan fisika itu yang nggak ubah zat dasarnya. Es jadi air? Nah itu contoh fisika!",
+    "Sinonim": ["fisika perubahan", "perubahan bentuk zat", "contoh zat berubah fisik"]
+  },
+  {
+    "Pertanyaan": "apa itu larutan",
+    "Jawaban": "Larutan itu campuran dua zat atau lebih yang nyatu banget. Kayak air gula—gak kelihatan terpisah kan?",
+    "Sinonim": ["larutan itu apa", "pengertian larutan", "larutan gimana"]
+  },
+  {
+    "Pertanyaan": "ciri perubahan kimia",
+    "Jawaban": "Perubahan kimia itu yang hasilnya jadi zat baru. Kayak kertas dibakar—udah jadi abu, gak bisa balik!",
+    "Sinonim": ["perubahan kimia itu apa", "contoh kimia", "reaksi kimia"]
+  },
+    {
+  "Pertanyaan": "fungsi paru-paru",
+  "Jawaban": "Paru-paru itu kayak pompa udara dalam tubuh. Dia tukar oksigen dan buang karbon dioksida waktu kita napas.",
+  "Sinonim": ["kerja paru", "paru-paru buat apa", "fungsi paru"]
+},
+{
+  "Pertanyaan": "fungsi lambung",
+  "Jawaban": "Lambung itu dapurnya tubuh—dia ngaduk dan hancurin makanan pakai asam biar siap ke usus.",
+  "Sinonim": ["lambung kerja", "apa tugas lambung", "fungsi perut"]
+},
+{
+  "Pertanyaan": "fungsi ginjal",
+  "Jawaban": "Ginjal itu kayak filter air—dia bersihin darah dari racun dan buang lewat urine.",
+  "Sinonim": ["kerja ginjal", "ginjal fungsinya", "apa guna ginjal"]
+},
+{
+  "Pertanyaan": "fungsi kulit",
+  "Jawaban": "Kulit bukan cuma pembungkus, tapi juga pelindung tubuh dari kuman dan jaga suhu kita tetap pas.",
+  "Sinonim": ["apa guna kulit", "fungsi pelindung tubuh", "kerja kulit"]
+},
+{
+  "Pertanyaan": "fungsi tulang",
+  "Jawaban": "Tulang itu penopang tubuh. Tanpa tulang, kita lemes kayak jelly!",
+  "Sinonim": ["kerangka tubuh", "fungsi rangka", "apa guna tulang"]
+},
+{
+  "Pertanyaan": "apa itu gaya gravitasi",
+  "Jawaban": "Gravitasi itu gaya tarik bumi. Gara-gara dia, kita gak melayang tiap jalan.",
+  "Sinonim": ["gravitasi itu apa", "fungsi gravitasi", "kenapa benda jatuh"]
+},
+{
+  "Pertanyaan": "contoh hukum newton",
+  "Jawaban": "Naik sepeda dan berhenti pas ngerem? Itu contoh hukum Newton kerja!",
+  "Sinonim": ["hukum gerak", "contoh hukum fisika", "newton"]
+},
+{
+  "Pertanyaan": "apa itu percepatan",
+  "Jawaban": "Percepatan itu kayak perubahan kecepatan. Semakin cepat ngebut, makin besar percepatannya!",
+  "Sinonim": ["percepatan itu apa", "ubah kecepatan", "gerakan cepat"]
+},
+{
+  "Pertanyaan": "sifat cahaya",
+  "Jawaban": "Cahaya itu bisa dipantulkan, dibiaskan, dan merambat lurus. Makanya kita bisa lihat bayangan!",
+  "Sinonim": ["ciri cahaya", "cahaya itu gimana", "apa aja sifat cahaya"]
+},
+{
+  "Pertanyaan": "fungsi tuas",
+  "Jawaban": "Tuas itu alat bantu biar kita gak perlu tenaga besar. Kayak jungkat-jungkit, bisa angkat berat dengan ringan.",
+  "Sinonim": ["contoh tuas", "tuas buat apa", "alat bantu tuas"]
+},
+{
+  "Pertanyaan": "apa itu campuran",
+  "Jawaban": "Campuran itu gabungan dua atau lebih zat yang gak berubah jadi zat baru. Kayak kopi susu, tetap kopi + susu.",
+  "Sinonim": ["contoh campuran", "campuran zat", "jenis campuran"]
+},
+{
+  "Pertanyaan": "larutan asam itu gimana",
+  "Jawaban": "Larutan asam itu rasanya asam dan bisa korosif. Kayak cuka atau jus lemon!",
+  "Sinonim": ["ciri larutan asam", "contoh asam", "apa itu asam"]
+},
+{
+  "Pertanyaan": "larutan basa itu seperti apa",
+  "Jawaban": "Larutan basa itu licin dan pahit. Kayak sabun cair di tangan kamu.",
+  "Sinonim": ["basa itu apa", "contoh basa", "larutan basa"]
+},
+{
+  "Pertanyaan": "contoh perubahan kimia",
+  "Jawaban": "Kayak besi berkarat atau kertas dibakar—itu contoh perubahan kimia karena terbentuk zat baru.",
+  "Sinonim": ["reaksi kimia", "ubah zat kimia", "kimia perubahan"]
+},
+{
+  "Pertanyaan": "cara membedakan zat",
+  "Jawaban": "Kamu bisa bedain zat dari warna, bau, titik leleh, atau cara dia bereaksi sama zat lain.",
+  "Sinonim": ["bedain zat", "membedakan zat", "perbedaan zat"]
+},
+    {
+  "Pertanyaan": "hai",
+  "Jawaban": "Hai juga! Ada yang bisa Pak Zikri bantu hari ini?",
+  "Sinonim": ["halo", "hello", "hey", "apa kabar"]
+},
+{
+  "Pertanyaan": "assalamualaikum",
+  "Jawaban": "Waalaikumsalam! Selamat datang di chatbot IPA. Yuk, tanya apa saja seputar IPA!",
+  "Sinonim": ["assalamu'alaikum", "salam", "salamualaikum", "asalamualaikum"]
+},
+{
+  "Pertanyaan": "selamat pagi",
+  "Jawaban": "Selamat pagi! Semangat belajar ya!",
+  "Sinonim": ["pagi pak", "pagi"]
+},
+{
+  "Pertanyaan": "selamat siang",
+  "Jawaban": "Siang juga! Yuk, belajar bareng IPA!",
+  "Sinonim": ["siang pak", "siang"]
+},
+{
+  "Pertanyaan": "selamat malam",
+  "Jawaban": "Malam! Jangan lupa istirahat ya setelah belajar.",
+  "Sinonim": ["malam pak", "malam"]
+},
+  {
+  "Pertanyaan": "terima kasih",
+  "Jawaban": "Sama-sama! Kalau ada pertanyaan lain, langsung tanya ya!",
+  "Sinonim": ["makasih", "thanks", "trimakasih"]
+},
+{
+  "Pertanyaan": "sampai jumpa",
+  "Jawaban": "Sampai jumpa! Semoga harimu menyenangkan 😊",
+  "Sinonim": ["bye", "dadah", "see you"]
+},
+{
+  "Pertanyaan": "cukup",
+  "Jawaban": "Baik, semoga bermanfaat ya. Sampai ketemu lagi!",
+  "Sinonim": ["udah cukup", "selesai", "stop"]
+},
+    {
+  "Pertanyaan": "kata kasar",
+  "Jawaban": "Ups! Pak Zikri di sini untuk membantu belajar ya. Yuk kita jaga kata-katanya.",
+  "Sinonim": ["bodoh", "goblok", "tolol", "kampret", "anjir", "anjing", "bangke", "tai", "kontol", "memek"]
+},
+{
+  "Pertanyaan": "makian",
+  "Jawaban": "Sepertinya itu bukan bahasa yang baik untuk digunakan. Yuk, tetap sopan ya!",
+  "Sinonim": ["kasar", "ngatain", "benci", "gak suka kamu", "sotoy", "au ah"]
+} 
 ]
+
+
