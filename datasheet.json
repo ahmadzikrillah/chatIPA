@@ -1,199 +1,2171 @@
 [
-  {
-    "Topik": "Biologi",
-    "Subtopik": "Fotosintesis",
-    "Pertanyaan": "Apa yang dihasilkan dalam proses fotosintesis?",
-    "Jawaban": "Fotosintesis menghasilkan glukosa dan oksigen.",
-    "Level Kesulitan": "Mudah",
-    "Catatan Tambahan": "Buku IPA Kelas 7"
-  },
-  {
-    "Topik": "Biologi",
-    "Subtopik": "Sistem Pencernaan",
-    "Pertanyaan": "Apa fungsi enzim dalam pencernaan makanan?",
-    "Jawaban": "Enzim membantu memecah makanan menjadi nutrisi.",
-    "Level Kesulitan": "Sedang",
-    "Catatan Tambahan": "Buku IPA Kelas 8"
-  },
-  {
-    "Topik": "Biologi",
-    "Subtopik": "Klasifikasi Makhluk Hidup",
-    "Pertanyaan": "Apa perbedaan antara genus dan spesies?",
-    "Jawaban": "Genus mencakup beberapa spesies yang serupa.",
-    "Level Kesulitan": "Sedang",
-    "Catatan Tambahan": "Buku IPA Kelas 7"
-  },
-  
     {
         "Topik": "Biologi",
-        "Subtopik": "Fotosintesis",
-        "Pertanyaan": "Apa yang dihasilkan dalam proses fotosintesis?",
-        "Jawaban": "Fotosintesis menghasilkan glukosa dan oksigen.",
-        "Tema": "Biologi"
+        "Subtopik": "Sistem Pernapasan",
+        "Pertanyaan": "Apa nama organ utama dalam sistem pernapasan manusia?",
+        "Jawaban": "Organ utama dalam sistem pernapasan manusia adalah paru-paru.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Buku IPA Kelas 8"
     },
     {
         "Topik": "Biologi",
-        "Subtopik": "Enzim",
-        "Pertanyaan": "Apa fungsi enzim amilase dalam pencernaan makanan?",
-        "Jawaban": "Enzim amilase memecah karbohidrat seperti pati menjadi gula sederhana.",
-        "Tema": "Biologi"
+        "Subtopik": "Sel",
+        "Pertanyaan": "Apa perbedaan utama antara sel hewan dan sel tumbuhan?",
+        "Jawaban": "Sel tumbuhan memiliki dinding sel dan kloroplas, sedangkan sel hewan tidak.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Materi kelas 7"
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Fotosintesis",
+        "Pertanyaan": "Apa zat yang dibutuhkan tumbuhan untuk fotosintesis?",
+        "Jawaban": "Karbon dioksida, air, dan cahaya matahari.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Buku IPA Kelas 7"
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Reproduksi",
+        "Pertanyaan": "Apa yang dimaksud dengan reproduksi aseksual?",
+        "Jawaban": "Reproduksi aseksual adalah reproduksi tanpa peleburan sel kelamin, contohnya pembelahan biner.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Bab Reproduksi Makhluk Hidup"
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Ekosistem",
+        "Pertanyaan": "Apa yang dimaksud dengan produsen dalam ekosistem?",
+        "Jawaban": "Produsen adalah organisme yang dapat membuat makanannya sendiri, seperti tumbuhan hijau.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Buku IPA SMP"
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Sistem Pencernaan",
+        "Pertanyaan": "Apa fungsi utama enzim amilase dalam pencernaan?",
+        "Jawaban": "Mengubah zat pati menjadi gula sederhana.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Materi sistem pencernaan manusia"
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Sistem Ekskresi",
+        "Pertanyaan": "Apa fungsi utama ginjal dalam tubuh manusia?",
+        "Jawaban": "Menyaring darah dan membentuk urin.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Buku IPA Kelas 8"
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Adaptasi Makhluk Hidup",
+        "Pertanyaan": "Mengapa unta memiliki punuk?",
+        "Jawaban": "Punuk unta menyimpan cadangan lemak sebagai sumber energi.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Bab Adaptasi"
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Peredaran Darah",
+        "Pertanyaan": "Apa fungsi hemoglobin dalam darah?",
+        "Jawaban": "Mengikat dan mengangkut oksigen dari paru-paru ke seluruh tubuh.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Materi sistem peredaran darah"
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Pertumbuhan dan Perkembangan",
+        "Pertanyaan": "Apa perbedaan antara pertumbuhan dan perkembangan pada makhluk hidup?",
+        "Jawaban": "Pertumbuhan adalah perubahan fisik (ukuran), sedangkan perkembangan mencakup perubahan fungsi dan struktur.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Buku pelajaran kelas 9"
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Fotosintesis",
+        "Pertanyaan": "Apa zat yang dibutuhkan tumbuhan untuk fotosintesis?",
+        "Jawaban": "Karbon dioksida, air, dan cahaya matahari.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Buku IPA Kelas 7",
+        "Sinonim": [
+            "reaktan fotosintesis",
+            "bahan fotosintesis",
+            "zat yang diperlukan tumbuhan",
+            "karbon dioksida",
+            "air",
+            "cahaya matahari"
+        ]
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Ekosistem",
+        "Pertanyaan": "Apa yang dimaksud dengan produsen dalam ekosistem?",
+        "Jawaban": "Produsen adalah organisme yang dapat membuat makanannya sendiri, seperti tumbuhan hijau.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Buku IPA SMP",
+        "Sinonim": [
+            "produsen",
+            "organisme autotrof",
+            "pembuat makanan",
+            "tumbuhan hijau",
+            "penyusun rantai makanan"
+        ]
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Sel",
+        "Pertanyaan": "Apa perbedaan utama antara sel hewan dan sel tumbuhan?",
+        "Jawaban": "Sel tumbuhan memiliki dinding sel dan kloroplas, sedangkan sel hewan tidak.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Materi kelas 7",
+        "Sinonim": [
+            "sel tumbuhan vs sel hewan",
+            "perbandingan sel",
+            "struktur sel",
+            "kloroplas",
+            "dinding sel"
+        ]
     },
     {
         "Topik": "Biologi",
         "Subtopik": "Sistem Pernapasan",
         "Pertanyaan": "Apa nama organ utama dalam sistem pernapasan manusia?",
         "Jawaban": "Organ utama dalam sistem pernapasan manusia adalah paru-paru.",
-        "Tema": "Biologi"
-    },
-    {
-        "Topik": "Biologi",
-        "Subtopik": "Sistem Transportasi Tumbuhan",
-        "Pertanyaan": "Apa nama jaringan yang mengangkut air dan mineral dari akar ke daun?",
-        "Jawaban": "Jaringan yang mengangkut air dan mineral adalah xilem.",
-        "Tema": "Biologi"
-    },
-    {
-        "Topik": "Biologi",
-        "Subtopik": "Genetika",
-        "Pertanyaan": "Apa nama molekul yang membawa informasi genetik dalam sel?",
-        "Jawaban": "Molekul yang membawa informasi genetik dalam sel adalah DNA.",
-        "Tema": "Biologi"
-    },
-    {
-        "Topik": "Biologi",
-        "Subtopik": "Sistem Ekskresi",
-        "Pertanyaan": "Apa fungsi utama ginjal dalam sistem ekskresi manusia?",
-        "Jawaban": "Ginjal menyaring darah untuk membuang limbah dan mengatur keseimbangan cairan tubuh.",
-        "Tema": "Biologi"
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Buku IPA Kelas 8",
+        "Sinonim": [
+            "alat pernapasan",
+            "organ respirasi",
+            "paru-paru",
+            "sistem pernapasan manusia"
+        ]
     },
     {
         "Topik": "Biologi",
         "Subtopik": "Sel",
-        "Pertanyaan": "Apa organel sel yang bertanggung jawab untuk fotosintesis?",
-        "Jawaban": "Organel yang bertanggung jawab untuk fotosintesis adalah kloroplas.",
-        "Tema": "Biologi"
+        "Pertanyaan": "Apa perbedaan utama antara sel hewan dan sel tumbuhan?",
+        "Jawaban": "Sel tumbuhan memiliki dinding sel dan kloroplas, sedangkan sel hewan tidak.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Materi kelas 7",
+        "Sinonim": [
+            "sel tumbuhan",
+            "sel hewan",
+            "dinding sel",
+            "kloroplas",
+            "perbedaan sel"
+        ]
     },
     {
         "Topik": "Biologi",
-        "Subtopik": "Reproduksi Sel",
-        "Pertanyaan": "Apa nama proses pembelahan sel yang menghasilkan dua sel anak identik?",
-        "Jawaban": "Proses pembelahan sel tersebut adalah mitosis.",
-        "Tema": "Biologi"
+        "Subtopik": "Fotosintesis",
+        "Pertanyaan": "Apa zat yang dibutuhkan tumbuhan untuk fotosintesis?",
+        "Jawaban": "Karbon dioksida, air, dan cahaya matahari.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Buku IPA Kelas 7",
+        "Sinonim": [
+            "reaktan fotosintesis",
+            "zat fotosintesis",
+            "bahan fotosintesis",
+            "CO2",
+            "air",
+            "cahaya matahari"
+        ]
     },
     {
         "Topik": "Biologi",
-        "Subtopik": "Homeostasis",
-        "Pertanyaan": "Apa nama proses yang menjaga keseimbangan internal dalam tubuh manusia?",
-        "Jawaban": "Proses tersebut disebut homeostasis.",
-        "Tema": "Biologi"
-    },
-    {
-        "Topik": "Biologi",
-        "Subtopik": "Protein Darah",
-        "Pertanyaan": "Apa nama protein yang mengangkut oksigen dalam darah manusia?",
-        "Jawaban": "Protein yang mengangkut oksigen dalam darah adalah hemoglobin.",
-        "Tema": "Biologi"
-    },
-  {
-        "Topik": "Biologi",
-        "Subtopik": "Sistem Organ Manusia",
-        "Pertanyaan": "Apa fungsi utama paru-paru dalam sistem pernapasan manusia?",
-        "Jawaban": "Paru-paru berfungsi untuk pertukaran gas oksigen dan karbon dioksida dalam tubuh.",
-        "Tema": "Biologi"
-    },
-    {
-        "Topik": "Biologi",
-        "Subtopik": "Reproduksi Tumbuhan",
-        "Pertanyaan": "Apa nama proses penyerbukan yang dilakukan oleh angin?",
-        "Jawaban": "Proses tersebut disebut anemogami.",
-        "Tema": "Biologi"
+        "Subtopik": "Reproduksi",
+        "Pertanyaan": "Apa yang dimaksud dengan reproduksi aseksual?",
+        "Jawaban": "Reproduksi aseksual adalah reproduksi tanpa peleburan sel kelamin, contohnya pembelahan biner.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Bab Reproduksi Makhluk Hidup",
+        "Sinonim": [
+            "reproduksi aseksual",
+            "pembelahan biner",
+            "perkembangbiakan tanpa kawin",
+            "reproduksi vegetatif"
+        ]
     },
     {
         "Topik": "Biologi",
         "Subtopik": "Ekosistem",
-        "Pertanyaan": "Apa yang dimaksud dengan rantai makanan dalam ekosistem?",
-        "Jawaban": "Rantai makanan adalah alur perpindahan energi melalui proses makan dan dimakan antarorganisme dalam ekosistem.",
-        "Tema": "Biologi"
+        "Pertanyaan": "Apa yang dimaksud dengan produsen dalam ekosistem?",
+        "Jawaban": "Produsen adalah organisme yang dapat membuat makanannya sendiri, seperti tumbuhan hijau.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Buku IPA SMP",
+        "Sinonim": [
+            "produsen",
+            "organisme autotrof",
+            "tumbuhan hijau",
+            "pembuat makanan",
+            "rantai makanan"
+        ]
     },
     {
         "Topik": "Biologi",
-        "Subtopik": "Sistem Peredaran Darah",
-        "Pertanyaan": "Apa fungsi utama jantung dalam sistem peredaran darah manusia?",
-        "Jawaban": "Jantung memompa darah ke seluruh tubuh untuk menyuplai oksigen dan nutrisi.",
-        "Tema": "Biologi"
+        "Subtopik": "Sistem Pencernaan",
+        "Pertanyaan": "Apa fungsi utama enzim amilase dalam pencernaan?",
+        "Jawaban": "Mengubah zat pati menjadi gula sederhana.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Materi sistem pencernaan manusia",
+        "Sinonim": [
+            "amilase",
+            "enzim pencernaan",
+            "pati",
+            "gula",
+            "mulut"
+        ]
     },
     {
         "Topik": "Biologi",
         "Subtopik": "Sistem Ekskresi",
-        "Pertanyaan": "Apa produk limbah utama yang dihasilkan oleh ginjal?",
-        "Jawaban": "Ginjal menghasilkan urine sebagai produk limbah utama.",
-        "Tema": "Biologi"
+        "Pertanyaan": "Apa fungsi utama ginjal dalam tubuh manusia?",
+        "Jawaban": "Menyaring darah dan membentuk urin.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Buku IPA Kelas 8",
+        "Sinonim": [
+            "ginjal",
+            "fungsi ginjal",
+            "urin",
+            "penyaring darah",
+            "eksresi"
+        ]
     },
-  {
-    "Topik": "Fisika",
-    "Subtopik": "Hukum Newton",
-    "Pertanyaan": "Jelaskan Hukum Newton ke-2!",
-    "Jawaban": "F = m × a: Gaya sama dengan massa dikali percepatan.",
-    "Level Kesulitan": "Sedang",
-    "Catatan Tambahan": "Buku IPA Kelas 8"
-  },
-  {
-    "Topik": "Fisika",
-    "Subtopik": "Energi dan Usaha",
-    "Pertanyaan": "Apa rumus energi kinetik?",
-    "Jawaban": "Energi kinetik = 0.5 × massa × kecepatan².",
-    "Level Kesulitan": "Mudah",
-    "Catatan Tambahan": "Modul latihan siswa"
-  },
-  {
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Adaptasi Makhluk Hidup",
+        "Pertanyaan": "Mengapa unta memiliki punuk?",
+        "Jawaban": "Punuk unta menyimpan cadangan lemak sebagai sumber energi.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Bab Adaptasi",
+        "Sinonim": [
+            "punuk unta",
+            "adaptasi unta",
+            "cadangan energi",
+            "lemak",
+            "padang pasir"
+        ]
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Peredaran Darah",
+        "Pertanyaan": "Apa fungsi hemoglobin dalam darah?",
+        "Jawaban": "Mengikat dan mengangkut oksigen dari paru-paru ke seluruh tubuh.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Materi sistem peredaran darah",
+        "Sinonim": [
+            "hemoglobin",
+            "fungsi darah",
+            "angkut oksigen",
+            "sel darah merah",
+            "paruparu"
+        ]
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Pertumbuhan dan Perkembangan",
+        "Pertanyaan": "Apa perbedaan antara pertumbuhan dan perkembangan pada makhluk hidup?",
+        "Jawaban": "Pertumbuhan adalah perubahan fisik (ukuran), sedangkan perkembangan mencakup perubahan fungsi dan struktur.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Buku pelajaran kelas 9",
+        "Sinonim": [
+            "pertumbuhan",
+            "perkembangan",
+            "perubahan ukuran",
+            "fungsi tubuh",
+            "fase hidup"
+        ]
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Sistem Pencernaan",
+        "Pertanyaan": "Apa fungsi utama dari usus halus dalam sistem pencernaan?",
+        "Jawaban": "Usus halus berfungsi untuk menyerap nutrisi dari makanan yang dicerna.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Buku IPA Kelas 7",
+        "Sinonim": [
+            "usus halus",
+            "penyerapan nutrisi",
+            "sistem pencernaan"
+        ]
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Sistem Pencernaan",
+        "Pertanyaan": "Apa yang dimaksud dengan enzim pencernaan?",
+        "Jawaban": "Enzim pencernaan adalah protein yang membantu mempercepat proses pencernaan makanan dalam tubuh.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Modul Sistem Pencernaan",
+        "Sinonim": [
+            "enzim pencernaan",
+            "protein pencernaan",
+            "enzim"
+        ]
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Fotosintesis",
+        "Pertanyaan": "Di mana proses fotosintesis terjadi dalam sel tanaman?",
+        "Jawaban": "Proses fotosintesis terjadi di dalam kloroplas yang terdapat pada sel daun tanaman.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Buku IPA Kelas 7",
+        "Sinonim": [
+            "fotosintesis",
+            "kloroplas",
+            "sel daun"
+        ]
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Jaringan Tumbuhan",
+        "Pertanyaan": "Apa yang dimaksud dengan jaringan meristem?",
+        "Jawaban": "Jaringan meristem adalah jaringan tumbuhan yang terdiri dari sel-sel muda yang aktif membelah untuk pertumbuhan tanaman.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Modul Jaringan Tumbuhan",
+        "Sinonim": [
+            "jaringan meristem",
+            "pertumbuhan tanaman",
+            "jaringan pembelah"
+        ]
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Sistem Peredaran Darah",
+        "Pertanyaan": "Apa yang dimaksud dengan peredaran darah besar?",
+        "Jawaban": "Peredaran darah besar adalah sirkulasi darah dari jantung menuju seluruh tubuh dan kembali ke jantung.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Buku IPA Kelas 8",
+        "Sinonim": [
+            "peredaran darah besar",
+            "sistem sirkulasi",
+            "peredaran darah"
+        ]
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Sistem Peredaran Darah",
+        "Pertanyaan": "Apa fungsi utama dari pembuluh darah vena?",
+        "Jawaban": "Pembuluh darah vena berfungsi untuk mengangkut darah yang sudah tidak mengandung oksigen kembali ke jantung.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Modul Sistem Peredaran Darah",
+        "Sinonim": [
+            "pembuluh darah vena",
+            "vena",
+            "sistem peredaran darah"
+        ]
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Sistem Saraf",
+        "Pertanyaan": "Apa yang dimaksud dengan neuron?",
+        "Jawaban": "Neuron adalah sel saraf yang berfungsi untuk mengirimkan sinyal elektrik di dalam tubuh.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Buku IPA Kelas 9",
+        "Sinonim": [
+            "neuron",
+            "sel saraf",
+            "sistem saraf"
+        ]
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Reproduksi",
+        "Pertanyaan": "Apa yang dimaksud dengan reproduksi aseksual?",
+        "Jawaban": "Reproduksi aseksual adalah cara berkembang biak makhluk hidup tanpa melibatkan perkawinan, seperti pada pembelahan sel.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Modul Reproduksi",
+        "Sinonim": [
+            "reproduksi aseksual",
+            "perkembangbiakan tanpa kawin",
+            "pembelahan sel"
+        ]
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Genetika",
+        "Pertanyaan": "Apa yang dimaksud dengan gen?",
+        "Jawaban": "Gen adalah unit pewarisan sifat yang terletak pada kromosom dan menentukan ciri-ciri suatu organisme.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Buku IPA Kelas 9",
+        "Sinonim": [
+            "gen",
+            "pewarisan sifat",
+            "ciri organisme"
+        ]
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Ekosistem",
+        "Pertanyaan": "Apa yang dimaksud dengan ekosistem?",
+        "Jawaban": "Ekosistem adalah sistem yang terbentuk oleh hubungan antara makhluk hidup dan lingkungan hidupnya.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Modul Ekosistem",
+        "Sinonim": [
+            "ekosistem",
+            "sistem kehidupan",
+            "lingkungan hidup"
+        ]
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Sel",
+        "Pertanyaan": "Apa itu sel?",
+        "Jawaban": "Sel adalah unit struktural dan fungsional terkecil dari organisme hidup, yang memiliki kemampuan untuk menjalankan fungsi hidup seperti metabolisme, reproduksi, dan respons terhadap rangsangan.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Buku IPA Kelas 7",
+        "Sinonim": [
+            "sel",
+            "unit hidup",
+            "struktur sel"
+        ]
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Sel",
+        "Pertanyaan": "Apa perbedaan antara sel prokariotik dan eukariotik?",
+        "Jawaban": "Sel prokariotik tidak memiliki inti sel yang terbungkus membran, sedangkan sel eukariotik memiliki inti sel yang terbungkus membran.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Modul Perbedaan Sel",
+        "Sinonim": [
+            "sel prokariotik",
+            "sel eukariotik",
+            "inti sel"
+        ]
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Sel",
+        "Pertanyaan": "Apa fungsi dari membran sel?",
+        "Jawaban": "Membran sel berfungsi untuk melindungi isi sel, mengatur transportasi zat masuk dan keluar sel, serta menjaga keseimbangan dalam sel.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Buku IPA Kelas 7",
+        "Sinonim": [
+            "membran sel",
+            "fungsi membran",
+            "struktur sel"
+        ]
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Sel",
+        "Pertanyaan": "Apa itu mitosis?",
+        "Jawaban": "Mitosis adalah proses pembelahan sel yang menghasilkan dua sel anak yang identik dengan sel induk, digunakan untuk pertumbuhan dan perbaikan jaringan.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Modul Pembelahan Sel",
+        "Sinonim": [
+            "mitosis",
+            "pembelahan sel",
+            "proses mitosis"
+        ]
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Sel",
+        "Pertanyaan": "Apa yang dimaksud dengan sitoplasma?",
+        "Jawaban": "Sitoplasma adalah cairan yang ada di dalam sel yang mengisi ruang antara membran sel dan inti sel, tempat berbagai organel sel berada.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Buku IPA Kelas 7",
+        "Sinonim": [
+            "sitoplasma",
+            "cairan sel",
+            "ruang sel"
+        ]
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Sel",
+        "Pertanyaan": "Apa peran dari mitokondria dalam sel?",
+        "Jawaban": "Mitokondria berperan sebagai tempat produksi energi dalam bentuk ATP melalui proses respirasi seluler.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Modul Organisasi Sel",
+        "Sinonim": [
+            "mitokondria",
+            "pembangkit energi",
+            "respirasi seluler"
+        ]
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Sel",
+        "Pertanyaan": "Apa fungsi dari nukleus dalam sel?",
+        "Jawaban": "Nukleus (inti sel) berfungsi untuk mengatur aktivitas sel, menyimpan informasi genetik dalam bentuk DNA, dan mengontrol pembelahan sel.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Buku IPA Kelas 8",
+        "Sinonim": [
+            "nukleus",
+            "inti sel",
+            "fungsi inti sel"
+        ]
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Sel",
+        "Pertanyaan": "Apa yang dimaksud dengan sel tumbuhan?",
+        "Jawaban": "Sel tumbuhan adalah sel yang terdapat pada tumbuhan yang memiliki dinding sel, kloroplas, dan vakuola besar sebagai ciri khasnya.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Modul Sel Tumbuhan",
+        "Sinonim": [
+            "sel tumbuhan",
+            "sel dinding",
+            "kloroplas"
+        ]
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Sel",
+        "Pertanyaan": "Apa itu kloroplas dan fungsinya?",
+        "Jawaban": "Kloroplas adalah organel sel yang terdapat pada sel tumbuhan yang berfungsi untuk melakukan fotosintesis.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Modul Fotosintesis",
+        "Sinonim": [
+            "kloroplas",
+            "fotosintesis",
+            "organel sel"
+        ]
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Sel",
+        "Pertanyaan": "Apa yang dimaksud dengan sel hewan?",
+        "Jawaban": "Sel hewan adalah sel yang tidak memiliki dinding sel dan kloroplas, tetapi memiliki membran sel dan inti sel.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Modul Sel Hewan",
+        "Sinonim": [
+            "sel hewan",
+            "struktur sel hewan",
+            "sel hewan dan tumbuhan"
+        ]
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Hereditas",
+        "Pertanyaan": "Apa yang dimaksud dengan hereditas?",
+        "Jawaban": "Hereditas adalah proses pewarisan sifat-sifat dari orangtua kepada keturunannya melalui gen.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Buku IPA Kelas 8",
+        "Sinonim": [
+            "pewarisan sifat",
+            "hereditas",
+            "pewarisan genetik"
+        ]
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Hereditas",
+        "Pertanyaan": "Apa yang dimaksud dengan gen?",
+        "Jawaban": "Gen adalah unit pewarisan sifat yang terletak di dalam kromosom dan menentukan sifat-sifat yang diwariskan pada organisme.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Buku IPA Kelas 8",
+        "Sinonim": [
+            "gen",
+            "unit pewarisan",
+            "informasi genetik"
+        ]
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Hereditas",
+        "Pertanyaan": "Apa itu kromosom?",
+        "Jawaban": "Kromosom adalah struktur panjang yang terbuat dari DNA dan protein, yang membawa informasi genetik dalam sel.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Buku IPA Kelas 8",
+        "Sinonim": [
+            "kromosom",
+            "struktur genetik",
+            "DNA"
+        ]
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Hereditas",
+        "Pertanyaan": "Apa yang dimaksud dengan alel?",
+        "Jawaban": "Alel adalah bentuk berbeda dari suatu gen yang mengatur suatu sifat tertentu, misalnya alel untuk warna mata, bisa berwarna coklat atau biru.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Modul Alel dan Gen",
+        "Sinonim": [
+            "alel",
+            "variasi gen",
+            "bentuk gen"
+        ]
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Hereditas",
+        "Pertanyaan": "Apa perbedaan antara alel dominan dan alel resesif?",
+        "Jawaban": "Alel dominan adalah alel yang mengekspresikan sifatnya meskipun hanya ada satu salinan, sedangkan alel resesif hanya mengekspresikan sifatnya jika ada dua salinan alel yang sama.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Modul Pewarisan Sifat",
+        "Sinonim": [
+            "alel dominan",
+            "alel resesif",
+            "gen dominan",
+            "gen resesif"
+        ]
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Hereditas",
+        "Pertanyaan": "Apa yang dimaksud dengan hukum segregasi Mendel?",
+        "Jawaban": "Hukum segregasi Mendel menyatakan bahwa setiap individu memiliki dua alel untuk setiap sifat, dan alel-allel tersebut akan terpisah secara acak selama pembentukan gamet.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Modul Hukum Mendel",
+        "Sinonim": [
+            "hukum segregasi",
+            "Mendel",
+            "pewarisan genetik"
+        ]
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Perkawinan Silang",
+        "Pertanyaan": "Apa yang dimaksud dengan perkawinan silang monohibrid?",
+        "Jawaban": "Perkawinan silang monohibrid adalah perkawinan antara dua individu yang berbeda dalam satu sifat saja, seperti warna bunga merah dengan warna bunga putih.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Modul Perkawinan Silang",
+        "Sinonim": [
+            "perkawinan monohibrid",
+            "perkawinan sifat tunggal"
+        ]
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Perkawinan Silang",
+        "Pertanyaan": "Apa yang dimaksud dengan rasio fenotipe dalam perkawinan silang?",
+        "Jawaban": "Rasio fenotipe dalam perkawinan silang adalah perbandingan antara jumlah individu yang menunjukkan sifat dominan dan resesif pada suatu generasi.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Modul Fenotipe",
+        "Sinonim": [
+            "rasio fenotipe",
+            "perbandingan sifat",
+            "fenotipe dominan"
+        ]
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Perkawinan Silang",
+        "Pertanyaan": "Apa yang dimaksud dengan persilangan dihibrid?",
+        "Jawaban": "Persilangan dihibrid adalah perkawinan antara dua individu yang berbeda dalam dua sifat yang berbeda, misalnya warna bunga dan bentuk biji.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Modul Perkawinan Silang",
+        "Sinonim": [
+            "perkawinan dihibrid",
+            "persilangan dua sifat",
+            "Mendel dihibrid"
+        ]
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Hereditas",
+        "Pertanyaan": "Apa itu genotipe?",
+        "Jawaban": "Genotipe adalah susunan gen atau alel yang ada pada individu yang menentukan sifat-sifat yang diturunkan, seperti dominan atau resesif.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Modul Genotipe",
+        "Sinonim": [
+            "genotipe",
+            "susunan gen",
+            "kombinasi alel"
+        ]
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Zat Adiktif dan Psikotropika",
+        "Pertanyaan": "Apa yang dimaksud dengan zat adiktif?",
+        "Jawaban": "Zat adiktif adalah bahan yang dapat menimbulkan ketergantungan fisik atau psikologis pada penggunanya, sehingga membuat penggunanya terus-menerus mengkonsumsinya.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Buku IPA Kelas 9",
+        "Sinonim": [
+            "zat adiktif",
+            "bahan adiktif",
+            "penyebab ketergantungan"
+        ]
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Zat Adiktif dan Psikotropika",
+        "Pertanyaan": "Apa yang dimaksud dengan psikotropika?",
+        "Jawaban": "Psikotropika adalah zat yang dapat mempengaruhi sistem saraf pusat, sehingga dapat mengubah suasana hati, persepsi, dan perilaku seseorang.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Modul Zat Berbahaya",
+        "Sinonim": [
+            "psikotropika",
+            "obat psikoaktif",
+            "zat yang mempengaruhi pikiran"
+        ]
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Zat Adiktif dan Psikotropika",
+        "Pertanyaan": "Sebutkan beberapa contoh zat adiktif yang umum ditemui!",
+        "Jawaban": "Contoh zat adiktif yang umum adalah alkohol, nikotin (dalam rokok), dan narkotika seperti heroin dan kokain.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Buku IPA Kelas 9",
+        "Sinonim": [
+            "alkohol",
+            "nikotin",
+            "narkotika",
+            "kokain"
+        ]
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Zat Adiktif dan Psikotropika",
+        "Pertanyaan": "Apa dampak negatif dari penyalahgunaan narkotika?",
+        "Jawaban": "Penyalahgunaan narkotika dapat menyebabkan gangguan fisik seperti kerusakan organ, gangguan mental, ketergantungan, bahkan kematian.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Modul Dampak Penyalahgunaan",
+        "Sinonim": [
+            "narkotika",
+            "dampak penyalahgunaan",
+            "kerusakan fisik dan mental"
+        ]
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Zat Adiktif dan Psikotropika",
+        "Pertanyaan": "Apa yang dimaksud dengan toleransi dalam konteks penggunaan zat adiktif?",
+        "Jawaban": "Toleransi adalah kondisi dimana tubuh membutuhkan dosis yang lebih tinggi dari suatu zat adiktif untuk mencapai efek yang sama, akibat penggunaan zat tersebut secara terus-menerus.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Modul Ketergantungan Zat",
+        "Sinonim": [
+            "toleransi",
+            "peningkatan dosis",
+            "kebutuhan zat lebih"
+        ]
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Zat Adiktif dan Psikotropika",
+        "Pertanyaan": "Bagaimana cara zat adiktif mempengaruhi sistem saraf?",
+        "Jawaban": "Zat adiktif bekerja dengan cara mempengaruhi neurotransmitter di otak, yang mengubah komunikasi antar sel saraf, menciptakan perasaan senang sementara yang menyebabkan ketergantungan.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Modul Sistem Saraf",
+        "Sinonim": [
+            "sistem saraf",
+            "neurotransmitter",
+            "pengaruh zat pada otak"
+        ]
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Zat Adiktif dan Psikotropika",
+        "Pertanyaan": "Apa perbedaan antara narkotika, alkohol, dan psikotropika?",
+        "Jawaban": "Narkotika adalah zat yang dapat menyebabkan ketergantungan fisik dan mental, alkohol adalah zat yang dapat mempengaruhi fungsi sistem saraf pusat, sedangkan psikotropika adalah zat yang mempengaruhi suasana hati, persepsi, dan perilaku.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Buku IPA Kelas 9",
+        "Sinonim": [
+            "narkotika",
+            "alkohol",
+            "psikotropika",
+            "perbedaan zat adiktif"
+        ]
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Zat Adiktif dan Psikotropika",
+        "Pertanyaan": "Apa yang dimaksud dengan overdosis?",
+        "Jawaban": "Overdosis adalah konsumsi zat dalam jumlah yang lebih tinggi dari batas yang aman, yang dapat menyebabkan keracunan, gangguan kesehatan serius, bahkan kematian.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Modul Overdosis dan Bahaya Zat",
+        "Sinonim": [
+            "overdosis",
+            "keracunan zat",
+            "konsumsi berlebihan"
+        ]
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Zat Adiktif dan Psikotropika",
+        "Pertanyaan": "Bagaimana cara mencegah penyalahgunaan narkoba dan zat adiktif lainnya?",
+        "Jawaban": "Pencegahan dapat dilakukan dengan memberikan pendidikan tentang bahaya narkoba, meningkatkan kesadaran masyarakat, dan memberikan dukungan kepada individu yang terpengaruh agar dapat menjalani rehabilitasi.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Modul Pencegahan Penyalahgunaan Zat",
+        "Sinonim": [
+            "pencegahan narkoba",
+            "rehabilitasi zat adiktif",
+            "pendidikan bahaya zat"
+        ]
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Zat Adiktif dan Psikotropika",
+        "Pertanyaan": "Sebutkan beberapa dampak sosial dari penyalahgunaan narkotika!",
+        "Jawaban": "Penyalahgunaan narkotika dapat menyebabkan gangguan sosial seperti hilangnya pekerjaan, kerusakan hubungan sosial, dan peningkatan angka kriminalitas.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Modul Dampak Sosial Narkoba",
+        "Sinonim": [
+            "dampak sosial narkoba",
+            "kerusakan sosial",
+            "pengaruh narkotika terhadap masyarakat"
+        ]
+    },
+    {
         "Topik": "Fisika",
-        "Subtopik": "Energi Kinetik",
-        "Pertanyaan": "Apa rumus untuk menghitung energi kinetik sebuah benda?",
-        "Jawaban": "Rumus energi kinetik adalah Ek = 1/2 × m × v², di mana m adalah massa dan v adalah kecepatan benda.",
-        "Tema": "Fisika"
+        "Subtopik": "Gaya",
+        "Pertanyaan": "Apa yang dimaksud dengan gaya?",
+        "Jawaban": "Gaya adalah tarikan atau dorongan yang dapat menyebabkan benda bergerak, berubah bentuk, atau berubah arah.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Buku IPA Kelas 8",
+        "Sinonim": [
+            "gaya",
+            "tarikan",
+            "dorongan",
+            "pengaruh pada benda",
+            "gaya fisika"
+        ]
+    },
+    {
+        "Topik": "Fisika",
+        "Subtopik": "Gerak",
+        "Pertanyaan": "Apa yang dimaksud dengan gerak lurus beraturan (GLB)?",
+        "Jawaban": "GLB adalah gerak suatu benda dengan kecepatan tetap dan arah yang tetap.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Bab Gerak dan Gaya",
+        "Sinonim": [
+            "gerak lurus",
+            "GLB",
+            "kecepatan tetap",
+            "gerak konstan"
+        ]
+    },
+    {
+        "Topik": "Fisika",
+        "Subtopik": "Energi dan Usaha",
+        "Pertanyaan": "Apa rumus energi kinetik?",
+        "Jawaban": "Energi kinetik = 0.5 × massa × kecepatan².",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Modul latihan siswa",
+        "Sinonim": [
+            "energi kinetik",
+            "rumus Ek",
+            "energi gerak",
+            "massa dan kecepatan"
+        ]
     },
     {
         "Topik": "Fisika",
         "Subtopik": "Hukum Newton",
-        "Pertanyaan": "Apa isi Hukum Newton Kedua?",
-        "Jawaban": "Hukum Newton Kedua menyatakan bahwa percepatan sebuah benda berbanding lurus dengan gaya yang diberikan padanya dan berbanding terbalik dengan massanya (F = m × a).",
-        "Tema": "Fisika"
+        "Pertanyaan": "Apa bunyi Hukum Newton pertama?",
+        "Jawaban": "Benda akan tetap diam atau bergerak lurus beraturan jika tidak ada gaya yang bekerja padanya.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Bab Gaya dan Gerak",
+        "Sinonim": [
+            "hukum Newton 1",
+            "hukum kelembaman",
+            "gaya nol",
+            "gerak lurus"
+        ]
+    },
+    {
+        "Topik": "Fisika",
+        "Subtopik": "Listrik Statis",
+        "Pertanyaan": "Apa yang menyebabkan listrik statis?",
+        "Jawaban": "Listrik statis terjadi karena perpindahan muatan listrik akibat gesekan antara dua benda.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Buku IPA Kelas 9",
+        "Sinonim": [
+            "listrik statis",
+            "muatan listrik",
+            "gesekan",
+            "muatan negatif",
+            "elektron"
+        ]
+    },
+    {
+        "Topik": "Fisika",
+        "Subtopik": "Bunyi",
+        "Pertanyaan": "Apa yang memengaruhi cepat rambat bunyi?",
+        "Jawaban": "Cepat rambat bunyi dipengaruhi oleh medium (zat perantara) dan suhu.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Materi getaran dan gelombang",
+        "Sinonim": [
+            "cepat rambat bunyi",
+            "medium bunyi",
+            "suhu",
+            "zat perantara",
+            "kecepatan bunyi"
+        ]
+    },
+    {
+        "Topik": "Fisika",
+        "Subtopik": "Cahaya",
+        "Pertanyaan": "Apa yang dimaksud dengan pemantulan cahaya?",
+        "Jawaban": "Pemantulan cahaya adalah peristiwa kembalinya cahaya setelah mengenai permukaan benda.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Bab Cahaya dan Optik",
+        "Sinonim": [
+            "pemantulan cahaya",
+            "refleksi",
+            "cermin",
+            "pantulan sinar"
+        ]
+    },
+    {
+        "Topik": "Fisika",
+        "Subtopik": "Kalor",
+        "Pertanyaan": "Apa yang dimaksud dengan konduksi kalor?",
+        "Jawaban": "Konduksi adalah perpindahan panas melalui zat padat tanpa disertai perpindahan partikel.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Materi Perpindahan Kalor",
+        "Sinonim": [
+            "konduksi",
+            "perpindahan panas",
+            "kalor",
+            "zat padat",
+            "konduktor"
+        ]
+    },
+    {
+        "Topik": "Fisika",
+        "Subtopik": "Tekanan",
+        "Pertanyaan": "Mengapa tekanan di dasar laut lebih besar daripada di permukaan?",
+        "Jawaban": "Karena tekanan bertambah seiring bertambahnya kedalaman akibat berat air di atasnya.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Materi tekanan fluida",
+        "Sinonim": [
+            "tekanan fluida",
+            "kedalaman laut",
+            "tekanan air",
+            "fluida statis"
+        ]
+    },
+    {
+        "Topik": "Fisika",
+        "Subtopik": "Pesawat Sederhana",
+        "Pertanyaan": "Apa fungsi tuas sebagai pesawat sederhana?",
+        "Jawaban": "Tuas berfungsi untuk memudahkan kerja dengan mengurangi gaya yang diperlukan.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Buku IPA Kelas 8",
+        "Sinonim": [
+            "tuas",
+            "pesawat sederhana",
+            "alat bantu kerja",
+            "gaya kecil"
+        ]
+    },
+    {
+        "Topik": "Fisika",
+        "Subtopik": "Hukum Newton",
+        "Pertanyaan": "Apa yang dimaksud dengan hukum Newton pertama?",
+        "Jawaban": "Hukum Newton pertama menyatakan bahwa benda yang diam akan tetap diam, dan benda yang bergerak akan tetap bergerak lurus dengan kecepatan konstan, kecuali jika ada gaya luar yang bekerja.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Buku IPA Kelas 8",
+        "Sinonim": [
+            "hukum Newton pertama",
+            "inersia",
+            "hukum gerak"
+        ]
+    },
+    {
+        "Topik": "Fisika",
+        "Subtopik": "Energi",
+        "Pertanyaan": "Apa yang dimaksud dengan energi potensial?",
+        "Jawaban": "Energi potensial adalah energi yang dimiliki oleh suatu benda karena posisinya atau keadaan benda tersebut.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Modul Energi dan Usaha",
+        "Sinonim": [
+            "energi potensial",
+            "energi posisi",
+            "potensial"
+        ]
+    },
+    {
+        "Topik": "Fisika",
+        "Subtopik": "Gerak",
+        "Pertanyaan": "Apa yang dimaksud dengan percepatan?",
+        "Jawaban": "Percepatan adalah laju perubahan kecepatan suatu benda terhadap waktu.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Buku IPA Kelas 7",
+        "Sinonim": [
+            "percepatan",
+            "perubahan kecepatan",
+            "gerak"
+        ]
+    },
+    {
+        "Topik": "Fisika",
+        "Subtopik": "Suhu dan Kalor",
+        "Pertanyaan": "Apa yang dimaksud dengan kalor?",
+        "Jawaban": "Kalor adalah bentuk energi yang berpindah karena perbedaan suhu antara dua benda.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Modul Kalor",
+        "Sinonim": [
+            "kalor",
+            "energi panas",
+            "pemanasan"
+        ]
+    },
+    {
+        "Topik": "Fisika",
+        "Subtopik": "Optik",
+        "Pertanyaan": "Apa yang dimaksud dengan pembiasan cahaya?",
+        "Jawaban": "Pembiasan cahaya adalah perubahan arah cahaya ketika melewati batas antara dua medium dengan kerapatan yang berbeda.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Buku IPA Kelas 9",
+        "Sinonim": [
+            "pembiasan",
+            "perubahan arah cahaya",
+            "optik"
+        ]
+    },
+    {
+        "Topik": "Fisika",
+        "Subtopik": "Listrik Dinamis",
+        "Pertanyaan": "Apa yang dimaksud dengan arus listrik?",
+        "Jawaban": "Arus listrik adalah aliran partikel bermuatan, biasanya elektron, melalui penghantar.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Modul Listrik Dinamis",
+        "Sinonim": [
+            "arus listrik",
+            "aliran listrik",
+            "listrik"
+        ]
+    },
+    {
+        "Topik": "Fisika",
+        "Subtopik": "Gaya",
+        "Pertanyaan": "Apa yang dimaksud dengan gaya?",
+        "Jawaban": "Gaya adalah suatu tarikan atau dorongan yang dapat menyebabkan benda bergerak atau mengubah bentuk benda.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Buku IPA Kelas 7",
+        "Sinonim": [
+            "gaya",
+            "tarikan",
+            "dorongan"
+        ]
+    },
+    {
+        "Topik": "Fisika",
+        "Subtopik": "Listrik Statis",
+        "Pertanyaan": "Apa yang dimaksud dengan muatan listrik?",
+        "Jawaban": "Muatan listrik adalah sifat fisik benda yang menyebabkan benda tersebut dapat mengalami gaya dalam medan listrik.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Buku IPA Kelas 9",
+        "Sinonim": [
+            "muatan listrik",
+            "elektron",
+            "medan listrik"
+        ]
+    },
+    {
+        "Topik": "Fisika",
+        "Subtopik": "Getaran dan Gelombang",
+        "Pertanyaan": "Apa itu gelombang transversal?",
+        "Jawaban": "Gelombang transversal adalah gelombang di mana arah getaran partikel medium tegak lurus terhadap arah rambat gelombangnya.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Modul Getaran dan Gelombang",
+        "Sinonim": [
+            "gelombang transversal",
+            "gelombang tegak lurus",
+            "gelombang"
+        ]
+    },
+    {
+        "Topik": "Fisika",
+        "Subtopik": "Hukum Newton",
+        "Pertanyaan": "Apa yang dimaksud dengan hukum Newton ketiga?",
+        "Jawaban": "Hukum Newton ketiga menyatakan bahwa untuk setiap aksi, ada reaksi yang sama besar dan berlawanan arah.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Buku IPA Kelas 8",
+        "Sinonim": [
+            "hukum Newton ketiga",
+            "aksi dan reaksi",
+            "hukum gerak"
+        ]
+    },
+    {
+        "Topik": "Fisika",
+        "Subtopik": "Gaya dan Gerak",
+        "Pertanyaan": "Apa yang dimaksud dengan gaya?",
+        "Jawaban": "Gaya adalah tarikan atau dorongan yang dapat mengubah gerak atau bentuk suatu benda.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Buku IPA Kelas 7",
+        "Sinonim": [
+            "gaya",
+            "tarikan",
+            "dorongan"
+        ]
+    },
+    {
+        "Topik": "Fisika",
+        "Subtopik": "Gaya dan Gerak",
+        "Pertanyaan": "Apa hukum Newton yang pertama?",
+        "Jawaban": "Hukum Newton yang pertama menyatakan bahwa benda yang diam akan tetap diam, dan benda yang bergerak akan terus bergerak dengan kecepatan konstan kecuali ada gaya yang bekerja padanya.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Buku IPA Kelas 8",
+        "Sinonim": [
+            "hukum Newton pertama",
+            "hukum inersia",
+            "gaya dan gerak"
+        ]
+    },
+    {
+        "Topik": "Fisika",
+        "Subtopik": "Energi dan Usaha",
+        "Pertanyaan": "Apa yang dimaksud dengan usaha dalam fisika?",
+        "Jawaban": "Usaha adalah perpindahan benda yang disertai dengan gaya, dan dihitung dengan rumus W = gaya × jarak.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Modul Usaha dan Energi",
+        "Sinonim": [
+            "usaha",
+            "kerja",
+            "energi"
+        ]
+    },
+    {
+        "Topik": "Fisika",
+        "Subtopik": "Energi dan Usaha",
+        "Pertanyaan": "Apa yang dimaksud dengan energi potensial?",
+        "Jawaban": "Energi potensial adalah energi yang dimiliki oleh suatu benda karena posisi atau keadaan benda tersebut.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Buku IPA Kelas 8",
+        "Sinonim": [
+            "energi potensial",
+            "energi posisi",
+            "energi yang tersimpan"
+        ]
+    },
+    {
+        "Topik": "Fisika",
+        "Subtopik": "Energi dan Usaha",
+        "Pertanyaan": "Apa yang dimaksud dengan energi kinetik?",
+        "Jawaban": "Energi kinetik adalah energi yang dimiliki oleh suatu benda akibat gerakannya, dihitung dengan rumus E = 1/2 mv².",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Buku IPA Kelas 9",
+        "Sinonim": [
+            "energi kinetik",
+            "energi gerak",
+            "energi benda bergerak"
+        ]
+    },
+    {
+        "Topik": "Fisika",
+        "Subtopik": "Listrik Statis",
+        "Pertanyaan": "Apa yang dimaksud dengan muatan listrik?",
+        "Jawaban": "Muatan listrik adalah sifat fisik materi yang menghasilkan gaya listrik, yang bisa berupa muatan positif atau negatif.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Modul Listrik Statis",
+        "Sinonim": [
+            "muatan listrik",
+            "gaya listrik",
+            "listrik statis"
+        ]
+    },
+    {
+        "Topik": "Fisika",
+        "Subtopik": "Listrik Statis",
+        "Pertanyaan": "Apa yang dimaksud dengan hukum Coulomb?",
+        "Jawaban": "Hukum Coulomb menyatakan bahwa gaya tarik atau tolak antara dua muatan listrik sebanding dengan hasil perkalian besar muatan dan berbanding terbalik dengan kuadrat jarak antara muatan tersebut.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Buku IPA Kelas 9",
+        "Sinonim": [
+            "hukum Coulomb",
+            "gaya listrik",
+            "interaksi muatan"
+        ]
     },
     {
         "Topik": "Fisika",
         "Subtopik": "Gelombang",
-        "Pertanyaan": "Apa perbedaan antara gelombang transversal dan gelombang longitudinal?",
-        "Jawaban": "Gelombang transversal adalah gelombang di mana getaran tegak lurus terhadap arah perambatan gelombang, sedangkan gelombang longitudinal adalah gelombang di mana getaran sejajar dengan arah perambatan gelombang.",
-        "Tema": "Fisika"
+        "Pertanyaan": "Apa yang dimaksud dengan gelombang transversal?",
+        "Jawaban": "Gelombang transversal adalah gelombang di mana arah getarannya tegak lurus terhadap arah perambatan gelombang, seperti gelombang pada tali.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Modul Gelombang",
+        "Sinonim": [
+            "gelombang transversal",
+            "gelombang tegak lurus",
+            "gelombang tali"
+        ]
     },
     {
         "Topik": "Fisika",
-        "Subtopik": "Listrik",
-        "Pertanyaan": "Apa yang dimaksud dengan Hukum Ohm?",
-        "Jawaban": "Hukum Ohm menyatakan bahwa arus listrik yang mengalir melalui suatu penghantar berbanding lurus dengan tegangan di ujung penghantar tersebut dan berbanding terbalik dengan hambatannya (V = I × R).",
-        "Tema": "Fisika"
+        "Subtopik": "Gelombang",
+        "Pertanyaan": "Apa yang dimaksud dengan panjang gelombang?",
+        "Jawaban": "Panjang gelombang adalah jarak antara dua titik berturut-turut yang memiliki fase yang sama dalam satu gelombang, seperti puncak ke puncak.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Buku IPA Kelas 9",
+        "Sinonim": [
+            "panjang gelombang",
+            "jarak gelombang",
+            "periode gelombang"
+        ]
     },
     {
         "Topik": "Fisika",
-        "Subtopik": "Momentum",
-        "Pertanyaan": "Apa itu momentum dan bagaimana rumusnya?",
-        "Jawaban": "Momentum adalah ukuran dari gerak suatu benda dan dirumuskan sebagai p = m × v, di mana m adalah massa benda dan v adalah kecepatannya.",
-        "Tema": "Fisika"
+        "Subtopik": "Optika",
+        "Pertanyaan": "Apa yang dimaksud dengan pembiasan cahaya?",
+        "Jawaban": "Pembiasan cahaya adalah perubahan arah rambat cahaya ketika melewati dua medium yang berbeda kepadatannya, seperti saat cahaya melewati air atau kaca.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Modul Optika",
+        "Sinonim": [
+            "pembiasan cahaya",
+            "refraksi",
+            "perubahan arah cahaya"
+        ]
     },
-  {
-    "Topik": "Kimia",
-    "Subtopik": "Reaksi Kimia",
-    "Pertanyaan": "Apa itu reaksi eksoterm?",
-    "Jawaban": "Reaksi eksoterm melepaskan energi dalam bentuk panas.",
-    "Level Kesulitan": "Sedang",
-    "Catatan Tambahan": "Buku IPA Kelas 9"
-  },
-  {
-    "Topik": "Kimia",
-    "Subtopik": "Tabel Periodik",
-    "Pertanyaan": "Apa simbol kimia untuk unsur emas?",
-    "Jawaban": "Simbol kimia emas adalah Au.",
-    "Level Kesulitan": "Mudah",
-    "Catatan Tambahan": "-"
-  }
+    {
+        "Topik": "Fisika",
+        "Subtopik": "Listrik Arus",
+        "Pertanyaan": "Apa yang dimaksud dengan arus listrik?",
+        "Jawaban": "Arus listrik adalah aliran muatan listrik yang mengalir melalui konduktor, seperti kawat, yang dihitung dalam satuan ampere.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Buku IPA Kelas 8",
+        "Sinonim": [
+            "arus listrik",
+            "aliran muatan",
+            "listrik"
+        ]
+    },
+    {
+        "Topik": "Fisika",
+        "Subtopik": "Listrik Arus",
+        "Pertanyaan": "Apa hukum Ohm?",
+        "Jawaban": "Hukum Ohm menyatakan bahwa arus yang mengalir melalui suatu konduktor sebanding dengan beda potensial dan berbanding terbalik dengan hambatan, yang dirumuskan sebagai V = I × R.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Modul Listrik",
+        "Sinonim": [
+            "hukum Ohm",
+            "arus dan hambatan",
+            "beda potensial"
+        ]
+    },
+    {
+        "Topik": "Fisika",
+        "Subtopik": "Rangkaian Listrik",
+        "Pertanyaan": "Apa yang dimaksud dengan rangkaian listrik seri?",
+        "Jawaban": "Rangkaian listrik seri adalah rangkaian di mana komponen-komponen listrik dihubungkan secara berurutan, sehingga arus yang mengalir melalui setiap komponen adalah sama.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Buku IPA Kelas 9",
+        "Sinonim": [
+            "rangkaian seri",
+            "komponen berurutan",
+            "arus listrik"
+        ]
+    },
+    {
+        "Topik": "Fisika",
+        "Subtopik": "Rangkaian Listrik",
+        "Pertanyaan": "Apa yang dimaksud dengan rangkaian listrik paralel?",
+        "Jawaban": "Rangkaian listrik paralel adalah rangkaian di mana komponen-komponen listrik dihubungkan secara paralel, sehingga tegangan pada setiap komponen adalah sama.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Modul Rangkaian Listrik",
+        "Sinonim": [
+            "rangkaian paralel",
+            "komponen paralel",
+            "tegangan"
+        ]
+    },
+    {
+        "Topik": "Fisika",
+        "Subtopik": "Daya Listrik",
+        "Pertanyaan": "Apa yang dimaksud dengan daya listrik?",
+        "Jawaban": "Daya listrik adalah laju perubahan energi listrik, yang dihitung dengan rumus P = V × I, di mana P adalah daya, V adalah tegangan, dan I adalah arus.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Buku IPA Kelas 9",
+        "Sinonim": [
+            "daya listrik",
+            "energi listrik",
+            "perubahan energi"
+        ]
+    },
+    {
+        "Topik": "Fisika",
+        "Subtopik": "Listrik Statis",
+        "Pertanyaan": "Bagaimana cara mendapatkan muatan listrik pada benda?",
+        "Jawaban": "Muatan listrik dapat diperoleh dengan cara menggosokkan dua benda yang berbeda jenis, yang menyebabkan elektron berpindah dari satu benda ke benda lainnya.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Modul Listrik Statis",
+        "Sinonim": [
+            "muatan listrik",
+            "listrik statis",
+            "pemindahan elektron"
+        ]
+    },
+    {
+        "Topik": "Fisika",
+        "Subtopik": "Arus Listrik",
+        "Pertanyaan": "Apa rumus untuk menghitung arus listrik?",
+        "Jawaban": "Rumus untuk menghitung arus listrik adalah I = Q / t, di mana I adalah arus listrik (ampere), Q adalah muatan (coulomb), dan t adalah waktu (detik).",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Modul Arus Listrik",
+        "Sinonim": [
+            "arus listrik",
+            "hitung arus",
+            "muatan"
+        ]
+    },
+    {
+        "Topik": "Fisika",
+        "Subtopik": "Tegangan Listrik",
+        "Pertanyaan": "Apa rumus untuk menghitung tegangan listrik?",
+        "Jawaban": "Rumus untuk menghitung tegangan listrik adalah V = I × R, di mana V adalah tegangan (volt), I adalah arus listrik (ampere), dan R adalah hambatan (ohm).",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Modul Tegangan Listrik",
+        "Sinonim": [
+            "tegangan listrik",
+            "hitung tegangan",
+            "arus dan hambatan"
+        ]
+    },
+    {
+        "Topik": "Fisika",
+        "Subtopik": "Daya Listrik",
+        "Pertanyaan": "Bagaimana cara menghitung daya listrik?",
+        "Jawaban": "Daya listrik dapat dihitung dengan rumus P = V × I, di mana P adalah daya listrik (watt), V adalah tegangan (volt), dan I adalah arus listrik (ampere).",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Modul Daya Listrik",
+        "Sinonim": [
+            "daya listrik",
+            "hitung daya",
+            "tegangan dan arus"
+        ]
+    },
+    {
+        "Topik": "Fisika",
+        "Subtopik": "Tegangan Listrik",
+        "Pertanyaan": "Jika arus listrik dalam suatu rangkaian 2 ampere dan hambatan 5 ohm, berapa tegangan yang terjadi?",
+        "Jawaban": "Tegangan dapat dihitung dengan rumus V = I × R, yaitu V = 2 × 5 = 10 volt.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Modul Latihan Tegangan Listrik",
+        "Sinonim": [
+            "tegangan listrik",
+            "hitung tegangan",
+            "arus dan hambatan"
+        ]
+    },
+    {
+        "Topik": "Fisika",
+        "Subtopik": "Daya Listrik",
+        "Pertanyaan": "Sebuah lampu memiliki tegangan 12 volt dan arus 1,5 ampere. Berapa daya listrik yang digunakan lampu tersebut?",
+        "Jawaban": "Daya listrik dapat dihitung dengan rumus P = V × I, yaitu P = 12 × 1,5 = 18 watt.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Latihan Daya Listrik",
+        "Sinonim": [
+            "daya listrik",
+            "hitung daya",
+            "tegangan dan arus"
+        ]
+    },
+    {
+        "Topik": "Fisika",
+        "Subtopik": "Arus Listrik",
+        "Pertanyaan": "Sebuah kawat penghantar mengalirkan arus listrik sebesar 3 ampere selama 2 jam. Berapa banyak muatan yang mengalir melalui kawat tersebut?",
+        "Jawaban": "Muatan yang mengalir dapat dihitung dengan rumus Q = I × t, yaitu Q = 3 × 2 × 3600 = 21600 coulomb.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Modul Arus Listrik dan Muatan",
+        "Sinonim": [
+            "muatan listrik",
+            "hitung muatan",
+            "arus listrik"
+        ]
+    },
+    {
+        "Topik": "Fisika",
+        "Subtopik": "Magnet",
+        "Pertanyaan": "Apa yang dimaksud dengan magnet?",
+        "Jawaban": "Magnet adalah benda yang dapat menghasilkan medan magnet dan menarik benda-benda tertentu seperti besi dan baja.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Modul Dasar Magnet",
+        "Sinonim": [
+            "magnet",
+            "benda magnetik",
+            "medan magnet"
+        ]
+    },
+    {
+        "Topik": "Fisika",
+        "Subtopik": "Magnet",
+        "Pertanyaan": "Apa yang terjadi jika dua kutub magnet yang sama saling mendekat?",
+        "Jawaban": "Jika dua kutub magnet yang sama saling mendekat, keduanya akan saling tolak-menolak.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Modul Interaksi Magnet",
+        "Sinonim": [
+            "kutub magnet",
+            "tolak-menolak",
+            "magnet yang sama"
+        ]
+    },
+    {
+        "Topik": "Fisika",
+        "Subtopik": "Magnet",
+        "Pertanyaan": "Apa yang dimaksud dengan kutub magnet?",
+        "Jawaban": "Kutub magnet adalah bagian dari magnet yang memiliki sifat tarik-menarik dengan kutub magnet yang berlawanan dan tolak-menolak dengan kutub yang sama.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Modul Kutub Magnet",
+        "Sinonim": [
+            "kutub magnet",
+            "kutub utara",
+            "kutub selatan"
+        ]
+    },
+    {
+        "Topik": "Fisika",
+        "Subtopik": "Magnet",
+        "Pertanyaan": "Apa yang dimaksud dengan medan magnet?",
+        "Jawaban": "Medan magnet adalah daerah di sekitar magnet di mana gaya magnet dapat dirasakan.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Modul Medan Magnet",
+        "Sinonim": [
+            "medan magnet",
+            "gaya magnet",
+            "daerah magnet"
+        ]
+    },
+    {
+        "Topik": "Fisika",
+        "Subtopik": "Magnet",
+        "Pertanyaan": "Apa hukum Coulomb dalam magnet?",
+        "Jawaban": "Hukum Coulomb dalam magnet menyatakan bahwa gaya tarik atau tolak antara dua kutub magnet berbanding terbalik dengan kuadrat jarak antara kedua kutub tersebut dan berbanding lurus dengan hasil kali besar kekuatan kutub magnet.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Modul Hukum Coulomb",
+        "Sinonim": [
+            "hukum Coulomb",
+            "gaya magnet",
+            "kutub magnet"
+        ]
+    },
+    {
+        "Topik": "Fisika",
+        "Subtopik": "Magnet",
+        "Pertanyaan": "Apa yang dimaksud dengan garis gaya magnet?",
+        "Jawaban": "Garis gaya magnet adalah garis khayal yang menggambarkan arah dan kekuatan medan magnet, yang bergerak keluar dari kutub utara dan masuk ke kutub selatan.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Modul Garis Gaya Magnet",
+        "Sinonim": [
+            "garis gaya",
+            "medan magnet",
+            "kutub magnet"
+        ]
+    },
+    {
+        "Topik": "Fisika",
+        "Subtopik": "Magnet",
+        "Pertanyaan": "Bagaimana cara membuat magnet dari besi?",
+        "Jawaban": "Untuk membuat magnet dari besi, besi dapat digosokkan dengan magnet alami atau dialiri arus listrik yang dapat menghasilkan medan magnet.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Modul Pembuatan Magnet",
+        "Sinonim": [
+            "membuat magnet",
+            "magnetisasi",
+            "benda magnetik"
+        ]
+    },
+    {
+        "Topik": "Fisika",
+        "Subtopik": "Magnet",
+        "Pertanyaan": "Apa yang dimaksud dengan magnet permanen?",
+        "Jawaban": "Magnet permanen adalah magnet yang dapat mempertahankan sifat kemagnetannya dalam waktu yang lama, seperti magnet yang digunakan dalam kompas.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Buku IPA Kelas 8",
+        "Sinonim": [
+            "magnet permanen",
+            "magnet tetap",
+            "kemagnetan"
+        ]
+    },
+    {
+        "Topik": "Fisika",
+        "Subtopik": "Magnet",
+        "Pertanyaan": "Apa yang dimaksud dengan magnet sementara?",
+        "Jawaban": "Magnet sementara adalah magnet yang hanya memiliki sifat kemagnetan selama terkena medan magnet atau arus listrik, dan sifat magnetiknya hilang setelah sumber medan magnetnya dihilangkan.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Buku IPA Kelas 8",
+        "Sinonim": [
+            "magnet sementara",
+            "kemagnetan sementara",
+            "magnet induksi"
+        ]
+    },
+    {
+        "Topik": "Fisika",
+        "Subtopik": "Magnet",
+        "Pertanyaan": "Bagaimana cara mengukur kekuatan medan magnet?",
+        "Jawaban": "Kekuatan medan magnet dapat diukur dengan menggunakan alat yang disebut gaussmeter, yang mengukur intensitas medan magnet dalam satuan gauss atau tesla.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Modul Pengukuran Medan Magnet",
+        "Sinonim": [
+            "kekuatan medan magnet",
+            "gaussmeter",
+            "medan magnet"
+        ]
+    },
+    {
+        "Topik": "Kimia",
+        "Subtopik": "Tabel Periodik",
+        "Pertanyaan": "Apa simbol kimia untuk unsur oksigen?",
+        "Jawaban": "Simbol kimia oksigen adalah O.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Tabel periodik unsur",
+        "Sinonim": [
+            "simbol kimia",
+            "oksigen",
+            "unsur O",
+            "lambang oksigen"
+        ]
+    },
+    {
+        "Topik": "Kimia",
+        "Subtopik": "Reaksi Kimia",
+        "Pertanyaan": "Apa yang dimaksud dengan reaksi kimia?",
+        "Jawaban": "Reaksi kimia adalah proses perubahan zat menjadi zat baru.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Buku IPA Kelas 9",
+        "Sinonim": [
+            "reaksi kimia",
+            "perubahan zat",
+            "reaksi",
+            "zat baru"
+        ]
+    },
+    {
+        "Topik": "Kimia",
+        "Subtopik": "Asam dan Basa",
+        "Pertanyaan": "Apa sifat dari larutan asam?",
+        "Jawaban": "Larutan asam memiliki rasa masam dan pH kurang dari 7.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Materi Asam Basa",
+        "Sinonim": [
+            "asam",
+            "sifat asam",
+            "pH rendah",
+            "rasa masam"
+        ]
+    },
+    {
+        "Topik": "Kimia",
+        "Subtopik": "Asam dan Basa",
+        "Pertanyaan": "Apa contoh zat yang bersifat basa?",
+        "Jawaban": "Contoh zat basa adalah sabun dan larutan amonia.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "IPA Kelas 9 Semester 2",
+        "Sinonim": [
+            "basa",
+            "zat basa",
+            "sifat basa",
+            "alkali"
+        ]
+    },
+    {
+        "Topik": "Kimia",
+        "Subtopik": "Perubahan Materi",
+        "Pertanyaan": "Apa perbedaan antara perubahan fisika dan kimia?",
+        "Jawaban": "Perubahan fisika tidak menghasilkan zat baru, sedangkan perubahan kimia menghasilkan zat baru.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Bab Perubahan Materi",
+        "Sinonim": [
+            "perubahan fisika",
+            "perubahan kimia",
+            "reaksi",
+            "zat baru",
+            "perbedaan perubahan"
+        ]
+    },
+    {
+        "Topik": "Kimia",
+        "Subtopik": "Unsur, Senyawa, Campuran",
+        "Pertanyaan": "Apa perbedaan antara senyawa dan campuran?",
+        "Jawaban": "Senyawa tersusun dari unsur dengan perbandingan tetap, campuran tidak memiliki perbandingan tetap.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Materi klasifikasi materi",
+        "Sinonim": [
+            "senyawa",
+            "campuran",
+            "perbedaan senyawa campuran",
+            "komposisi tetap"
+        ]
+    },
+    {
+        "Topik": "Kimia",
+        "Subtopik": "Pemisahan Campuran",
+        "Pertanyaan": "Apa metode yang digunakan untuk memisahkan campuran garam dan air?",
+        "Jawaban": "Campuran garam dan air dapat dipisahkan dengan cara distilasi atau penguapan.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Buku siswa IPA",
+        "Sinonim": [
+            "pemisahan campuran",
+            "garam dan air",
+            "distilasi",
+            "penguapan",
+            "pemisahan zat"
+        ]
+    },
+    {
+        "Topik": "Kimia",
+        "Subtopik": "Tabel Periodik",
+        "Pertanyaan": "Mengapa logam alkali sangat reaktif?",
+        "Jawaban": "Karena logam alkali memiliki satu elektron valensi yang mudah dilepas.",
+        "Level Kesulitan": "Sulit",
+        "Catatan Tambahan": "Bab Tabel Periodik",
+        "Sinonim": [
+            "logam alkali",
+            "reaktif",
+            "elektron valensi",
+            "unsur golongan IA"
+        ]
+    },
+    {
+        "Topik": "Kimia",
+        "Subtopik": "Asam dan Basa",
+        "Pertanyaan": "Apa indikator alami yang bisa digunakan untuk menguji asam dan basa?",
+        "Jawaban": "Indikator alami seperti ekstrak bunga sepatu atau kol ungu bisa digunakan.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Praktikum IPA",
+        "Sinonim": [
+            "indikator alami",
+            "uji asam basa",
+            "ekstrak kol",
+            "uji pH"
+        ]
+    },
+    {
+        "Topik": "Kimia",
+        "Subtopik": "Reaksi Kimia",
+        "Pertanyaan": "Apa tanda-tanda terjadinya reaksi kimia?",
+        "Jawaban": "Tanda-tanda reaksi kimia antara lain perubahan warna, suhu, pembentukan gas atau endapan.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Bab Reaksi Kimia",
+        "Sinonim": [
+            "reaksi kimia",
+            "tanda reaksi",
+            "perubahan zat",
+            "indikasi reaksi"
+        ]
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Sistem Pencernaan",
+        "Pertanyaan": "Apa fungsi utama dari lambung dalam sistem pencernaan?",
+        "Jawaban": "Lambung berfungsi untuk mencerna makanan secara mekanik dan kimiawi dengan bantuan asam lambung.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Buku IPA Kelas 7",
+        "Sinonim": [
+            "lambung",
+            "fungsi lambung",
+            "sistem pencernaan",
+            "proses pencernaan"
+        ]
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Peredaran Darah",
+        "Pertanyaan": "Apa yang dimaksud dengan peredaran darah kecil?",
+        "Jawaban": "Peredaran darah kecil adalah peredaran darah dari jantung ke paru-paru untuk mengambil oksigen dan kembali lagi ke jantung.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Modul peredaran darah",
+        "Sinonim": [
+            "peredaran darah kecil",
+            "sirkulasi pulmoner",
+            "peredaran paru-paru",
+            "sistem peredaran"
+        ]
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Reproduksi Manusia",
+        "Pertanyaan": "Apa organ yang bertanggung jawab dalam produksi sperma pada pria?",
+        "Jawaban": "Organ yang bertanggung jawab dalam produksi sperma adalah testis.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Buku IPA Kelas 8",
+        "Sinonim": [
+            "testis",
+            "organ reproduksi pria",
+            "produksi sperma",
+            "alat kelamin pria"
+        ]
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Jaringan Tumbuhan",
+        "Pertanyaan": "Apa fungsi jaringan meristem pada tumbuhan?",
+        "Jawaban": "Jaringan meristem berfungsi untuk pertumbuhan dan pembelahan sel pada tumbuhan.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Buku Biologi",
+        "Sinonim": [
+            "jaringan meristem",
+            "meristem",
+            "pertumbuhan tumbuhan",
+            "pembelahan sel"
+        ]
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Fotosintesis",
+        "Pertanyaan": "Mengapa tanaman membutuhkan klorofil dalam proses fotosintesis?",
+        "Jawaban": "Klorofil berfungsi untuk menyerap cahaya matahari yang diperlukan untuk proses fotosintesis.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Modul Fotosintesis",
+        "Sinonim": [
+            "klorofil",
+            "cahaya matahari",
+            "proses fotosintesis",
+            "pigmen hijau"
+        ]
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Sistem Ekskresi",
+        "Pertanyaan": "Apa organ utama dalam sistem ekskresi manusia?",
+        "Jawaban": "Organ utama dalam sistem ekskresi manusia adalah ginjal.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Buku IPA Kelas 9",
+        "Sinonim": [
+            "ginjal",
+            "sistem ekskresi",
+            "organ ekskresi",
+            "proses ekskresi"
+        ]
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Sistem Syaraf",
+        "Pertanyaan": "Apa yang dimaksud dengan sistem syaraf pusat?",
+        "Jawaban": "Sistem syaraf pusat terdiri dari otak dan sumsum tulang belakang, yang mengontrol aktivitas tubuh.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Modul sistem syaraf",
+        "Sinonim": [
+            "sistem syaraf pusat",
+            "otak",
+            "sumsum tulang belakang",
+            "sistem syaraf"
+        ]
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Klasifikasi Makhluk Hidup",
+        "Pertanyaan": "Apa dasar klasifikasi makhluk hidup?",
+        "Jawaban": "Dasar klasifikasi makhluk hidup adalah kesamaan ciri-ciri morfologi, anatomi, dan genetik.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Buku IPA Kelas 7",
+        "Sinonim": [
+            "klasifikasi makhluk hidup",
+            "klasifikasi biologi",
+            "kingdom",
+            "morfologi"
+        ]
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Adaptasi",
+        "Pertanyaan": "Apa yang dimaksud dengan adaptasi pada makhluk hidup?",
+        "Jawaban": "Adaptasi adalah proses perubahan yang terjadi pada makhluk hidup untuk menyesuaikan diri dengan lingkungan.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Buku IPA Kelas 8",
+        "Sinonim": [
+            "adaptasi",
+            "penyesuaian diri",
+            "perubahan organisme",
+            "perubahan lingkungan"
+        ]
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Sistem Pencernaan",
+        "Pertanyaan": "Bagaimana proses pencernaan makanan di usus halus?",
+        "Jawaban": "Di usus halus, makanan dicerna dengan bantuan enzim dan diserap ke dalam darah.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Buku IPA Kelas 9",
+        "Sinonim": [
+            "usus halus",
+            "pencernaan usus",
+            "penyerapan nutrisi",
+            "sistem pencernaan"
+        ]
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Sistem Peredaran Darah",
+        "Pertanyaan": "Apa fungsi dari sel darah merah dalam tubuh manusia?",
+        "Jawaban": "Sel darah merah berfungsi untuk mengangkut oksigen dari paru-paru ke seluruh tubuh.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Buku IPA Kelas 7",
+        "Sinonim": [
+            "sel darah merah",
+            "fungsi sel darah merah",
+            "hematologi",
+            "sel darah"
+        ]
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Sistem Peredaran Darah",
+        "Pertanyaan": "Bagaimana cara kerja jantung dalam peredaran darah besar?",
+        "Jawaban": "Jantung memompa darah ke seluruh tubuh melalui arteri, dimulai dari ventrikel kiri menuju seluruh tubuh.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Modul peredaran darah besar",
+        "Sinonim": [
+            "peredaran darah besar",
+            "fungsi jantung",
+            "jantung",
+            "sirkulasi tubuh"
+        ]
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Fotosintesis",
+        "Pertanyaan": "Bagaimana proses fotosintesis dapat terjadi pada tumbuhan?",
+        "Jawaban": "Fotosintesis terjadi pada tumbuhan dengan bantuan cahaya matahari, air, dan karbon dioksida untuk menghasilkan glukosa dan oksigen.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Buku IPA Kelas 7",
+        "Sinonim": [
+            "proses fotosintesis",
+            "pembuatan makanan pada tumbuhan",
+            "klorofil",
+            "cahaya matahari"
+        ]
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Reproduksi Tumbuhan",
+        "Pertanyaan": "Apa perbedaan antara perkembangbiakan generatif dan vegetatif pada tumbuhan?",
+        "Jawaban": "Perkembangbiakan generatif melibatkan proses pembuahan, sedangkan vegetatif tidak melibatkan pembuahan, seperti pada stek dan cangkok.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Bab Reproduksi Tumbuhan",
+        "Sinonim": [
+            "perkembangbiakan generatif",
+            "perkembangbiakan vegetatif",
+            "reproduksi tumbuhan",
+            "cangkok"
+        ]
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Genetika",
+        "Pertanyaan": "Apa yang dimaksud dengan gen?",
+        "Jawaban": "Gen adalah unit pewarisan sifat yang terbuat dari DNA, yang menentukan ciri-ciri tubuh makhluk hidup.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Modul Genetika",
+        "Sinonim": [
+            "gen",
+            "DNA",
+            "pewarisan sifat",
+            "materi genetik"
+        ]
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Adaptasi",
+        "Pertanyaan": "Apa contoh adaptasi morfologi pada hewan di daerah dingin?",
+        "Jawaban": "Contoh adaptasi morfologi pada hewan di daerah dingin adalah adanya lapisan lemak tebal pada tubuh untuk menghindari kehilangan panas.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Buku IPA Kelas 8",
+        "Sinonim": [
+            "adaptasi morfologi",
+            "adaptasi hewan",
+            "penyesuaian tubuh",
+            "hewan daerah dingin"
+        ]
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Jaringan Tumbuhan",
+        "Pertanyaan": "Apa yang dimaksud dengan jaringan pengangkut pada tumbuhan?",
+        "Jawaban": "Jaringan pengangkut pada tumbuhan terdiri dari xilem yang mengangkut air dan floem yang mengangkut hasil fotosintesis.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Modul Jaringan Tumbuhan",
+        "Sinonim": [
+            "jaringan pengangkut",
+            "xilem",
+            "floem",
+            "jaringan tumbuhan"
+        ]
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Sistem Pernapasan",
+        "Pertanyaan": "Bagaimana proses pertukaran gas di paru-paru?",
+        "Jawaban": "Pertukaran gas di paru-paru terjadi melalui difusi, di mana oksigen masuk ke dalam darah dan karbon dioksida dikeluarkan.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Buku IPA Kelas 9",
+        "Sinonim": [
+            "pertukaran gas",
+            "paru-paru",
+            "oksigen",
+            "karbon dioksida"
+        ]
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Makanan dan Nutrisi",
+        "Pertanyaan": "Mengapa tubuh manusia membutuhkan karbohidrat?",
+        "Jawaban": "Karbohidrat diperlukan tubuh sebagai sumber energi utama.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Modul Makanan dan Nutrisi",
+        "Sinonim": [
+            "karbohidrat",
+            "sumber energi",
+            "nutrisi",
+            "makanan"
+        ]
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Sistem Endokrin",
+        "Pertanyaan": "Apa fungsi dari hormon insulin dalam tubuh manusia?",
+        "Jawaban": "Hormon insulin berfungsi untuk mengatur kadar gula darah dan membantu proses metabolisme glukosa.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Buku IPA Kelas 9",
+        "Sinonim": [
+            "insulin",
+            "hormon",
+            "sistem endokrin",
+            "metabolisme gula"
+        ]
+    },
+    {
+        "Topik": "Kimia",
+        "Subtopik": "Zat dan Perubahannya",
+        "Pertanyaan": "Apa yang dimaksud dengan perubahan fisika?",
+        "Jawaban": "Perubahan fisika adalah perubahan yang tidak menghasilkan zat baru, seperti perubahan bentuk, suhu, dan wujud.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Buku IPA Kelas 8",
+        "Sinonim": [
+            "perubahan fisika",
+            "perubahan bentuk",
+            "wujud zat"
+        ]
+    },
+    {
+        "Topik": "Kimia",
+        "Subtopik": "Zat dan Perubahannya",
+        "Pertanyaan": "Apa yang dimaksud dengan perubahan kimia?",
+        "Jawaban": "Perubahan kimia adalah perubahan yang menghasilkan zat baru dengan sifat yang berbeda, seperti pembakaran dan karatan.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Modul Perubahan Zat",
+        "Sinonim": [
+            "perubahan kimia",
+            "reaksi kimia",
+            "pembakaran"
+        ]
+    },
+    {
+        "Topik": "Kimia",
+        "Subtopik": "Asam dan Basa",
+        "Pertanyaan": "Apa yang dimaksud dengan larutan asam?",
+        "Jawaban": "Larutan asam adalah larutan yang memiliki pH kurang dari 7 dan dapat melepaskan ion H+ dalam larutannya.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Modul Asam dan Basa",
+        "Sinonim": [
+            "larutan asam",
+            "asam",
+            "pH rendah"
+        ]
+    },
+    {
+        "Topik": "Kimia",
+        "Subtopik": "Asam dan Basa",
+        "Pertanyaan": "Apa yang dimaksud dengan larutan basa?",
+        "Jawaban": "Larutan basa adalah larutan yang memiliki pH lebih dari 7 dan dapat melepaskan ion OH- dalam larutannya.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Modul Asam dan Basa",
+        "Sinonim": [
+            "larutan basa",
+            "basa",
+            "pH tinggi"
+        ]
+    },
+    {
+        "Topik": "Kimia",
+        "Subtopik": "Tabel Periodik",
+        "Pertanyaan": "Apa yang dimaksud dengan golongan dalam tabel periodik?",
+        "Jawaban": "Golongan dalam tabel periodik adalah kolom vertikal yang menunjukkan kesamaan sifat kimia dari unsur-unsur yang berada dalam satu golongan.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Modul Tabel Periodik",
+        "Sinonim": [
+            "golongan unsur",
+            "kolom tabel periodik",
+            "kelompok unsur"
+        ]
+    },
+    {
+        "Topik": "Kimia",
+        "Subtopik": "Tabel Periodik",
+        "Pertanyaan": "Apa yang dimaksud dengan periode dalam tabel periodik?",
+        "Jawaban": "Periode dalam tabel periodik adalah baris horizontal yang menunjukkan perubahan sifat fisika dan kimia unsur-unsur dari kiri ke kanan.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Buku IPA Kelas 9",
+        "Sinonim": [
+            "periode unsur",
+            "baris tabel periodik",
+            "urutan unsur"
+        ]
+    },
+    {
+        "Topik": "Kimia",
+        "Subtopik": "Ikatan Kimia",
+        "Pertanyaan": "Apa yang dimaksud dengan ikatan kovalen?",
+        "Jawaban": "Ikatan kovalen adalah ikatan yang terbentuk akibat adanya pasangan elektron yang dibagi antara dua atom.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Modul Ikatan Kimia",
+        "Sinonim": [
+            "ikatan kovalen",
+            "ikatan elektron",
+            "ikatan antar atom"
+        ]
+    },
+    {
+        "Topik": "Kimia",
+        "Subtopik": "Asam dan Basa",
+        "Pertanyaan": "Apa yang dimaksud dengan pH?",
+        "Jawaban": "pH adalah ukuran keasaman atau kebasaan suatu larutan, dengan skala 0 hingga 14.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Buku IPA Kelas 8",
+        "Sinonim": [
+            "pH",
+            "tingkat keasaman",
+            "tingkat kebasaan"
+        ]
+    },
+    {
+        "Topik": "Kimia",
+        "Subtopik": "Klasifikasi Zat",
+        "Pertanyaan": "Apa yang dimaksud dengan senyawa?",
+        "Jawaban": "Senyawa adalah zat yang terbentuk dari dua atau lebih unsur yang terikat secara kimia.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Modul Klasifikasi Zat",
+        "Sinonim": [
+            "senyawa",
+            "zat terikat",
+            "komponen kimia"
+        ]
+    },
+    {
+        "Topik": "Kimia",
+        "Subtopik": "Katalisator",
+        "Pertanyaan": "Apa yang dimaksud dengan katalisator?",
+        "Jawaban": "Katalisator adalah zat yang mempercepat reaksi kimia tanpa ikut bereaksi secara permanen.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Modul Katalisator",
+        "Sinonim": [
+            "katalisator",
+            "pemacu reaksi",
+            "zat pengaktif"
+        ]
+    },
+    {
+        "Topik": "Kimia",
+        "Subtopik": "Reaksi Kimia",
+        "Pertanyaan": "Apa yang dimaksud dengan reaksi eksotermik?",
+        "Jawaban": "Reaksi eksotermik adalah reaksi kimia yang menghasilkan panas, sehingga suhu lingkungan meningkat.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Modul Reaksi Kimia",
+        "Sinonim": [
+            "reaksi eksotermik",
+            "reaksi pelepasan panas",
+            "reaksi kimia panas"
+        ]
+    },
+    {
+        "Topik": "Kimia",
+        "Subtopik": "Reaksi Kimia",
+        "Pertanyaan": "Apa yang dimaksud dengan reaksi endotermik?",
+        "Jawaban": "Reaksi endotermik adalah reaksi kimia yang menyerap panas dari lingkungan, sehingga suhu lingkungan turun.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Modul Reaksi Kimia",
+        "Sinonim": [
+            "reaksi endotermik",
+            "reaksi penyerapan panas",
+            "reaksi kimia dingin"
+        ]
+    },
+    {
+        "Topik": "Kimia",
+        "Subtopik": "Penggunaan Gas",
+        "Pertanyaan": "Apa kegunaan gas oksigen dalam kehidupan sehari-hari?",
+        "Jawaban": "Gas oksigen digunakan untuk pernapasan makhluk hidup dan dalam berbagai industri, seperti industri pemotongan logam.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Buku IPA Kelas 8",
+        "Sinonim": [
+            "gas oksigen",
+            "O2",
+            "pernapasan"
+        ]
+    },
+    {
+        "Topik": "Kimia",
+        "Subtopik": "Asam dan Basa",
+        "Pertanyaan": "Apa yang dimaksud dengan indikator?",
+        "Jawaban": "Indikator adalah zat yang digunakan untuk menunjukkan perubahan pH suatu larutan, seperti kertas lakmus.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Modul Asam dan Basa",
+        "Sinonim": [
+            "indikator",
+            "lakmus",
+            "indikator pH"
+        ]
+    },
+    {
+        "Topik": "Kimia",
+        "Subtopik": "Tabel Periodik",
+        "Pertanyaan": "Siapa yang menemukan tabel periodik unsur?",
+        "Jawaban": "Tabel periodik unsur ditemukan oleh Dmitri Mendeleev pada tahun 1869.",
+        "Level Kesulitan": "Mudah",
+        "Catatan Tambahan": "Buku IPA Kelas 9",
+        "Sinonim": [
+            "Mendeleev",
+            "tabel periodik",
+            "penemu tabel periodik"
+        ]
+    },
+    {
+        "Topik": "Kimia",
+        "Subtopik": "Ikatan Kimia",
+        "Pertanyaan": "Apa yang dimaksud dengan ikatan ion?",
+        "Jawaban": "Ikatan ion adalah ikatan yang terbentuk akibat tarik-menarik antara ion bermuatan positif dan negatif.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Modul Ikatan Kimia",
+        "Sinonim": [
+            "ikatan ion",
+            "ikatan elektrostatik",
+            "ikatan antar ion"
+        ]
+    },
+    {
+        "Topik": "Kimia",
+        "Subtopik": "Gas Ideal",
+        "Pertanyaan": "Apa yang dimaksud dengan hukum Boyle?",
+        "Jawaban": "Hukum Boyle menyatakan bahwa pada suhu tetap, tekanan gas berbanding terbalik dengan volumenya.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Buku IPA Kelas 9",
+        "Sinonim": [
+            "hukum Boyle",
+            "tekanan gas",
+            "volume gas"
+        ]
+    },
+    {
+        "Topik": "Kimia",
+        "Subtopik": "Larutan",
+        "Pertanyaan": "Apa yang dimaksud dengan larutan jenuh?",
+        "Jawaban": "Larutan jenuh adalah larutan yang telah mencapai batas maksimum jumlah zat terlarut pada suhu tertentu.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Modul Larutan",
+        "Sinonim": [
+            "larutan jenuh",
+            "larutan maksimal",
+            "larutan terlarut"
+        ]
+    },
+    {
+        "Topik": "Kimia",
+        "Subtopik": "Katalis",
+        "Pertanyaan": "Apa yang dimaksud dengan katalisator?",
+        "Jawaban": "Katalisator adalah zat yang mempercepat reaksi kimia tanpa ikut bereaksi secara permanen.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Modul Katalis",
+        "Sinonim": [
+            "katalisator",
+            "pemacu reaksi",
+            "zat pengaktif"
+        ]
+    },
+    {
+        "Topik": "Kimia",
+        "Subtopik": "Senyawa Hidrokarbon",
+        "Pertanyaan": "Apa itu hidrokarbon?",
+        "Jawaban": "Hidrokarbon adalah senyawa yang hanya terdiri dari unsur karbon dan hidrogen, seperti metana dan etana.",
+        "Level Kesulitan": "Sedang",
+        "Catatan Tambahan": "Buku IPA Kelas 9",
+        "Sinonim": [
+            "hidrokarbon",
+            "senyawa karbon dan hidrogen",
+            "senyawa organik"
+        ]
+    }
 ]
