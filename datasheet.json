@@ -23,6 +23,112 @@
     "Level Kesulitan": "Sedang",
     "Catatan Tambahan": "Buku IPA Kelas 7"
   },
+  
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Fotosintesis",
+        "Pertanyaan": "Apa yang dihasilkan dalam proses fotosintesis?",
+        "Jawaban": "Fotosintesis menghasilkan glukosa dan oksigen.",
+        "Tema": "Biologi"
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Enzim",
+        "Pertanyaan": "Apa fungsi enzim amilase dalam pencernaan makanan?",
+        "Jawaban": "Enzim amilase memecah karbohidrat seperti pati menjadi gula sederhana.",
+        "Tema": "Biologi"
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Sistem Pernapasan",
+        "Pertanyaan": "Apa nama organ utama dalam sistem pernapasan manusia?",
+        "Jawaban": "Organ utama dalam sistem pernapasan manusia adalah paru-paru.",
+        "Tema": "Biologi"
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Sistem Transportasi Tumbuhan",
+        "Pertanyaan": "Apa nama jaringan yang mengangkut air dan mineral dari akar ke daun?",
+        "Jawaban": "Jaringan yang mengangkut air dan mineral adalah xilem.",
+        "Tema": "Biologi"
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Genetika",
+        "Pertanyaan": "Apa nama molekul yang membawa informasi genetik dalam sel?",
+        "Jawaban": "Molekul yang membawa informasi genetik dalam sel adalah DNA.",
+        "Tema": "Biologi"
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Sistem Ekskresi",
+        "Pertanyaan": "Apa fungsi utama ginjal dalam sistem ekskresi manusia?",
+        "Jawaban": "Ginjal menyaring darah untuk membuang limbah dan mengatur keseimbangan cairan tubuh.",
+        "Tema": "Biologi"
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Sel",
+        "Pertanyaan": "Apa organel sel yang bertanggung jawab untuk fotosintesis?",
+        "Jawaban": "Organel yang bertanggung jawab untuk fotosintesis adalah kloroplas.",
+        "Tema": "Biologi"
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Reproduksi Sel",
+        "Pertanyaan": "Apa nama proses pembelahan sel yang menghasilkan dua sel anak identik?",
+        "Jawaban": "Proses pembelahan sel tersebut adalah mitosis.",
+        "Tema": "Biologi"
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Homeostasis",
+        "Pertanyaan": "Apa nama proses yang menjaga keseimbangan internal dalam tubuh manusia?",
+        "Jawaban": "Proses tersebut disebut homeostasis.",
+        "Tema": "Biologi"
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Protein Darah",
+        "Pertanyaan": "Apa nama protein yang mengangkut oksigen dalam darah manusia?",
+        "Jawaban": "Protein yang mengangkut oksigen dalam darah adalah hemoglobin.",
+        "Tema": "Biologi"
+    },
+  {
+        "Topik": "Biologi",
+        "Subtopik": "Sistem Organ Manusia",
+        "Pertanyaan": "Apa fungsi utama paru-paru dalam sistem pernapasan manusia?",
+        "Jawaban": "Paru-paru berfungsi untuk pertukaran gas oksigen dan karbon dioksida dalam tubuh.",
+        "Tema": "Biologi"
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Reproduksi Tumbuhan",
+        "Pertanyaan": "Apa nama proses penyerbukan yang dilakukan oleh angin?",
+        "Jawaban": "Proses tersebut disebut anemogami.",
+        "Tema": "Biologi"
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Ekosistem",
+        "Pertanyaan": "Apa yang dimaksud dengan rantai makanan dalam ekosistem?",
+        "Jawaban": "Rantai makanan adalah alur perpindahan energi melalui proses makan dan dimakan antarorganisme dalam ekosistem.",
+        "Tema": "Biologi"
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Sistem Peredaran Darah",
+        "Pertanyaan": "Apa fungsi utama jantung dalam sistem peredaran darah manusia?",
+        "Jawaban": "Jantung memompa darah ke seluruh tubuh untuk menyuplai oksigen dan nutrisi.",
+        "Tema": "Biologi"
+    },
+    {
+        "Topik": "Biologi",
+        "Subtopik": "Sistem Ekskresi",
+        "Pertanyaan": "Apa produk limbah utama yang dihasilkan oleh ginjal?",
+        "Jawaban": "Ginjal menghasilkan urine sebagai produk limbah utama.",
+        "Tema": "Biologi"
+    },
   {
     "Topik": "Fisika",
     "Subtopik": "Hukum Newton",
@@ -39,6 +145,41 @@
     "Level Kesulitan": "Mudah",
     "Catatan Tambahan": "Modul latihan siswa"
   },
+  {
+        "Topik": "Fisika",
+        "Subtopik": "Energi Kinetik",
+        "Pertanyaan": "Apa rumus untuk menghitung energi kinetik sebuah benda?",
+        "Jawaban": "Rumus energi kinetik adalah Ek = 1/2 × m × v², di mana m adalah massa dan v adalah kecepatan benda.",
+        "Tema": "Fisika"
+    },
+    {
+        "Topik": "Fisika",
+        "Subtopik": "Hukum Newton",
+        "Pertanyaan": "Apa isi Hukum Newton Kedua?",
+        "Jawaban": "Hukum Newton Kedua menyatakan bahwa percepatan sebuah benda berbanding lurus dengan gaya yang diberikan padanya dan berbanding terbalik dengan massanya (F = m × a).",
+        "Tema": "Fisika"
+    },
+    {
+        "Topik": "Fisika",
+        "Subtopik": "Gelombang",
+        "Pertanyaan": "Apa perbedaan antara gelombang transversal dan gelombang longitudinal?",
+        "Jawaban": "Gelombang transversal adalah gelombang di mana getaran tegak lurus terhadap arah perambatan gelombang, sedangkan gelombang longitudinal adalah gelombang di mana getaran sejajar dengan arah perambatan gelombang.",
+        "Tema": "Fisika"
+    },
+    {
+        "Topik": "Fisika",
+        "Subtopik": "Listrik",
+        "Pertanyaan": "Apa yang dimaksud dengan Hukum Ohm?",
+        "Jawaban": "Hukum Ohm menyatakan bahwa arus listrik yang mengalir melalui suatu penghantar berbanding lurus dengan tegangan di ujung penghantar tersebut dan berbanding terbalik dengan hambatannya (V = I × R).",
+        "Tema": "Fisika"
+    },
+    {
+        "Topik": "Fisika",
+        "Subtopik": "Momentum",
+        "Pertanyaan": "Apa itu momentum dan bagaimana rumusnya?",
+        "Jawaban": "Momentum adalah ukuran dari gerak suatu benda dan dirumuskan sebagai p = m × v, di mana m adalah massa benda dan v adalah kecepatannya.",
+        "Tema": "Fisika"
+    },
   {
     "Topik": "Kimia",
     "Subtopik": "Reaksi Kimia",
