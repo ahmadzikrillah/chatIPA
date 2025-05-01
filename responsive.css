@@ -1,0 +1,32 @@
+/* Responsivitas untuk perangkat kecil */
+@media (max-width: 500px) {
+    .chat-container {
+        width: 90%;
+        height: 80%;
+    }
+
+    input[type="text"], button {
+        font-size: 12px;
+    }
+
+    button {
+        width: auto;
+        padding: 8px;
+    }
+}
+
+/* Responsivitas untuk tablet */
+@media (max-width: 768px) {
+    .chat-container {
+        width: 80%;
+        height: 70%;
+    }
+
+    input[type="text"], button {
+        font-size: 14px;
+    }
+
+    button {
+        padding: 10px;
+    }
+}
