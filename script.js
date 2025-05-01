@@ -96,3 +96,11 @@ function cariJawabanKreatif(input) {
     );
     return hasil ? hasil.Jawaban : "Maaf, saya tidak memiliki respon kreatif untuk pertanyaan ini.";
 }
+function filterJawabanBerdasarkanTema(tema) {
+    return dataResponKreatif.filter(item => item.Tema.toLowerCase() === tema.toLowerCase());
+}
+
+// Contoh penggunaan:
+const jawabanBiologi = filterJawabanBerdasarkanTema("Biologi");
+console.log("Jawaban dengan tema Biologi:", jawabanBiologi);
+
