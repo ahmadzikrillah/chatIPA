@@ -77,7 +77,11 @@ function cariJawabanFuzzy(pertanyaan) {
         console.error("Fuse.js untuk datasheet belum siap.");
         return "Data belum siap. Silakan coba lagi nanti.";
     }
-    const hasil = fuse.search(pertanyaan);
+
+    // Normalisasi input
+    const inputNormalized = normalisasiPertanyaan(pertanyaan);
+    
+    const hasil = fuse.search(inputNormalized);
     if (hasil.length > 0) {
         console.log("Hasil fuzzy matching (datasheet):", hasil);
         return hasil[0].item.Jawaban; // Ambil jawaban terbaik
@@ -91,7 +95,11 @@ function cariJawabanKreatifFuzzy(pertanyaan) {
         console.error("Fuse.js untuk respon kreatif belum siap.");
         return null;
     }
-    const hasil = fuseKreatif.search(pertanyaan);
+
+    // Normalisasi input
+    const inputNormalized = normalisasiPertanyaan(pertanyaan);
+
+    const hasil = fuseKreatif.search(inputNormalized);
     if (hasil.length > 0) {
         console.log("Hasil fuzzy matching (respon kreatif):", hasil);
         return hasil[0].item.Jawaban; // Ambil jawaban terbaik
@@ -101,12 +109,15 @@ function cariJawabanKreatifFuzzy(pertanyaan) {
 
 // Fungsi gabungan untuk mencari jawaban
 function cariJawabanGabunganFuzzy(pertanyaan) {
-    const jawabanKreatif = cariJawabanKreatifFuzzy(pertanyaan);
-    if (jawabanKreatif) return jawabanKreatif;
-
+    // Prioritaskan pencarian jawaban formal terlebih dahulu
     const jawabanFormal = cariJawabanFuzzy(pertanyaan);
     if (jawabanFormal) return jawabanFormal;
 
+    // Jika tidak ditemukan jawaban formal, cari jawaban kreatif
+    const jawabanKreatif = cariJawabanKreatifFuzzy(pertanyaan);
+    if (jawabanKreatif) return jawabanKreatif;
+
+    // Jika tidak ditemukan jawaban di kedua sumber
     return "Maaf, saya tidak menemukan jawaban untuk pertanyaan Anda.";
 }
 
