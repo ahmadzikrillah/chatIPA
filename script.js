@@ -142,7 +142,7 @@ userInput.addEventListener("keydown", (event) => {
 // Tambahkan pesan pembuka saat halaman pertama kali dimuat
 window.addEventListener("load", () => {
     const welcomeMessage = `
-        <p>Selamat datang di <strong>ChatMed IPA SMP</strong>!</p>
+        <p>Selamat datang di <strong>ChatMed IPA </strong>!</p>
         <p>Pak Kiki siap membantu menjawab pertanyaan Anda tentang topik:</p>
         <ul>
             <li><strong>Biologi</strong></li>
