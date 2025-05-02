@@ -82,24 +82,16 @@ function normalisasiPertanyaan(pertanyaan) {
 
 // Fungsi pencarian fuzzy di datasheet.json
 function cariJawabanFuzzy(pertanyaan) {
-    if (!fuse) {
-        console.error("Fuse.js untuk datasheet belum siap.");
-        return "Data belum siap. Silakan coba lagi nanti.";
-    }
+    if (!fuse) return null;
 
-    // Normalisasi input pengguna
-    const inputNormalized = normalisasiPertanyaan(pertanyaan);
+    const pertanyaanNormal = normalisasiPertanyaan(pertanyaan);
+    const hasil = fuse.search(pertanyaanNormal);
 
-    // Cari dengan Fuse
-    const hasil = fuse.search(inputNormalized);
-    if (hasil.length > 0 && hasil[0].score <= 0.4) {
-        console.log("Hasil fuzzy matching (datasheet):", hasil);
+    if (hasil.length > 0 && hasil[0].score <= 0.6) {
         return hasil[0].item.Jawaban;
     }
-
-    return null; // Tidak ditemukan
+    return null;
 }
-
 
 // Fungsi pencarian fuzzy di responKreatif.json
 function cariJawabanKreatifFuzzy(pertanyaan) {
