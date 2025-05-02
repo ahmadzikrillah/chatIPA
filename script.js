@@ -112,18 +112,21 @@ function cariJawabanKreatifFuzzy(pertanyaan) {
 }
 // Fungsi gabungan untuk mencari jawaban
 function cariJawabanGabunganFuzzy(pertanyaan) {
-    const hasilFormal = fuse.search(pertanyaan);
-    if (hasilFormal.length > 0 && hasilFormal[0].score <= 0.4) {
+    const pertanyaanNormal = normalisasiPertanyaan(pertanyaan);
+
+    const hasilFormal = fuse.search(pertanyaanNormal);
+    if (hasilFormal.length > 0 && hasilFormal[0].score <= 0.6) {
         return hasilFormal[0].item.Jawaban;
     }
 
-    const hasilKreatif = fuseKreatif.search(pertanyaan);
-    if (hasilKreatif.length > 0 && hasilKreatif[0].score <= 0.4) {
+    const hasilKreatif = fuseKreatif.search(pertanyaanNormal);
+    if (hasilKreatif.length > 0 && hasilKreatif[0].score <= 0.6) {
         return hasilKreatif[0].item.Jawaban;
     }
 
     return "Maaf, saya tidak menemukan jawaban untuk pertanyaan Anda.";
 }
+
 // Event saat tombol 'Kirim' ditekan
 sendButton.addEventListener("click", () => {
     const userQuestion = userInput.value.trim();
