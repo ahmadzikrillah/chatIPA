@@ -1,34 +1,30 @@
-// Fungsi untuk memuat dan membaca file JSON
-function loadJSON(url) {
-    return fetch(url)
-        .then(response => {
-            if (!response.ok) {
-                throw new Error(`Gagal memuat file JSON: ${response.status}`);
-            }
-            return response.json();
-        });
-}
+// Versi terbaru yang kompatibel dengan struktur datasheet.json
+const dataIPA = {}; // Variabel global untuk menyimpan data
 
-// Fungsi untuk memproses data JSON
-function processData(data) {
-    if (!Array.isArray(data) || data.length === 0) {
-        console.error("Data JSON kosong atau tidak sesuai format.");
-        alert("Data JSON kosong atau format tidak valid.");
-        return;
+// Fungsi untuk inisialisasi data
+async function initData() {
+  try {
+    const response = await fetch('datasheet.json');
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
     }
-
-    console.log("Data berhasil dimuat:", data);
-
-    // Contoh: Menampilkan pertanyaan pertama dalam JSON
-    let pertanyaanPertama = data[0]?.Pertanyaan || "Tidak ada data pertanyaan";
-    console.log("Pertanyaan pertama:", pertanyaanPertama);
+    dataIPA.ipa_smp = (await response.json()).ipa_smp;
+    console.log('Data IPA berhasil dimuat:', dataIPA);
+    
+    // Panggil callback ketika data siap
+    if (window.onIPADataLoaded) {
+      window.onIPADataLoaded();
+    }
+  } catch (error) {
+    console.error('Gagal memuat data:', error);
+    alert('Terjadi kesalahan saat memuat data pembelajaran. Silakan muat ulang halaman.');
+  }
 }
 
-// Memuat file datasheet.json
-loadJSON('datasheet.json')
-    .then(processData)
-    .catch(error => {
-        console.error("Error dalam memuat data:", error.message);
-        alert("Terjadi kesalahan saat memuat data. Silakan periksa file JSON Anda.");
-    });
+// Fungsi untuk mendapatkan data (jika diperlukan dari file lain)
+function getIPAData() {
+  return dataIPA;
+}
 
+// Muat data saat script di-load
+initData();
